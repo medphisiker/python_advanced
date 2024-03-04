@@ -31,10 +31,20 @@ def wc_calc(text):
     return lines_cnt, words_cnt, symbols_cnt
 
 
-def read_text_file(filename):
-    # Open the file in read mode
-    with open(filename, "r") as file:
-        # Read all lines of the file
+def read_text_file(file_path):
+    """Function to read all lines from txt file
+
+    Parameters
+    ----------
+    file_path : str
+        The path to the text file to process.
+
+    Returns
+    -------
+    lines : list
+        list of lines from text file.
+    """
+    with open(file_path, "r") as file:
         lines = file.readlines()
 
     return lines
