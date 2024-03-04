@@ -1,15 +1,16 @@
 import click
+import sys
 
 
-def wc_calc(file_path):
+def wc_calc(text):
     """Function to calc statistics for text files like wc Linux utility.
     It calcs and returns for some input text file numbers of lines,
     numbers of words and numbers of bytes or symbols.
 
     Parameters
     ----------
-    file_path : str
-        The path to the text file to process.
+    text : str
+        text from text file or stdin to process.
 
     Returns
     -------
@@ -21,13 +22,22 @@ def wc_calc(file_path):
         symbols of lines in text file
     """
     lines_cnt, words_cnt, symbols_cnt = 0, 0, 0
-    with open(file_path, "r") as file:
-        for line in file:
-            lines_cnt += 1
-            words_cnt += len(line.split())
-            symbols_cnt += len(line)
+
+    for line in text:
+        lines_cnt += 1
+        words_cnt += len(line.split())
+        symbols_cnt += len(line)
 
     return lines_cnt, words_cnt, symbols_cnt
+
+
+def read_text_file(filename):
+    # Open the file in read mode
+    with open(filename, "r") as file:
+        # Read all lines of the file
+        lines = file.readlines()
+
+    return lines
 
 
 def wc_print(wc_data, n):
@@ -49,9 +59,9 @@ def wc_print(wc_data, n):
     for line in wc_data:
         lines_cnt, words_cnt, symbols_cnt, file = line
         line = (
-            f"{lines_cnt.ljust(n)} "
-            f"{words_cnt.ljust(n)} "
-            f"{symbols_cnt.ljust(n)} "
+            f"{lines_cnt.rjust(n)} "
+            f"{words_cnt.rjust(n)} "
+            f"{symbols_cnt.rjust(n)} "
             f"{file}"
         )
         print(line)
@@ -69,14 +79,16 @@ def wc_func(file_path):
     """
     if file_path:
         if len(file_path) == 1:
-            lines_cnt, words_cnt, symbols_cnt = wc_calc(file_path[0])
+            text = read_text_file(file_path[0])
+            lines_cnt, words_cnt, symbols_cnt = wc_calc(text)
             print(f"{lines_cnt} {words_cnt} {symbols_cnt} {file_path[0]}")
         else:
             wc_output_data = []
             total = [0, 0, 0]
 
             for file in file_path:
-                result_wc_calc = wc_calc(file)
+                text = read_text_file(file)
+                result_wc_calc = wc_calc(text)
 
                 # считаем total
                 result_wc_calc = list(result_wc_calc)
@@ -92,6 +104,17 @@ def wc_func(file_path):
             wc_output_data.append([str(i) for i in total])
 
             wc_print(wc_output_data, n)
+
+    else:
+        # считываем stdin
+        text = []
+        for line in sys.stdin:
+            text.append(line)
+
+        total = wc_calc(text)
+        total = ["\t" + str(i) for i in total]
+        total = "".join(total)
+        print(total)
 
 
 if __name__ == "__main__":
