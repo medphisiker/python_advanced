@@ -20,7 +20,7 @@ git clone https://github.com/medphisiker/python_advanced.git
 
 Переходим в каталог проекта домашней работы 1:
 ```
-cd hw1
+cd python_advanced/hw1
 ```
 
 Выполняем команду разворачивания виртуального окружения с помощью `pixi`:
