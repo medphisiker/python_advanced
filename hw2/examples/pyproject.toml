@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "latex-gen-examples"
+version = "0.0.1"
+description = "examples of python scripts using the latex-gen module"
+authors = ["Anton Shiryaev <med.phisiker@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+latex-gen-small = "^0.1.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
