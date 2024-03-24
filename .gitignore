@@ -1,0 +1,8 @@
+# ignoring python packges builds
+*.tar
+*.gz
+*.whl
+
+#ignoring python's cache
+*.pyc
+
