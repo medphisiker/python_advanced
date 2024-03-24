@@ -1,3 +1,20 @@
+def write_to_file(latex_code, path_to_file="main.tex"):
+    """
+    Writes the provided LaTeX code to a file.
+
+    This function takes a string containing LaTeX code and writes it to a file.
+    The file path is specified by the `path_to_file` parameter, which defaults to "main.tex".
+    If the file does not exist, it will be created. If it does exist, its contents will be overwritten.
+
+    Parameters:
+    - latex_code (str): The LaTeX code to be written to the file.
+    - path_to_file (str, optional): The path to the file where the LaTeX code will be written.
+      Defaults to "main.tex".
+    """
+    with open(path_to_file, "w") as file:
+        file.write(latex_code)
+
+
 def make_latex_document(tex_code):
     """
     Generates a LaTeX document from the given TeX code.
@@ -14,6 +31,9 @@ def make_latex_document(tex_code):
     """
     tex_code = [
         "\\documentclass{article}",
+        "\\usepackage{graphicx}",
+        "\graphicspath{ {./images/} }",
+        "\\usepackage{wrapfig}",
         "\\begin{document}",
         tex_code,
         "\\end{document}",
@@ -22,7 +42,42 @@ def make_latex_document(tex_code):
     return tex_code
 
 
-def generate_latex_table(data, table_caption="Caption for table"):
+def create_latex_image(image_filename):
+    """
+    Generates LaTeX code to include an image in a LaTeX document.
+
+    This function constructs a LaTeX command to include an image file in a LaTeX document.
+    The image file name is specified by the `image_filename` parameter.
+
+    Parameters:
+    image_filename (str): The name of the image file to be included.
+
+    Returns:
+    str: A LaTeX command to include the specified image file.
+    """
+    latex_code = "\\includegraphics{mesh}\n"
+    return latex_code
+
+
+def latex_code_union(list_of_latex_code, sep="\n\n"):
+    """
+    Combines a list of LaTeX code snippets into a single string, separated by a specified separator.
+
+    This function takes a list of LaTeX code snippets and concatenates them into a single string,
+    with each snippet separated by a specified separator. The default separator is two newline characters.
+
+    Parameters:
+    list_of_latex_code (list): A list of LaTeX code snippets to be combined.
+    sep (str, optional): The separator to use between the snippets. Defaults to "\n\n".
+
+    Returns:
+    str: A single string containing all the LaTeX code snippets, separated by the specified separator.
+    """
+    latex_code = f"{sep}".join(list_of_latex_code)
+    return latex_code
+
+
+def create_latex_table(data, table_caption="Caption for table"):
     """
     Generates a LaTeX table from the provided data.
 
@@ -77,6 +132,7 @@ def generate_latex_table(data, table_caption="Caption for table"):
 
     # Forming the full LaTeX code of the table
     latex_table = [
+        "",
         "\\begin{table}[ht]",
         "\\centering",
         f"\\begin{{tabular}}{{{column_formats}}}",
@@ -94,16 +150,3 @@ def generate_latex_table(data, table_caption="Caption for table"):
     latex_table = "\n".join(latex_table)
 
     return latex_table
-
-
-if __name__ == "__main__":
-    # Пример использования
-    data = [
-        ["Header 1", "Header 2", "Header 3"],
-        ["Data 1", "Data 2", "Data 3"],
-        ["Data 4", "Data 5", "Data 6"],
-    ]
-
-    latex_code = generate_latex_table(data)
-    latex_code = make_latex_document(latex_code)
-    print(latex_code)
