@@ -6,7 +6,7 @@ Examples of python scripts using the `latex-gen-small` module([link](https://pyp
 
 You can install this module by command:
 ```
-poetry add latex-gen-small==0.1.3
+poetry add latex-gen-small==0.1.4
 ```
 
 Also you can use:

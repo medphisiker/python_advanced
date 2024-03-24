@@ -2,16 +2,16 @@
 
 [[package]]
 name = "latex-gen-small"
-version = "0.1.3"
+version = "0.1.4"
 description = ""
 optional = false
 python-versions = "<4.0,>=3.10"
 files = [
-    {file = "latex_gen_small-0.1.3-py3-none-any.whl", hash = "sha256:78146fcce48d8af87826961fd2c903b21a2eaa33e9addd357e521b7a6e77c46f"},
-    {file = "latex_gen_small-0.1.3.tar.gz", hash = "sha256:6c7033ca266475c74e01dd17e567050e4616a3d2214400912fa2ce42cef2031e"},
+    {file = "latex_gen_small-0.1.4-py3-none-any.whl", hash = "sha256:ddca3b2e7e9ebb26358027fb6d21469fcb64ac5d165f64b1eb51884ed5fb2026"},
+    {file = "latex_gen_small-0.1.4.tar.gz", hash = "sha256:3e05168a6225f0247c7f7e9c7081307509cde697cc3d60c39e13f7e7760a93a2"},
 ]
 
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.10"
-content-hash = "799f7b2ce7decfce51a361ffaaf1719452ab983414c886d755504a81c98d4336"
+content-hash = "85c19ff6d903e790ab5befffac59e9792222ace9ee152566667b116a3a29dfb1"
