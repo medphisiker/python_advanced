@@ -48,7 +48,7 @@ class Matrix:
         """
         if self.rows != other.rows or self.cols != other.cols:
             message = "The matrices must have the same number of rows and columns for addition"
-            raise ValueError()
+            raise ValueError(message)
 
         result = []
         for i in range(self.rows):
@@ -114,15 +114,15 @@ class Matrix:
         """
         if self.cols != other.rows:
             message = (
-                "The number of columns of the first matrix must match the number of rows",
-                "of the second matrix for multiplication",
+                "The number of columns of the first matrix must match the number of rows"
+                " of the second matrix for multiplication"
             )
-            raise ValueError()
+            raise ValueError(message)
 
         result = []
         for i in range(self.rows):
             result.append([])
-            for j in range(self.cols):
+            for j in range(other.cols):
                 elem = self.get_matrix_dot_product_elem(self, other, i, j)
                 result[i].append(elem)
 
