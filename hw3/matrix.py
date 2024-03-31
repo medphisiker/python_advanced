@@ -1,6 +1,26 @@
 import numpy as np
 
 
+def write_text_to_file(text, path_to_file):
+    """Writes a given text to a text file at the specified path.
+
+    Parameters
+    ----------
+    text : str
+        The text to be written to the file.
+    path_to_file : str
+        The path to the file where the text will be written.
+
+    Notes
+    -----
+    This function opens the file in write mode ('w') and writes the provided text to it.
+    If the file already exists, its contents will be overwritten.
+    """
+    with open(path_to_file, "w") as file:
+        text_of_matrix = text
+        file.write(text_of_matrix)
+
+
 class Matrix:
     """
     A class representing a matrix.
@@ -235,9 +255,8 @@ class ToTxtFileMixin:
         The method opens the file in write mode, converts the object to a string,
         and writes this string to the file.
         """
-        with open(path_to_file, "w") as file:
-            text_of_matrix = str(self)
-            file.write(text_of_matrix)
+        text_of_matrix = str(self)
+        write_text_to_file(text_of_matrix, path_to_file)
 
 
 class SubMixin:
@@ -351,6 +370,118 @@ class PropertyMixin:
         self._matrix = new_matrix
 
 
+class HashMixin:
+    """A mixin class for objects that need a custom hash implementation.
+
+    This class provides a `__hash__` method that computes a hash value
+    based on the sum of the elements in the `matrix` attribute, modulo 100000.
+
+    Attributes
+    ----------
+    matrix : array_like
+        The matrix whose elements are used to compute the hash value.
+
+    Methods
+    -------
+    __hash__()
+        Computes and returns the hash value of the object.
+    """
+
+    def __hash__(self):
+        """
+        Computes and returns the hash value of the object.
+
+        The hash value is computed as the sum of the elements in
+        the `matrix` attribute, modulo 100000.
+
+        Returns
+        -------
+        int
+            The computed hash value.
+        """
+        matrix = np.array(self.matrix)
+        hash = int(np.sum(matrix) % 100000)
+        return hash
+
+
+class HashMatrix(Matrix, HashMixin):
+    """A class representing a matrix with a custom hash implementation.
+
+    This class inherits from both the `Matrix` and `HashMixin` classes,
+    providing functionality for matrix operations and a custom hash
+    implementation.
+    It also includes a caching mechanism for matrix
+    multiplication results based on the hash values of the matrices.
+
+    Attributes
+    ----------
+    _hash : set
+        A set used to store the hash values of matrices involved in
+        matrix multiplication operations.
+    _hash_prod_result : Matrix or None
+        A cache for the result of the last matrix multiplication
+        operation involving matrices with hash values stored in `_hash`.
+
+    Methods
+    -------
+    __matmul__(other: Matrix) -> Matrix
+        Perform matrix multiplication with caching based on hash values.
+    clear_cache()
+        Clear the cache for matrix multiplication results.
+    """
+
+    _hash = set([])
+    _hash_prod_result = None
+
+    def __matmul__(self, other: "Matrix") -> "Matrix":
+        """
+        Perform matrix multiplication with caching based on hash values.
+
+        This method overrides the `__matmul__` method of the `Matrix` class
+        to include caching of matrix multiplication results. If the hash values
+        of the two matrices involved in the multiplication are already stored in
+        the `_hash` set, and the result of their multiplication is cached in
+        `_hash_prod_result`, the cached result is returned instead of
+        performing the multiplication again.
+
+        Parameters
+        ----------
+        other : Matrix
+            The matrix to multiply with the current matrix.
+
+        Returns
+        -------
+        Matrix
+            The result of the matrix multiplication.
+
+        Raises
+        ------
+        ValueError
+            If the number of columns of the first matrix does not match
+            the number of rows of the second matrix.
+        """
+        hash1, hash2 = hash(self), hash(other)
+        if self._hash_prod_result and hash1 in self._hash and hash2 in self._hash:
+            result = HashMatrix._hash_prod_result
+        else:
+            HashMatrix._hash = set([hash1, hash2])
+            result = super().__matmul__(other)
+            HashMatrix._hash_prod_result = result
+
+        return result
+
+    @staticmethod
+    def clear_cache():
+        """Clear the cache for matrix multiplication results.
+
+        This method clears the `_hash_prod_result` attribute, effectively
+        removing any cached results of matrix multiplication operations.
+
+        It can be used to avoid hash function collisions.
+        """
+        HashMatrix._hash_prod_result = None
+
+
 class ArithmeticMatrix(Matrix, SubMixin, DivMixin):
     """
     A class representing a matrix with arithmetic operations.
@@ -425,7 +556,7 @@ class FunctionalArithmeticMatrix(
     and for getting and setting `matrix` property.
 
     This class inherits from the `ArithmeticMatrix` class and mixes in the `StrMixin`, `ToTxtFileMixin` and
-    `PropertyMixin` classes to provide additional functionality for arithmetic operations 
+    `PropertyMixin` classes to provide additional functionality for arithmetic operations
     (addition, multiplication, subtraction, division), string representation, writing the matrix to a text file and
     getting and setting `matrix` property.
 
@@ -450,6 +581,100 @@ class FunctionalArithmeticMatrix(
         Perform element-wise subtraction of the current matrix with another matrix.
     __truediv__(other)
         Perform element-wise division of the current matrix with another matrix.
+    __str__()
+        Returns a string representation of the matrix.
+    write_to_file(path_to_file)
+        Writes the string representation of the matrix to a file.
+    """
+
+    pass
+
+
+class ArithmeticHashMatrix(HashMatrix, SubMixin, DivMixin):
+    """
+    A class representing a matrix with arithmetic operations and a custom hash implementation.
+
+    This class inherits from both the `HashMatrix` and `SubMixin` and `DivMixin` classes,
+    providing functionality for matrix operations, subtraction, division, and a custom hash
+    implementation. It also includes a caching mechanism for matrix multiplication results
+    based on the hash values of the matrices.
+
+    Attributes
+    ----------
+    matrix : list of list
+        A 2D list representing the matrix in numpy.array.tolist() style.
+    rows : int
+        The number of rows in the matrix.
+    cols : int
+        The number of columns in the matrix.
+    _hash : set
+        A set used to store the hash values of matrices involved in
+        matrix multiplication operations.
+    _hash_prod_result : Matrix or None
+        A cache for the result of the last matrix multiplication
+        operation involving matrices with hash values stored in `_hash`.
+
+    Methods
+    -------
+    __add__(other)
+        Add two matrices by element-wise way.
+    __mul__(other)
+        Multiply two matrices element-wise.
+    __matmul__(other)
+        Perform matrix multiplication with caching based on hash values.
+    __sub__(other)
+        Perform element-wise subtraction of the current matrix with another matrix.
+    __truediv__(other)
+        Perform element-wise division of the current matrix with another matrix.
+    clear_cache()
+        Clear the cache for matrix multiplication results.
+    """
+
+    pass
+
+
+class FunctionalArithmeticHashMatrix(
+    ArithmeticHashMatrix, StrMixin, ToTxtFileMixin, PropertyMixin
+):
+    """
+    A class representing a matrix with functionalities for arithmetic operations, string representation, file writing,
+    and for getting and setting `matrix` property, along with a custom hash implementation.
+
+    This class inherits from the `ArithmeticHashMatrix` class and mixes in the `StrMixin`, `ToTxtFileMixin`, and
+    `PropertyMixin` classes to provide additional functionality for arithmetic operations (addition, multiplication,
+    subtraction, division), string representation, writing the matrix to a text file, and getting and setting `matrix`
+    property. It also includes a caching mechanism for matrix multiplication results based on the hash values of
+    the matrices.
+
+    Attributes
+    ----------
+    matrix : list of list
+        A 2D list representing the matrix in numpy.array.tolist() style.
+    rows : int
+        The number of rows in the matrix.
+    cols : int
+        The number of columns in the matrix.
+    _hash : set
+        A set used to store the hash values of matrices involved in
+        matrix multiplication operations.
+    _hash_prod_result : Matrix or None
+        A cache for the result of the last matrix multiplication
+        operation involving matrices with hash values stored in `_hash`.
+
+    Methods
+    -------
+    __add__(other)
+        Add two matrices by element-wise way.
+    __mul__(other)
+        Multiply two matrices element-wise.
+    __matmul__(other)
+        Perform matrix multiplication with caching based on hash values.
+    __sub__(other)
+        Perform element-wise subtraction of the current matrix with another matrix.
+    __truediv__(other)
+        Perform element-wise division of the current matrix with another matrix.
+    clear_cache()
+        Clear the cache for matrix multiplication results.
     __str__()
         Returns a string representation of the matrix.
     write_to_file(path_to_file)
