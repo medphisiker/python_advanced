@@ -172,3 +172,8 @@ class Matrix:
             by newlines and elements within each row separated by tabs.
         """
         return "\n".join(["\t".join(map(str, row)) for row in self.matrix])
+
+    def write_to_file(self, path_to_file):
+        with open(path_to_file, "w") as file:
+            text_of_matrix = str(self)
+            file.write(text_of_matrix)
