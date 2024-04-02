@@ -1,0 +1,3856 @@
+2024-04-03 05:38:49,002 - MainThread 
+Integration on 1 threads
+2024-04-03 05:38:49,476 - ThreadPoolExecutor-0_0 
+Beginning Time = 05:38:49.002711
+params: <built-in function cos>, 0.0, 1.5707963267948966, 10000000  result:1.0000000785399288
+result:1.0000000785399288
+Ending Time = 05:38:49.476748
+Execution Time = 0.474037 sec
+
+2024-04-03 05:38:49,477 - MainThread 
+Integration result = 1.0000000785399288
+
+2024-04-03 05:38:49,477 - MainThread 
+Integration on 2 threads
+2024-04-03 05:38:49,935 - ThreadPoolExecutor-1_0 
+Beginning Time = 05:38:49.477284
+params: <built-in function cos>, 0.0, 0.7853981633974483, 5000000  result:0.7071068041903416
+result:0.7071068041903416
+Ending Time = 05:38:49.935603
+Execution Time = 0.458319 sec
+
+2024-04-03 05:38:49,951 - ThreadPoolExecutor-1_1 
+Beginning Time = 05:38:49.482505
+params: <built-in function cos>, 0.7853981633974483, 1.5707963267948966, 5000000  result:0.29289327434946494
+result:0.29289327434946494
+Ending Time = 05:38:49.951118
+Execution Time = 0.468613 sec
+
+2024-04-03 05:38:49,951 - MainThread 
+Integration result = 1.0000000785398064
+
+2024-04-03 05:38:49,951 - MainThread 
+Integration on 3 threads
+2024-04-03 05:38:50,298 - ThreadPoolExecutor-2_1 
+Beginning Time = 05:38:49.956848
+params: <built-in function cos>, 0.5235987755982988, 1.0471975511965976, 3333334  result:0.3660254325320223
+result:0.3660254325320223
+Ending Time = 05:38:50.298206
+Execution Time = 0.341358 sec
+
+2024-04-03 05:38:50,447 - ThreadPoolExecutor-2_2 
+Beginning Time = 05:38:49.972310
+params: <built-in function cos>, 1.0471975511965976, 1.5707963267948966, 3333334  result:0.1339746354854534
+result:0.1339746354854534
+Ending Time = 05:38:50.447140
+Execution Time = 0.47483 sec
+
+2024-04-03 05:38:50,465 - ThreadPoolExecutor-2_0 
+Beginning Time = 05:38:49.951665
+params: <built-in function cos>, 0.0, 0.5235987755982988, 3333334  result:0.5000000105223175
+result:0.5000000105223175
+Ending Time = 05:38:50.465663
+Execution Time = 0.513998 sec
+
+2024-04-03 05:38:50,466 - MainThread 
+Integration result = 1.0000000785397931
+
+2024-04-03 05:38:50,466 - MainThread 
+Integration on 4 threads
+2024-04-03 05:38:50,781 - ThreadPoolExecutor-3_3 
+Beginning Time = 05:38:50.497031
+params: <built-in function cos>, 1.1780972450961724, 1.5707963267948966, 2500000  result:0.07612049754459739
+result:0.07612049754459739
+Ending Time = 05:38:50.781541
+Execution Time = 0.28451 sec
+
+2024-04-03 05:38:50,989 - ThreadPoolExecutor-3_2 
+Beginning Time = 05:38:50.486681
+params: <built-in function cos>, 0.7853981633974483, 1.1780972450961724, 2500000  result:0.2167727768048779
+result:0.2167727768048779
+Ending Time = 05:38:50.989165
+Execution Time = 0.502484 sec
+
+2024-04-03 05:38:51,102 - ThreadPoolExecutor-3_0 
+Beginning Time = 05:38:50.466190
+params: <built-in function cos>, 0.0, 0.39269908169872414, 2500000  result:0.3826834383435752
+result:0.3826834383435752
+Ending Time = 05:38:51.102403
+Execution Time = 0.636213 sec
+
+2024-04-03 05:38:51,103 - ThreadPoolExecutor-3_1 
+Beginning Time = 05:38:50.476426
+params: <built-in function cos>, 0.39269908169872414, 0.7853981633974483, 2500000  result:0.3244233658467486
+result:0.3244233658467486
+Ending Time = 05:38:51.103790
+Execution Time = 0.627364 sec
+
+2024-04-03 05:38:51,104 - MainThread 
+Integration result = 1.000000078539799
+
+2024-04-03 05:38:51,104 - MainThread 
+Integration on 5 threads
+2024-04-03 05:38:51,511 - ThreadPoolExecutor-4_3 
+Beginning Time = 05:38:51.129760
+params: <built-in function cos>, 0.9424777960769379, 1.2566370614359172, 2000000  result:0.14203954381461326
+result:0.14203954381461326
+Ending Time = 05:38:51.511277
+Execution Time = 0.381517 sec
+
+2024-04-03 05:38:51,613 - ThreadPoolExecutor-4_1 
+Beginning Time = 05:38:51.114544
+params: <built-in function cos>, 0.3141592653589793, 0.6283185307179586, 2000000  result:0.27876826907329455
+result:0.27876826907329455
+Ending Time = 05:38:51.613534
+Execution Time = 0.49899 sec
+
+2024-04-03 05:38:51,651 - ThreadPoolExecutor-4_2 
+Beginning Time = 05:38:51.124663
+params: <built-in function cos>, 0.6283185307179586, 0.9424777960769379, 2000000  result:0.22123175945797302
+result:0.22123175945797302
+Ending Time = 05:38:51.651220
+Execution Time = 0.526557 sec
+
+2024-04-03 05:38:51,667 - ThreadPoolExecutor-4_0 
+Beginning Time = 05:38:51.104287
+params: <built-in function cos>, 0.0, 0.3141592653589793, 2000000  result:0.30901699821895934
+result:0.30901699821895934
+Ending Time = 05:38:51.667453
+Execution Time = 0.563166 sec
+
+2024-04-03 05:38:51,712 - ThreadPoolExecutor-4_4 
+Beginning Time = 05:38:51.134892
+params: <built-in function cos>, 1.2566370614359172, 1.5707963267948966, 2000000  result:0.04894350797498887
+result:0.04894350797498887
+Ending Time = 05:38:51.712296
+Execution Time = 0.577404 sec
+
+2024-04-03 05:38:51,712 - MainThread 
+Integration result = 1.000000078539829
+
+2024-04-03 05:38:51,712 - MainThread 
+Integration on 6 threads
+2024-04-03 05:38:52,102 - ThreadPoolExecutor-5_0 
+Beginning Time = 05:38:51.712857
+params: <built-in function cos>, 0.0, 0.2617993877991494, 1666670  result:0.25881904777870446
+result:0.25881904777870446
+Ending Time = 05:38:52.102372
+Execution Time = 0.389515 sec
+
+2024-04-03 05:38:52,152 - ThreadPoolExecutor-5_5 
+Beginning Time = 05:38:51.878219
+params: <built-in function cos>, 1.308996938995747, 1.5707963267948966, 1666670  result:0.034074194038490685
+result:0.034074194038490685
+Ending Time = 05:38:52.152610
+Execution Time = 0.274391 sec
+
+2024-04-03 05:38:52,301 - ThreadPoolExecutor-5_1 
+Beginning Time = 05:38:51.718077
+params: <built-in function cos>, 0.2617993877991494, 0.5235987755982988, 1666670  result:0.2411809627436238
+result:0.2411809627436238
+Ending Time = 05:38:52.301945
+Execution Time = 0.583868 sec
+
+2024-04-03 05:38:52,374 - ThreadPoolExecutor-5_3 
+Beginning Time = 05:38:51.764418
+params: <built-in function cos>, 0.7853981633974483, 1.0471975511965976, 1666670  result:0.1589186388639929
+result:0.1589186388639929
+Ending Time = 05:38:52.374153
+Execution Time = 0.609735 sec
+
+2024-04-03 05:38:52,418 - ThreadPoolExecutor-5_2 
+Beginning Time = 05:38:51.743854
+params: <built-in function cos>, 0.5235987755982988, 0.7853981633974483, 1666670  result:0.2071067936679526
+result:0.2071067936679526
+Ending Time = 05:38:52.418729
+Execution Time = 0.674875 sec
+
+2024-04-03 05:38:52,439 - ThreadPoolExecutor-5_4 
+Beginning Time = 05:38:51.862548
+params: <built-in function cos>, 1.0471975511965976, 1.308996938995747, 1666670  result:0.09990044144690058
+result:0.09990044144690058
+Ending Time = 05:38:52.439421
+Execution Time = 0.576873 sec
+
+2024-04-03 05:38:52,439 - MainThread 
+Integration result = 1.000000078539665
+
+2024-04-03 05:38:52,439 - MainThread 
+Integration on 7 threads
+2024-04-03 05:38:52,838 - ThreadPoolExecutor-6_1 
+Beginning Time = 05:38:52.450025
+params: <built-in function cos>, 0.2243994752564138, 0.4487989505128276, 1428574  result:0.21136281096996506
+result:0.21136281096996506
+Ending Time = 05:38:52.838185
+Execution Time = 0.38816 sec
+
+2024-04-03 05:38:52,909 - ThreadPoolExecutor-6_2 
+Beginning Time = 05:38:52.460196
+params: <built-in function cos>, 0.4487989505128276, 0.6731984257692414, 1428574  result:0.18960607209819308
+result:0.18960607209819308
+Ending Time = 05:38:52.909303
+Execution Time = 0.449107 sec
+
+2024-04-03 05:38:52,925 - ThreadPoolExecutor-6_3 
+Beginning Time = 05:38:52.526815
+params: <built-in function cos>, 0.6731984257692414, 0.8975979010256552, 1428574  result:0.1583416930454052
+result:0.1583416930454052
+Ending Time = 05:38:52.925868
+Execution Time = 0.399053 sec
+
+2024-04-03 05:38:53,219 - ThreadPoolExecutor-6_4 
+Beginning Time = 05:38:52.537214
+params: <built-in function cos>, 0.8975979010256552, 1.121997376282069, 1428574  result:0.11913740032598573
+result:0.11913740032598573
+Ending Time = 05:38:53.219224
+Execution Time = 0.68201 sec
+
+2024-04-03 05:38:53,223 - ThreadPoolExecutor-6_0 
+Beginning Time = 05:38:52.439786
+params: <built-in function cos>, 0.0, 0.2243994752564138, 1428574  result:0.2225209359254578
+result:0.2225209359254578
+Ending Time = 05:38:53.223152
+Execution Time = 0.783366 sec
+
+2024-04-03 05:38:53,231 - ThreadPoolExecutor-6_5 
+Beginning Time = 05:38:52.635298
+params: <built-in function cos>, 1.121997376282069, 1.3463968515384828, 1428574  result:0.07395906087976854
+result:0.07395906087976854
+Ending Time = 05:38:53.231772
+Execution Time = 0.596474 sec
+
+2024-04-03 05:38:53,253 - ThreadPoolExecutor-6_6 
+Beginning Time = 05:38:52.661060
+params: <built-in function cos>, 1.3463968515384828, 1.5707963267948966, 1428574  result:0.02507210529489806
+result:0.02507210529489806
+Ending Time = 05:38:53.252993
+Execution Time = 0.591933 sec
+
+2024-04-03 05:38:53,253 - MainThread 
+Integration result = 1.0000000785396737
+
+2024-04-03 05:38:53,253 - MainThread 
+Integration on 8 threads
+2024-04-03 05:38:53,378 - ThreadPoolExecutor-7_1 
+Beginning Time = 05:38:53.258960
+params: <built-in function cos>, 0.19634954084936207, 0.39269908169872414, 1250000  result:0.1875931148183202
+result:0.1875931148183202
+Ending Time = 05:38:53.378013
+Execution Time = 0.119053 sec
+
+2024-04-03 05:38:53,545 - ThreadPoolExecutor-7_3 
+Beginning Time = 05:38:53.388489
+params: <built-in function cos>, 0.7853981633974483, 0.9817477042468103, 1250000  result:0.1243628430176494
+result:0.1243628430176494
+Ending Time = 05:38:53.545912
+Execution Time = 0.157423 sec
+
+2024-04-03 05:38:53,592 - ThreadPoolExecutor-7_6 
+Beginning Time = 05:38:53.449672
+params: <built-in function cos>, 1.3744467859455345, 1.5707963267948966, 1250000  result:0.019214734919127074
+result:0.019214734919127074
+Ending Time = 05:38:53.592010
+Execution Time = 0.142338 sec
+
+2024-04-03 05:38:53,641 - ThreadPoolExecutor-7_2 
+Beginning Time = 05:38:53.269311
+params: <built-in function cos>, 0.39269908169872414, 0.5890486225480862, 1250000  result:0.17288680791236694
+result:0.17288680791236694
+Ending Time = 05:38:53.641731
+Execution Time = 0.37242 sec
+
+2024-04-03 05:38:53,693 - ThreadPoolExecutor-7_5 
+Beginning Time = 05:38:53.424258
+params: <built-in function cos>, 1.1780972450961724, 1.3744467859455345, 1250000  result:0.05690576262547066
+result:0.05690576262547066
+Ending Time = 05:38:53.693331
+Execution Time = 0.269073 sec
+
+2024-04-03 05:38:53,700 - ThreadPoolExecutor-7_0 
+Beginning Time = 05:38:53.253729
+params: <built-in function cos>, 0.0, 0.19634954084936207, 1250000  result:0.19509032352525466
+result:0.19509032352525466
+Ending Time = 05:38:53.700831
+Execution Time = 0.447102 sec
+
+2024-04-03 05:38:53,710 - ThreadPoolExecutor-7_1 
+Beginning Time = 05:38:53.383326
+params: <built-in function cos>, 0.5890486225480862, 0.7853981633974483, 1250000  result:0.15153655793437712
+result:0.15153655793437712
+Ending Time = 05:38:53.710648
+Execution Time = 0.327322 sec
+
+2024-04-03 05:38:53,735 - ThreadPoolExecutor-7_4 
+Beginning Time = 05:38:53.414057
+params: <built-in function cos>, 0.9817477042468103, 1.1780972450961724, 1250000  result:0.09240993378723805
+result:0.09240993378723805
+Ending Time = 05:38:53.735336
+Execution Time = 0.321279 sec
+
+2024-04-03 05:38:53,735 - MainThread 
+Integration result = 1.0000000785398042
+
+2024-04-03 05:38:53,735 - MainThread 
+Integration on 9 threads
+2024-04-03 05:38:53,982 - ThreadPoolExecutor-8_2 
+Beginning Time = 05:38:53.867379
+params: <built-in function cos>, 0.3490658503988659, 0.5235987755982988, 1111112  result:0.15797986246013948
+result:0.15797986246013948
+Ending Time = 05:38:53.982239
+Execution Time = 0.11486 sec
+
+2024-04-03 05:38:53,990 - ThreadPoolExecutor-8_0 
+Beginning Time = 05:38:53.836765
+params: <built-in function cos>, 0.0, 0.17453292519943295, 1111112  result:0.1736481788601235
+result:0.1736481788601235
+Ending Time = 05:38:53.990642
+Execution Time = 0.153877 sec
+
+2024-04-03 05:38:54,120 - ThreadPoolExecutor-8_4 
+Beginning Time = 05:38:53.974576
+params: <built-in function cos>, 0.6981317007977318, 0.8726646259971648, 1111112  result:0.12325684311300196
+result:0.12325684311300196
+Ending Time = 05:38:54.120947
+Execution Time = 0.146371 sec
+
+2024-04-03 05:38:54,213 - ThreadPoolExecutor-8_5 
+Beginning Time = 05:38:54.092455
+params: <built-in function cos>, 0.8726646259971648, 1.0471975511965976, 1111112  result:0.09998097187996405
+result:0.09998097187996405
+Ending Time = 05:38:54.212999
+Execution Time = 0.120544 sec
+
+2024-04-03 05:38:54,215 - ThreadPoolExecutor-8_1 
+Beginning Time = 05:38:53.842003
+params: <built-in function cos>, 0.17453292519943295, 0.3490658503988659, 1111112  result:0.16837196920206815
+result:0.16837196920206815
+Ending Time = 05:38:54.215824
+Execution Time = 0.373821 sec
+
+2024-04-03 05:38:54,217 - ThreadPoolExecutor-8_3 
+Beginning Time = 05:38:53.959263
+params: <built-in function cos>, 0.5235987755982988, 0.6981317007977318, 1111112  result:0.14278761753901892
+result:0.14278761753901892
+Ending Time = 05:38:54.217377
+Execution Time = 0.258114 sec
+
+2024-04-03 05:38:54,269 - ThreadPoolExecutor-8_2 
+Beginning Time = 05:38:54.153437
+params: <built-in function cos>, 1.2217304763960306, 1.3962634015954636, 1111112  result:0.0451151454501908
+result:0.0451151454501908
+Ending Time = 05:38:54.269173
+Execution Time = 0.115736 sec
+
+2024-04-03 05:38:54,273 - ThreadPoolExecutor-8_4 
+Beginning Time = 05:38:54.121072
+params: <built-in function cos>, 1.0471975511965976, 1.2217304763960306, 1111112  result:0.07366722940916609
+result:0.07366722940916609
+Ending Time = 05:38:54.273543
+Execution Time = 0.152471 sec
+
+2024-04-03 05:38:54,328 - ThreadPoolExecutor-8_0 
+Beginning Time = 05:38:54.273666
+params: <built-in function cos>, 1.3962634015954636, 1.5707963267948966, 1111112  result:0.015192260626077272
+result:0.015192260626077272
+Ending Time = 05:38:54.328048
+Execution Time = 0.054382 sec
+
+2024-04-03 05:38:54,328 - MainThread 
+Integration result = 1.0000000785397503
+
+2024-04-03 05:38:54,328 - MainThread 
+Integration on 10 threads
+2024-04-03 05:38:54,464 - ThreadPoolExecutor-9_0 
+Beginning Time = 05:38:54.328460
+params: <built-in function cos>, 0.0, 0.15707963267948966, 1000000  result:0.15643446600718783
+result:0.15643446600718783
+Ending Time = 05:38:54.464429
+Execution Time = 0.135969 sec
+
+2024-04-03 05:38:54,546 - ThreadPoolExecutor-9_4 
+Beginning Time = 05:38:54.354137
+params: <built-in function cos>, 0.6283185307179586, 0.7853981633974483, 1000000  result:0.11932153689808538
+result:0.11932153689808538
+Ending Time = 05:38:54.545978
+Execution Time = 0.191841 sec
+
+2024-04-03 05:38:54,635 - ThreadPoolExecutor-9_1 
+Beginning Time = 05:38:54.333664
+params: <built-in function cos>, 0.15707963267948966, 0.3141592653589793, 1000000  result:0.1525825322117712
+result:0.1525825322117712
+Ending Time = 05:38:54.635707
+Execution Time = 0.302043 sec
+
+2024-04-03 05:38:54,706 - ThreadPoolExecutor-9_3 
+Beginning Time = 05:38:54.349039
+params: <built-in function cos>, 0.47123889803846897, 0.6283185307179586, 1000000  result:0.13379475899236817
+result:0.13379475899236817
+Ending Time = 05:38:54.706492
+Execution Time = 0.357453 sec
+
+2024-04-03 05:38:54,731 - ThreadPoolExecutor-9_2 
+Beginning Time = 05:38:54.343937
+params: <built-in function cos>, 0.3141592653589793, 0.47123889803846897, 1000000  result:0.14497351008091897
+result:0.14497351008091897
+Ending Time = 05:38:54.731385
+Execution Time = 0.387448 sec
+
+2024-04-03 05:38:54,741 - ThreadPoolExecutor-9_6 
+Beginning Time = 05:38:54.489936
+params: <built-in function cos>, 0.9424777960769379, 1.0995574287564276, 1000000  result:0.08198954032163316
+result:0.08198954032163316
+Ending Time = 05:38:54.741229
+Execution Time = 0.251293 sec
+
+2024-04-03 05:38:54,755 - ThreadPoolExecutor-9_5 
+Beginning Time = 05:38:54.464607
+params: <built-in function cos>, 0.7853981633974483, 0.9424777960769379, 1000000  result:0.10191022255988956
+result:0.10191022255988956
+Ending Time = 05:38:54.755067
+Execution Time = 0.29046 sec
+
+2024-04-03 05:38:54,805 - ThreadPoolExecutor-9_8 
+Beginning Time = 05:38:54.530597
+params: <built-in function cos>, 1.2566370614359172, 1.413716694115407, 1000000  result:0.03663183628378994
+result:0.03663183628378994
+Ending Time = 05:38:54.804993
+Execution Time = 0.274396 sec
+
+2024-04-03 05:38:54,818 - ThreadPoolExecutor-9_4 
+Beginning Time = 05:38:54.640862
+params: <built-in function cos>, 1.413716694115407, 1.5707963267948966, 1000000  result:0.01231167169119609
+result:0.01231167169119609
+Ending Time = 05:38:54.818211
+Execution Time = 0.177349 sec
+
+2024-04-03 05:38:54,827 - ThreadPoolExecutor-9_7 
+Beginning Time = 05:38:54.520390
+params: <built-in function cos>, 1.0995574287564276, 1.2566370614359172, 1000000  result:0.06005000349297945
+result:0.06005000349297945
+Ending Time = 05:38:54.827616
+Execution Time = 0.307226 sec
+
+2024-04-03 05:38:54,828 - MainThread 
+Integration result = 1.0000000785398198
+
+2024-04-03 05:38:54,828 - MainThread 
+Integration on 11 threads
+2024-04-03 05:38:55,143 - ThreadPoolExecutor-10_4 
+Beginning Time = 05:38:54.864089
+params: <built-in function cos>, 0.5711986642890533, 0.7139983303613167, 909100  result:0.11421992320508725
+result:0.11421992320508725
+Ending Time = 05:38:55.143527
+Execution Time = 0.279438 sec
+
+2024-04-03 05:38:55,284 - ThreadPoolExecutor-10_8 
+Beginning Time = 05:38:55.077573
+params: <built-in function cos>, 1.1423973285781066, 1.2851969946503699, 909100  result:0.0498609887592686
+result:0.0498609887592686
+Ending Time = 05:38:55.284384
+Execution Time = 0.206811 sec
+
+2024-04-03 05:38:55,304 - ThreadPoolExecutor-10_0 
+Beginning Time = 05:38:54.828314
+params: <built-in function cos>, 0.0, 0.14279966607226333, 909100  result:0.14231483907270456
+result:0.14231483907270456
+Ending Time = 05:38:55.304203
+Execution Time = 0.475889 sec
+
+2024-04-03 05:38:55,334 - ThreadPoolExecutor-10_3 
+Beginning Time = 05:38:54.853889
+params: <built-in function cos>, 0.42839899821678995, 0.5711986642890533, 909100  result:0.12522580982409082
+result:0.12522580982409082
+Ending Time = 05:38:55.334945
+Execution Time = 0.481056 sec
+
+2024-04-03 05:38:55,355 - ThreadPoolExecutor-10_2 
+Beginning Time = 05:38:54.848772
+params: <built-in function cos>, 0.28559933214452665, 0.42839899821678995, 909100  result:0.13368246007649384
+result:0.13368246007649384
+Ending Time = 05:38:55.355961
+Execution Time = 0.507189 sec
+
+2024-04-03 05:38:55,372 - ThreadPoolExecutor-10_7 
+Beginning Time = 05:38:55.057307
+params: <built-in function cos>, 0.9995976625058433, 1.1423973285781066, 909100  result:0.06837847235845033
+result:0.06837847235845033
+Ending Time = 05:38:55.372180
+Execution Time = 0.314873 sec
+
+2024-04-03 05:38:55,407 - ThreadPoolExecutor-10_9 
+Beginning Time = 05:38:55.087737
+params: <built-in function cos>, 1.2851969946503699, 1.4279966607226333, 909100  result:0.030328479216168523
+result:0.030328479216168523
+Ending Time = 05:38:55.407271
+Execution Time = 0.319534 sec
+
+2024-04-03 05:38:55,408 - ThreadPoolExecutor-10_5 
+Beginning Time = 05:38:55.026846
+params: <built-in function cos>, 0.7139983303613167, 0.8567979964335799, 909100  result:0.10088884833268545
+result:0.10088884833268545
+Ending Time = 05:38:55.408539
+Execution Time = 0.381693 sec
+
+2024-04-03 05:38:55,435 - ThreadPoolExecutor-10_6 
+Beginning Time = 05:38:55.047146
+params: <built-in function cos>, 0.8567979964335799, 0.9995976625058433, 909100  result:0.08550396744764244
+result:0.08550396744764244
+Ending Time = 05:38:55.435710
+Execution Time = 0.388564 sec
+
+2024-04-03 05:38:55,455 - ThreadPoolExecutor-10_1 
+Beginning Time = 05:38:54.838570
+params: <built-in function cos>, 0.14279966607226333, 0.28559933214452665, 909100  result:0.13941772095011584
+result:0.13941772095011584
+Ending Time = 05:38:55.454996
+Execution Time = 0.616426 sec
+
+2024-04-03 05:38:55,472 - ThreadPoolExecutor-10_8 
+Beginning Time = 05:38:55.289601
+params: <built-in function cos>, 1.4279966607226333, 1.5707963267948966, 909100  result:0.010178569296336476
+result:0.010178569296336476
+Ending Time = 05:38:55.472371
+Execution Time = 0.18277 sec
+
+2024-04-03 05:38:55,472 - MainThread 
+Integration result = 1.0000000785390442
+
+2024-04-03 05:38:55,472 - MainThread 
+Integration on 12 threads
+2024-04-03 05:38:55,757 - ThreadPoolExecutor-11_1 
+Beginning Time = 05:38:55.483106
+params: <built-in function cos>, 0.1308996938995747, 0.2617993877991494, 833337  result:0.1282928548867214
+result:0.1282928548867214
+Ending Time = 05:38:55.757559
+Execution Time = 0.274453 sec
+
+2024-04-03 05:38:56,077 - ThreadPoolExecutor-11_8 
+Beginning Time = 05:38:55.657918
+params: <built-in function cos>, 1.0471975511965976, 1.1780972450961724, 833337  result:0.05785413794082872
+result:0.05785413794082872
+Ending Time = 05:38:56.077370
+Execution Time = 0.419452 sec
+
+2024-04-03 05:38:56,113 - ThreadPoolExecutor-11_4 
+Beginning Time = 05:38:55.513948
+params: <built-in function cos>, 0.5235987755982988, 0.6544984694978735, 833337  result:0.10876143471634465
+result:0.10876143471634465
+Ending Time = 05:38:56.113139
+Execution Time = 0.599191 sec
+
+2024-04-03 05:38:56,198 - ThreadPoolExecutor-11_11 
+Beginning Time = 05:38:55.746042
+params: <built-in function cos>, 1.4398966328953218, 1.5707963267948966, 833337  result:0.008555148877647325
+result:0.008555148877647325
+Ending Time = 05:38:56.198907
+Execution Time = 0.452865 sec
+
+2024-04-03 05:38:56,206 - ThreadPoolExecutor-11_5 
+Beginning Time = 05:38:55.524172
+params: <built-in function cos>, 0.6544984694978735, 0.7853981633974483, 833337  result:0.09834535895158723
+result:0.09834535895158723
+Ending Time = 05:38:56.206207
+Execution Time = 0.682035 sec
+
+2024-04-03 05:38:56,215 - ThreadPoolExecutor-11_7 
+Beginning Time = 05:38:55.642224
+params: <built-in function cos>, 0.916297857297023, 1.0471975511965976, 833337  result:0.07267207203526914
+result:0.07267207203526914
+Ending Time = 05:38:56.215712
+Execution Time = 0.573488 sec
+
+2024-04-03 05:38:56,248 - ThreadPoolExecutor-11_3 
+Beginning Time = 05:38:55.503678
+params: <built-in function cos>, 0.39269908169872414, 0.5235987755982988, 833337  result:0.11731657217874134
+result:0.11731657217874134
+Ending Time = 05:38:56.248811
+Execution Time = 0.745133 sec
+
+2024-04-03 05:38:56,286 - ThreadPoolExecutor-11_9 
+Beginning Time = 05:38:55.693820
+params: <built-in function cos>, 1.1780972450961724, 1.308996938995747, 833337  result:0.04204630350602652
+result:0.04204630350602652
+Ending Time = 05:38:56.286225
+Execution Time = 0.592405 sec
+
+2024-04-03 05:38:56,303 - ThreadPoolExecutor-11_0 
+Beginning Time = 05:38:55.472879
+params: <built-in function cos>, 0.0, 0.1308996938995747, 833337  result:0.13052619289197423
+result:0.13052619289197423
+Ending Time = 05:38:56.303484
+Execution Time = 0.830605 sec
+
+2024-04-03 05:38:56,317 - ThreadPoolExecutor-11_6 
+Beginning Time = 05:38:55.621475
+params: <built-in function cos>, 0.7853981633974483, 0.916297857297023, 833337  result:0.0862465668286784
+result:0.0862465668286784
+Ending Time = 05:38:56.317259
+Execution Time = 0.695784 sec
+
+2024-04-03 05:38:56,356 - ThreadPoolExecutor-11_2 
+Beginning Time = 05:38:55.493432
+params: <built-in function cos>, 0.2617993877991494, 0.39269908169872414, 833337  result:0.12386439056486637
+result:0.12386439056486637
+Ending Time = 05:38:56.356402
+Execution Time = 0.86297 sec
+
+2024-04-03 05:38:56,365 - ThreadPoolExecutor-11_10 
+Beginning Time = 05:38:55.735420
+params: <built-in function cos>, 1.308996938995747, 1.4398966328953218, 833337  result:0.02551904516079506
+result:0.02551904516079506
+Ending Time = 05:38:56.365148
+Execution Time = 0.629728 sec
+
+2024-04-03 05:38:56,365 - MainThread 
+Integration result = 1.0000000785394805
+
+2024-04-03 05:38:56,365 - MainThread 
+Integration on 13 threads
+2024-04-03 05:38:57,022 - ThreadPoolExecutor-12_8 
+Beginning Time = 05:38:56.434548
+params: <built-in function cos>, 0.966643893412244, 1.0874743800887745, 769240  result:0.06247216787588366
+result:0.06247216787588366
+Ending Time = 05:38:57.022141
+Execution Time = 0.587593 sec
+
+2024-04-03 05:38:57,037 - ThreadPoolExecutor-12_0 
+Beginning Time = 05:38:56.366126
+params: <built-in function cos>, 0.0, 0.1208304866765305, 769240  result:0.12053668082795983
+result:0.12053668082795983
+Ending Time = 05:38:57.037803
+Execution Time = 0.671677 sec
+
+2024-04-03 05:38:57,198 - ThreadPoolExecutor-12_11 
+Beginning Time = 05:38:56.455527
+params: <built-in function cos>, 1.3291353534418355, 1.449965840118366, 769240  result:0.02176706600076937
+result:0.02176706600076937
+Ending Time = 05:38:57.198569
+Execution Time = 0.743042 sec
+
+2024-04-03 05:38:57,249 - ThreadPoolExecutor-12_10 
+Beginning Time = 05:38:56.450196
+params: <built-in function cos>, 1.208304866765305, 1.3291353534418355, 769240  result:0.035925583795323734
+result:0.035925583795323734
+Ending Time = 05:38:57.249001
+Execution Time = 0.798805 sec
+
+2024-04-03 05:38:57,300 - ThreadPoolExecutor-12_5 
+Beginning Time = 05:38:56.408400
+params: <built-in function cos>, 0.6041524333826525, 0.724982920059183, 769240  result:0.09505791735867335
+result:0.09505791735867335
+Ending Time = 05:38:57.300766
+Execution Time = 0.892366 sec
+
+2024-04-03 05:38:57,603 - ThreadPoolExecutor-12_6 
+Beginning Time = 05:38:56.418820
+params: <built-in function cos>, 0.724982920059183, 0.8458134067357135, 769240  result:0.08538809663659092
+result:0.08538809663659092
+Ending Time = 05:38:57.603951
+Execution Time = 1.185131 sec
+
+2024-04-03 05:38:57,629 - ThreadPoolExecutor-12_12 
+Beginning Time = 05:38:56.471127
+params: <built-in function cos>, 1.449965840118366, 1.5707963267948966, 769240  result:0.007291135368761181
+result:0.007291135368761181
+Ending Time = 05:38:57.629257
+Execution Time = 1.15813 sec
+
+2024-04-03 05:38:57,645 - ThreadPoolExecutor-12_3 
+Beginning Time = 05:38:56.397639
+params: <built-in function cos>, 0.3624914600295915, 0.483321946706122, 769240  result:0.11011828889363343
+result:0.11011828889363343
+Ending Time = 05:38:57.645025
+Execution Time = 1.247386 sec
+
+2024-04-03 05:38:57,656 - ThreadPoolExecutor-12_7 
+Beginning Time = 05:38:56.429205
+params: <built-in function cos>, 0.8458134067357135, 0.966643893412244, 769240  result:0.07447312518829365
+result:0.07447312518829365
+Ending Time = 05:38:57.656309
+Execution Time = 1.227104 sec
+
+2024-04-03 05:38:57,725 - ThreadPoolExecutor-12_2 
+Beginning Time = 05:38:56.381841
+params: <built-in function cos>, 0.241660973353061, 0.3624914600295915, 769240  result:0.11528922557653093
+result:0.11528922557653093
+Ending Time = 05:38:57.725430
+Execution Time = 1.343589 sec
+
+2024-04-03 05:38:57,727 - ThreadPoolExecutor-12_9 
+Beginning Time = 05:38:56.439809
+params: <built-in function cos>, 1.0874743800887745, 1.208304866765305, 769240  result:0.049560225680771015
+result:0.049560225680771015
+Ending Time = 05:38:57.727659
+Execution Time = 1.28785 sec
+
+2024-04-03 05:38:57,731 - ThreadPoolExecutor-12_1 
+Beginning Time = 05:38:56.371344
+params: <built-in function cos>, 0.1208304866765305, 0.241660973353061, 769240  result:0.11877898574179742
+result:0.11877898574179742
+Ending Time = 05:38:57.730988
+Execution Time = 1.359644 sec
+
+2024-04-03 05:38:57,737 - ThreadPoolExecutor-12_4 
+Beginning Time = 05:38:56.403042
+params: <built-in function cos>, 0.483321946706122, 0.6041524333826525, 769240  result:0.10334157959387665
+result:0.10334157959387665
+Ending Time = 05:38:57.737296
+Execution Time = 1.334254 sec
+
+2024-04-03 05:38:57,738 - MainThread 
+Integration result = 1.000000078538865
+
+2024-04-03 05:38:57,738 - MainThread 
+Integration on 14 threads
+2024-04-03 05:38:58,064 - ThreadPoolExecutor-13_0 
+Beginning Time = 05:38:57.738994
+params: <built-in function cos>, 0.0, 0.1121997376282069, 714295  result:0.11196447659714276
+result:0.11196447659714276
+Ending Time = 05:38:58.064163
+Execution Time = 0.325169 sec
+
+2024-04-03 05:38:58,249 - ThreadPoolExecutor-13_1 
+Beginning Time = 05:38:57.744206
+params: <built-in function cos>, 0.1121997376282069, 0.2243994752564138, 714295  result:0.11055645932830319
+result:0.11055645932830319
+Ending Time = 05:38:58.249361
+Execution Time = 0.505155 sec
+
+2024-04-03 05:38:58,257 - ThreadPoolExecutor-13_7 
+Beginning Time = 05:38:57.987439
+params: <built-in function cos>, 0.7853981633974483, 0.8975979010256552, 714295  result:0.07472470784865778
+result:0.07472470784865778
+Ending Time = 05:38:58.257444
+Execution Time = 0.270005 sec
+
+2024-04-03 05:38:58,327 - ThreadPoolExecutor-13_9 
+Beginning Time = 05:38:58.048462
+params: <built-in function cos>, 1.009797638653862, 1.121997376282069, 714295  result:0.05424467638258509
+result:0.05424467638258509
+Ending Time = 05:38:58.327622
+Execution Time = 0.27916 sec
+
+2024-04-03 05:38:58,345 - ThreadPoolExecutor-13_10 
+Beginning Time = 05:38:58.110758
+params: <built-in function cos>, 1.121997376282069, 1.2341971139102759, 714295  result:0.04291447054293534
+result:0.04291447054293534
+Ending Time = 05:38:58.345062
+Execution Time = 0.234304 sec
+
+2024-04-03 05:38:58,635 - ThreadPoolExecutor-13_6 
+Beginning Time = 05:38:57.868737
+params: <built-in function cos>, 0.6731984257692414, 0.7853981633974483, 714295  result:0.08361698519660327
+result:0.08361698519660327
+Ending Time = 05:38:58.635173
+Execution Time = 0.766436 sec
+
+2024-04-03 05:38:58,703 - ThreadPoolExecutor-13_3 
+Beginning Time = 05:38:57.775239
+params: <built-in function cos>, 0.3365992128846207, 0.4487989505128276, 714295  result:0.10360468053284096
+result:0.10360468053284096
+Ending Time = 05:38:58.703586
+Execution Time = 0.928347 sec
+
+2024-04-03 05:38:58,713 - ThreadPoolExecutor-13_5 
+Beginning Time = 05:38:57.832444
+params: <built-in function cos>, 0.5609986881410345, 0.6731984257692414, 714295  result:0.09145773043998691
+result:0.09145773043998691
+Ending Time = 05:38:58.713659
+Execution Time = 0.881215 sec
+
+2024-04-03 05:38:58,728 - ThreadPoolExecutor-13_11 
+Beginning Time = 05:38:58.126300
+params: <built-in function cos>, 1.2341971139102759, 1.3463968515384828, 714295  result:0.03104459033664975
+result:0.03104459033664975
+Ending Time = 05:38:58.728162
+Execution Time = 0.601862 sec
+
+2024-04-03 05:38:58,734 - ThreadPoolExecutor-13_2 
+Beginning Time = 05:38:57.764783
+params: <built-in function cos>, 0.2243994752564138, 0.3365992128846207, 714295  result:0.10775813043705365
+result:0.10775813043705365
+Ending Time = 05:38:58.734021
+Execution Time = 0.969238 sec
+
+2024-04-03 05:38:58,734 - ThreadPoolExecutor-13_1 
+Beginning Time = 05:38:58.249502
+params: <built-in function cos>, 1.4585965891666897, 1.5707963267948966, 714295  result:0.00628779890031243
+result:0.00628779890031243
+Ending Time = 05:38:58.734867
+Execution Time = 0.485365 sec
+
+2024-04-03 05:38:58,741 - ThreadPoolExecutor-13_4 
+Beginning Time = 05:38:57.785831
+params: <built-in function cos>, 0.4487989505128276, 0.5609986881410345, 714295  result:0.09814834165808878
+result:0.09814834165808878
+Ending Time = 05:38:58.741008
+Execution Time = 0.955177 sec
+
+2024-04-03 05:38:58,744 - ThreadPoolExecutor-13_12 
+Beginning Time = 05:38:58.136720
+params: <built-in function cos>, 1.3463968515384828, 1.4585965891666897, 714295  result:0.018784306394389463
+result:0.018784306394389463
+Ending Time = 05:38:58.744391
+Execution Time = 0.607671 sec
+
+2024-04-03 05:38:58,765 - ThreadPoolExecutor-13_8 
+Beginning Time = 05:38:58.028049
+params: <built-in function cos>, 0.8975979010256552, 1.009797638653862, 714295  result:0.06489272394323482
+result:0.06489272394323482
+Ending Time = 05:38:58.765580
+Execution Time = 0.737531 sec
+
+2024-04-03 05:38:58,766 - MainThread 
+Integration result = 1.0000000785387841
+
+2024-04-03 05:38:58,766 - MainThread 
+Integration on 15 threads
+2024-04-03 05:38:58,954 - ThreadPoolExecutor-14_0 
+Beginning Time = 05:38:58.766533
+params: <built-in function cos>, 0.0, 0.10471975511965977, 666676  result:0.10452846369789658
+result:0.10452846369789658
+Ending Time = 05:38:58.954571
+Execution Time = 0.188038 sec
+
+2024-04-03 05:38:59,025 - ThreadPoolExecutor-14_4 
+Beginning Time = 05:38:58.812859
+params: <built-in function cos>, 0.41887902047863906, 0.5235987755982988, 666676  result:0.09326336065636583
+result:0.09326336065636583
+Ending Time = 05:38:59.025123
+Execution Time = 0.212264 sec
+
+2024-04-03 05:38:59,090 - ThreadPoolExecutor-14_1 
+Beginning Time = 05:38:58.776731
+params: <built-in function cos>, 0.10471975511965977, 0.20943951023931953, 666676  result:0.10338322883612468
+result:0.10338322883612468
+Ending Time = 05:38:59.090390
+Execution Time = 0.313659 sec
+
+2024-04-03 05:38:59,116 - ThreadPoolExecutor-14_2 
+Beginning Time = 05:38:58.786891
+params: <built-in function cos>, 0.20943951023931953, 0.3141592653589793, 666676  result:0.10110530568488338
+result:0.10110530568488338
+Ending Time = 05:38:59.115998
+Execution Time = 0.329107 sec
+
+2024-04-03 05:38:59,329 - ThreadPoolExecutor-14_3 
+Beginning Time = 05:38:58.802468
+params: <built-in function cos>, 0.3141592653589793, 0.41887902047863906, 666676  result:0.09771965164692278
+result:0.09771965164692278
+Ending Time = 05:38:59.329575
+Execution Time = 0.527107 sec
+
+2024-04-03 05:38:59,401 - ThreadPoolExecutor-14_6 
+Beginning Time = 05:38:58.833874
+params: <built-in function cos>, 0.6283185307179586, 0.7330382858376183, 666676  result:0.08134535923990216
+result:0.08134535923990216
+Ending Time = 05:38:59.401054
+Execution Time = 0.56718 sec
+
+2024-04-03 05:38:59,486 - ThreadPoolExecutor-14_4 
+Beginning Time = 05:38:59.106613
+params: <built-in function cos>, 1.0471975511965976, 1.1519173063162573, 666676  result:0.04752006118294519
+result:0.04752006118294519
+Ending Time = 05:38:59.485991
+Execution Time = 0.379378 sec
+
+2024-04-03 05:38:59,504 - ThreadPoolExecutor-14_7 
+Beginning Time = 05:38:58.870102
+params: <built-in function cos>, 0.7330382858376183, 0.8377580409572781, 666676  result:0.07401422493151684
+result:0.07401422493151684
+Ending Time = 05:38:59.504242
+Execution Time = 0.63414 sec
+
+2024-04-03 05:38:59,510 - ThreadPoolExecutor-14_9 
+Beginning Time = 05:38:59.056432
+params: <built-in function cos>, 0.9424777960769379, 1.0471975511965976, 666676  result:0.05700841630403169
+result:0.05700841630403169
+Ending Time = 05:38:59.510254
+Execution Time = 0.453822 sec
+
+2024-04-03 05:38:59,731 - ThreadPoolExecutor-14_11 
+Beginning Time = 05:38:59.168440
+params: <built-in function cos>, 1.4660765716752366, 1.5707963267948966, 666676  result:0.005478112841257948
+result:0.005478112841257948
+Ending Time = 05:38:59.731722
+Execution Time = 0.563282 sec
+
+2024-04-03 05:38:59,817 - ThreadPoolExecutor-14_5 
+Beginning Time = 05:38:58.823432
+params: <built-in function cos>, 0.5235987755982988, 0.6283185307179586, 666676  result:0.08778525676984054
+result:0.08778525676984054
+Ending Time = 05:38:59.817438
+Execution Time = 0.994006 sec
+
+2024-04-03 05:38:59,837 - ThreadPoolExecutor-14_1 
+Beginning Time = 05:38:59.158189
+params: <built-in function cos>, 1.361356816555577, 1.4660765716752366, 666676  result:0.016374302754053528
+result:0.016374302754053528
+Ending Time = 05:38:59.836970
+Execution Time = 0.678781 sec
+
+2024-04-03 05:38:59,854 - ThreadPoolExecutor-14_10 
+Beginning Time = 05:38:59.142795
+params: <built-in function cos>, 1.1519173063162573, 1.2566370614359172, 666676  result:0.03751106632732874
+result:0.03751106632732874
+Ending Time = 05:38:59.854228
+Execution Time = 0.711433 sec
+
+2024-04-03 05:38:59,854 - ThreadPoolExecutor-14_0 
+Beginning Time = 05:38:59.153105
+params: <built-in function cos>, 1.2566370614359172, 1.361356816555577, 666676  result:0.027091092379332476
+result:0.027091092379332476
+Ending Time = 05:38:59.854685
+Execution Time = 0.70158 sec
+
+2024-04-03 05:38:59,857 - ThreadPoolExecutor-14_8 
+Beginning Time = 05:38:59.051113
+params: <built-in function cos>, 0.8377580409572781, 0.9424777960769379, 666676  result:0.0658721752863139
+result:0.0658721752863139
+Ending Time = 05:38:59.857868
+Execution Time = 0.806755 sec
+
+2024-04-03 05:38:59,859 - MainThread 
+Integration result = 1.0000000785387162
+
+2024-04-03 05:38:59,859 - MainThread 
+Integration on 16 threads
+2024-04-03 05:39:00,300 - ThreadPoolExecutor-15_9 
+Beginning Time = 05:39:00.009955
+params: <built-in function cos>, 0.8835729338221293, 0.9817477042468103, 625000  result:0.058459165130555504
+result:0.058459165130555504
+Ending Time = 05:39:00.300512
+Execution Time = 0.290557 sec
+
+2024-04-03 05:39:00,302 - ThreadPoolExecutor-15_2 
+Beginning Time = 05:38:59.879829
+params: <built-in function cos>, 0.19634954084936207, 0.2945243112740431, 625000  result:0.09519435711111057
+result:0.09519435711111057
+Ending Time = 05:39:00.302535
+Execution Time = 0.422706 sec
+
+2024-04-03 05:39:00,434 - ThreadPoolExecutor-15_1 
+Beginning Time = 05:38:59.869480
+params: <built-in function cos>, 0.09817477042468103, 0.19634954084936207, 625000  result:0.09707318281749455
+result:0.09707318281749455
+Ending Time = 05:39:00.434230
+Execution Time = 0.56475 sec
+
+2024-04-03 05:39:00,479 - ThreadPoolExecutor-15_0 
+Beginning Time = 05:38:59.859204
+params: <built-in function cos>, 0.0, 0.09817477042468103, 625000  result:0.09801714070775172
+result:0.09801714070775172
+Ending Time = 05:39:00.479936
+Execution Time = 0.620732 sec
+
+2024-04-03 05:39:00,554 - ThreadPoolExecutor-15_10 
+Beginning Time = 05:39:00.199692
+params: <built-in function cos>, 0.9817477042468103, 1.0799224746714913, 625000  result:0.05045165865678018
+result:0.05045165865678018
+Ending Time = 05:39:00.554127
+Execution Time = 0.354435 sec
+
+2024-04-03 05:39:00,596 - ThreadPoolExecutor-15_5 
+Beginning Time = 05:38:59.957858
+params: <built-in function cos>, 0.4908738521234052, 0.5890486225480862, 625000  result:0.08417350015606885
+result:0.08417350015606885
+Ending Time = 05:39:00.596002
+Execution Time = 0.638144 sec
+
+2024-04-03 05:39:00,602 - ThreadPoolExecutor-15_11 
+Beginning Time = 05:39:00.487725
+params: <built-in function cos>, 1.0799224746714913, 1.1780972450961724, 625000  result:0.041958275130458175
+result:0.041958275130458175
+Ending Time = 05:39:00.602455
+Execution Time = 0.11473 sec
+
+2024-04-03 05:39:00,620 - ThreadPoolExecutor-15_8 
+Beginning Time = 05:38:59.989230
+params: <built-in function cos>, 0.7853981633974483, 0.8835729338221293, 625000  result:0.0659036778870942
+result:0.0659036778870942
+Ending Time = 05:39:00.620474
+Execution Time = 0.631244 sec
+
+2024-04-03 05:39:00,631 - ThreadPoolExecutor-15_3 
+Beginning Time = 05:38:59.905763
+params: <built-in function cos>, 0.2945243112740431, 0.39269908169872414, 625000  result:0.0923987577072173
+result:0.0923987577072173
+Ending Time = 05:39:00.631333
+Execution Time = 0.72557 sec
+
+2024-04-03 05:39:00,636 - ThreadPoolExecutor-15_9 
+Beginning Time = 05:39:00.568761
+params: <built-in function cos>, 1.3744467859455345, 1.4726215563702154, 625000  result:0.014399453893076352
+result:0.014399453893076352
+Ending Time = 05:39:00.636331
+Execution Time = 0.06757 sec
+
+2024-04-03 05:39:00,657 - ThreadPoolExecutor-15_4 
+Beginning Time = 05:38:59.947134
+params: <built-in function cos>, 0.39269908169872414, 0.4908738521234052, 625000  result:0.08871330775629913
+result:0.08871330775629913
+Ending Time = 05:39:00.657824
+Execution Time = 0.71069 sec
+
+2024-04-03 05:39:00,667 - ThreadPoolExecutor-15_6 
+Beginning Time = 05:38:59.968245
+params: <built-in function cos>, 0.5890486225480862, 0.6872233929727672, 625000  result:0.07882305573541669
+result:0.07882305573541669
+Ending Time = 05:39:00.667665
+Execution Time = 0.69942 sec
+
+2024-04-03 05:39:00,673 - ThreadPoolExecutor-15_7 
+Beginning Time = 05:38:59.973521
+params: <built-in function cos>, 0.6872233929727672, 0.7853981633974483, 625000  result:0.0727135021989634
+result:0.0727135021989634
+Ending Time = 05:39:00.673730
+Execution Time = 0.700209 sec
+
+2024-04-03 05:39:00,726 - ThreadPoolExecutor-15_12 
+Beginning Time = 05:39:00.523511
+params: <built-in function cos>, 1.1780972450961724, 1.2762720155208536, 625000  result:0.03306081047790282
+result:0.03306081047790282
+Ending Time = 05:39:00.721679
+Execution Time = 0.198168 sec
+
+2024-04-03 05:39:00,733 - ThreadPoolExecutor-15_13 
+Beginning Time = 05:39:00.538957
+params: <built-in function cos>, 1.2762720155208536, 1.3744467859455345, 625000  result:0.023844952147569647
+result:0.023844952147569647
+Ending Time = 05:39:00.733620
+Execution Time = 0.194663 sec
+
+2024-04-03 05:39:00,758 - ThreadPoolExecutor-15_2 
+Beginning Time = 05:39:00.657921
+params: <built-in function cos>, 1.4726215563702154, 1.5707963267948966, 625000  result:0.004815281026050969
+result:0.004815281026050969
+Ending Time = 05:39:00.758091
+Execution Time = 0.10017 sec
+
+2024-04-03 05:39:00,759 - MainThread 
+Integration result = 1.00000007853981
+
+2024-04-03 05:39:00,759 - MainThread 
+Integration on 17 threads
+2024-04-03 05:39:00,853 - ThreadPoolExecutor-16_1 
+Beginning Time = 05:39:00.764614
+params: <built-in function cos>, 0.09239978392911156, 0.18479956785822313, 588240  result:0.09148115935551639
+result:0.09148115935551639
+Ending Time = 05:39:00.853927
+Execution Time = 0.089313 sec
+
+2024-04-03 05:39:00,858 - ThreadPoolExecutor-16_2 
+Beginning Time = 05:39:00.774774
+params: <built-in function cos>, 0.18479956785822313, 0.2771993517873347, 588240  result:0.08991347391641893
+result:0.08991347391641893
+Ending Time = 05:39:00.858800
+Execution Time = 0.084026 sec
+
+2024-04-03 05:39:00,999 - ThreadPoolExecutor-16_4 
+Beginning Time = 05:39:00.795180
+params: <built-in function cos>, 0.36959913571644626, 0.46199891964555784, 588240  result:0.08449669251959847
+result:0.08449669251959847
+Ending Time = 05:39:00.999522
+Execution Time = 0.204342 sec
+
+2024-04-03 05:39:01,008 - ThreadPoolExecutor-16_3 
+Beginning Time = 05:39:00.784963
+params: <built-in function cos>, 0.2771993517873347, 0.36959913571644626, 588240  result:0.08757867842046402
+result:0.08757867842046402
+Ending Time = 05:39:01.008061
+Execution Time = 0.223098 sec
+
+2024-04-03 05:39:01,060 - ThreadPoolExecutor-16_0 
+Beginning Time = 05:39:00.759562
+params: <built-in function cos>, 0.0, 0.09239978392911156, 588240  result:0.09226835979833761
+result:0.09226835979833761
+Ending Time = 05:39:01.060479
+Execution Time = 0.300917 sec
+
+2024-04-03 05:39:01,074 - ThreadPoolExecutor-16_9 
+Beginning Time = 05:39:00.940570
+params: <built-in function cos>, 0.9239978392911157, 1.0163976232202272, 588240  result:0.052199914434256374
+result:0.052199914434256374
+Ending Time = 05:39:01.074091
+Execution Time = 0.133521 sec
+
+2024-04-03 05:39:01,103 - ThreadPoolExecutor-16_5 
+Beginning Time = 05:39:00.945607
+params: <built-in function cos>, 1.0163976232202272, 1.1087974071493387, 588240  result:0.044946161963075035
+result:0.044946161963075035
+Ending Time = 05:39:01.103047
+Execution Time = 0.15744 sec
+
+2024-04-03 05:39:01,105 - ThreadPoolExecutor-16_6 
+Beginning Time = 05:39:00.864127
+params: <built-in function cos>, 0.5543987035746694, 0.646798487503781, 588240  result:0.0762024776016381
+result:0.0762024776016381
+Ending Time = 05:39:01.105864
+Execution Time = 0.241737 sec
+
+2024-04-03 05:39:01,121 - ThreadPoolExecutor-16_10 
+Beginning Time = 05:39:00.965946
+params: <built-in function cos>, 1.1087974071493387, 1.2011971910784502, 588240  result:0.03730894468559415
+result:0.03730894468559415
+Ending Time = 05:39:01.121833
+Execution Time = 0.155887 sec
+
+2024-04-03 05:39:01,123 - ThreadPoolExecutor-16_8 
+Beginning Time = 05:39:00.925235
+params: <built-in function cos>, 0.7391982714328925, 0.831598055362004, 588240  result:0.0653132787037526
+result:0.0653132787037526
+Ending Time = 05:39:01.123599
+Execution Time = 0.198364 sec
+
+2024-04-03 05:39:01,147 - ThreadPoolExecutor-16_2 
+Beginning Time = 05:39:00.935450
+params: <built-in function cos>, 0.831598055362004, 0.9239978392911157, 588240  result:0.059008315640653515
+result:0.059008315640653515
+Ending Time = 05:39:01.147429
+Execution Time = 0.211979 sec
+
+2024-04-03 05:39:01,156 - ThreadPoolExecutor-16_7 
+Beginning Time = 05:39:00.894727
+params: <built-in function cos>, 0.646798487503781, 0.7391982714328925, 588240  result:0.07106101190176459
+result:0.07106101190176459
+Ending Time = 05:39:01.156683
+Execution Time = 0.261956 sec
+
+2024-04-03 05:39:01,217 - ThreadPoolExecutor-16_12 
+Beginning Time = 05:39:00.981344
+params: <built-in function cos>, 1.293596975007562, 1.3859967589366735, 588240  result:0.021147463572813205
+result:0.021147463572813205
+Ending Time = 05:39:01.217212
+Execution Time = 0.235868 sec
+
+2024-04-03 05:39:01,236 - ThreadPoolExecutor-16_11 
+Beginning Time = 05:39:00.971118
+params: <built-in function cos>, 1.2011971910784502, 1.293596975007562, 588240  result:0.029353420646821227
+result:0.029353420646821227
+Ending Time = 05:39:01.236562
+Execution Time = 0.265444 sec
+
+2024-04-03 05:39:01,249 - ThreadPoolExecutor-16_1 
+Beginning Time = 05:39:00.853993
+params: <built-in function cos>, 0.46199891964555784, 0.5543987035746694, 588240  result:0.08069381063085272
+result:0.08069381063085272
+Ending Time = 05:39:01.249794
+Execution Time = 0.395801 sec
+
+2024-04-03 05:39:01,255 - ThreadPoolExecutor-16_4 
+Beginning Time = 05:39:01.163344
+params: <built-in function cos>, 1.3859967589366735, 1.478396542865785, 588240  result:0.01276108379598833
+result:0.01276108379598833
+Ending Time = 05:39:01.255441
+Execution Time = 0.092097 sec
+
+2024-04-03 05:39:01,266 - ThreadPoolExecutor-16_3 
+Beginning Time = 05:39:01.193724
+params: <built-in function cos>, 1.478396542865785, 1.5707963267948966, 588240  result:0.00426583095164761
+result:0.00426583095164761
+Ending Time = 05:39:01.266146
+Execution Time = 0.072422 sec
+
+2024-04-03 05:39:01,267 - MainThread 
+Integration result = 1.000000078539193
+
+2024-04-03 05:39:01,267 - MainThread 
+Integration on 18 threads
+2024-04-03 05:39:01,397 - ThreadPoolExecutor-17_0 
+Beginning Time = 05:39:01.348736
+params: <built-in function cos>, 0.0, 0.08726646259971647, 555565  result:0.0871557430465147
+result:0.0871557430465147
+Ending Time = 05:39:01.397289
+Execution Time = 0.048553 sec
+
+2024-04-03 05:39:01,448 - ThreadPoolExecutor-17_1 
+Beginning Time = 05:39:01.359004
+params: <built-in function cos>, 0.08726646259971647, 0.17453292519943295, 555565  result:0.08649243581358651
+result:0.08649243581358651
+Ending Time = 05:39:01.448547
+Execution Time = 0.089543 sec
+
+2024-04-03 05:39:01,552 - ThreadPoolExecutor-17_3 
+Beginning Time = 05:39:01.409691
+params: <built-in function cos>, 0.2617993877991494, 0.3490658503988659, 555565  result:0.0832011002834635
+result:0.0832011002834635
+Ending Time = 05:39:01.552489
+Execution Time = 0.142798 sec
+
+2024-04-03 05:39:01,560 - ThreadPoolExecutor-17_4 
+Beginning Time = 05:39:01.448741
+params: <built-in function cos>, 0.4363323129985824, 0.5235987755982988, 555565  result:0.07738174142301757
+result:0.07738174142301757
+Ending Time = 05:39:01.560041
+Execution Time = 0.1113 sec
+
+2024-04-03 05:39:01,566 - ThreadPoolExecutor-17_2 
+Beginning Time = 05:39:01.369194
+params: <built-in function cos>, 0.17453292519943295, 0.2617993877991494, 555565  result:0.08517086891854755
+result:0.08517086891854755
+Ending Time = 05:39:01.566011
+Execution Time = 0.196817 sec
+
+2024-04-03 05:39:01,573 - ThreadPoolExecutor-17_0 
+Beginning Time = 05:39:01.440039
+params: <built-in function cos>, 0.3490658503988659, 0.4363323129985824, 555565  result:0.08059812103702509
+result:0.08059812103702509
+Ending Time = 05:39:01.573755
+Execution Time = 0.133716 sec
+
+2024-04-03 05:39:01,581 - ThreadPoolExecutor-17_5 
+Beginning Time = 05:39:01.474066
+params: <built-in function cos>, 0.5235987755982988, 0.6108652381980153, 555565  result:0.07357644003241133
+result:0.07357644003241133
+Ending Time = 05:39:01.581222
+Execution Time = 0.107156 sec
+
+2024-04-03 05:39:01,605 - ThreadPoolExecutor-17_7 
+Beginning Time = 05:39:01.534879
+params: <built-in function cos>, 0.6981317007977318, 0.7853981633974483, 555565  result:0.06431917612888106
+result:0.06431917612888106
+Ending Time = 05:39:01.605253
+Execution Time = 0.070374 sec
+
+2024-04-03 05:39:01,639 - ThreadPoolExecutor-17_6 
+Beginning Time = 05:39:01.524702
+params: <built-in function cos>, 0.6108652381980153, 0.6981317007977318, 555565  result:0.0692111775064836
+result:0.0692111775064836
+Ending Time = 05:39:01.639483
+Execution Time = 0.114781 sec
+
+2024-04-03 05:39:01,641 - ThreadPoolExecutor-17_1 
+Beginning Time = 05:39:01.552629
+params: <built-in function cos>, 0.7853981633974483, 0.8726646259971648, 555565  result:0.058937666983960454
+result:0.058937666983960454
+Ending Time = 05:39:01.641759
+Execution Time = 0.08913 sec
+
+2024-04-03 05:39:01,691 - ThreadPoolExecutor-17_6 
+Beginning Time = 05:39:01.639546
+params: <built-in function cos>, 0.9599310885968813, 1.0471975511965976, 555565  result:0.04687336527402878
+result:0.04687336527402878
+Ending Time = 05:39:01.691634
+Execution Time = 0.052088 sec
+
+2024-04-03 05:39:01,758 - ThreadPoolExecutor-17_3 
+Beginning Time = 05:39:01.691690
+params: <built-in function cos>, 1.1344640137963142, 1.2217304763960306, 555565  result:0.03338484007931214
+result:0.03338484007931214
+Ending Time = 05:39:01.758822
+Execution Time = 0.067132 sec
+
+2024-04-03 05:39:01,764 - ThreadPoolExecutor-17_2 
+Beginning Time = 05:39:01.712064
+params: <built-in function cos>, 1.3962634015954636, 1.48352986419518, 555565  result:0.011386951872521965
+result:0.011386951872521965
+Ending Time = 05:39:01.764201
+Execution Time = 0.052137 sec
+
+2024-04-03 05:39:01,801 - ThreadPoolExecutor-17_3 
+Beginning Time = 05:39:01.758888
+params: <built-in function cos>, 1.48352986419518, 1.5707963267948966, 555565  result:0.0038053087533342325
+result:0.0038053087533342325
+Ending Time = 05:39:01.801536
+Execution Time = 0.042648 sec
+
+2024-04-03 05:39:01,803 - ThreadPoolExecutor-17_1 
+Beginning Time = 05:39:01.641821
+params: <built-in function cos>, 1.0471975511965976, 1.1344640137963142, 555565  result:0.04028238932965678
+result:0.04028238932965678
+Ending Time = 05:39:01.803371
+Execution Time = 0.16155 sec
+
+2024-04-03 05:39:01,824 - ThreadPoolExecutor-17_9 
+Beginning Time = 05:39:01.615753
+params: <built-in function cos>, 0.8726646259971648, 0.9599310885968813, 555565  result:0.05310760660575496
+result:0.05310760660575496
+Ending Time = 05:39:01.824963
+Execution Time = 0.20921 sec
+
+2024-04-03 05:39:01,836 - ThreadPoolExecutor-17_6 
+Beginning Time = 05:39:01.696762
+params: <built-in function cos>, 1.2217304763960306, 1.3089969389957472, 555565  result:0.026233212037648456
+result:0.026233212037648456
+Ending Time = 05:39:01.836333
+Execution Time = 0.139571 sec
+
+2024-04-03 05:39:01,837 - ThreadPoolExecutor-17_4 
+Beginning Time = 05:39:01.706956
+params: <built-in function cos>, 1.3089969389957472, 1.3962634015954636, 555565  result:0.018881933412330295
+result:0.018881933412330295
+Ending Time = 05:39:01.837294
+Execution Time = 0.130338 sec
+
+2024-04-03 05:39:01,838 - MainThread 
+Integration result = 1.0000000785384788
+
+2024-04-03 05:39:01,838 - MainThread 
+Integration on 19 threads
+2024-04-03 05:39:01,883 - ThreadPoolExecutor-18_0 
+Beginning Time = 05:39:01.838218
+params: <built-in function cos>, 0.0, 0.08267349088394192, 526330  result:0.0825793457405789
+result:0.0825793457405789
+Ending Time = 05:39:01.883882
+Execution Time = 0.045664 sec
+
+2024-04-03 05:39:01,923 - ThreadPoolExecutor-18_1 
+Beginning Time = 05:39:01.848456
+params: <built-in function cos>, 0.08267349088394192, 0.16534698176788384, 526330  result:0.08201524561130717
+result:0.08201524561130717
+Ending Time = 05:39:01.923875
+Execution Time = 0.075419 sec
+
+2024-04-03 05:39:01,933 - ThreadPoolExecutor-18_2 
+Beginning Time = 05:39:01.863885
+params: <built-in function cos>, 0.16534698176788384, 0.24802047265182575, 526330  result:0.08089089819214826
+result:0.08089089819214826
+Ending Time = 05:39:01.933134
+Execution Time = 0.069249 sec
+
+2024-04-03 05:39:01,938 - ThreadPoolExecutor-18_3 
+Beginning Time = 05:39:01.874139
+params: <built-in function cos>, 0.24802047265182575, 0.3306939635357677, 526330  result:0.07921398391603929
+result:0.07921398391603929
+Ending Time = 05:39:01.938183
+Execution Time = 0.064044 sec
+
+2024-04-03 05:39:01,983 - ThreadPoolExecutor-18_4 
+Beginning Time = 05:39:01.938358
+params: <built-in function cos>, 0.4133674544197096, 0.4960409453036515, 526330  result:0.07425197123498851
+result:0.07425197123498851
+Ending Time = 05:39:01.983001
+Execution Time = 0.044643 sec
+
+2024-04-03 05:39:02,008 - ThreadPoolExecutor-18_1 
+Beginning Time = 05:39:01.943465
+params: <built-in function cos>, 0.4960409453036515, 0.5787144361875934, 526330  result:0.0710007684080692
+result:0.0710007684080692
+Ending Time = 05:39:02.008720
+Execution Time = 0.065255 sec
+
+2024-04-03 05:39:02,085 - ThreadPoolExecutor-18_5 
+Beginning Time = 05:39:01.994447
+params: <built-in function cos>, 0.7440614179554773, 0.8267349088394192, 526330  result:0.05844234363731794
+result:0.05844234363731794
+Ending Time = 05:39:02.085502
+Execution Time = 0.091055 sec
+
+2024-04-03 05:39:02,151 - ThreadPoolExecutor-18_7 
+Beginning Time = 05:39:02.020081
+params: <built-in function cos>, 0.992081890607303, 1.074755381491245, 526330  result:0.04230727852019696
+result:0.04230727852019696
+Ending Time = 05:39:02.151472
+Execution Time = 0.131391 sec
+
+2024-04-03 05:39:02,192 - ThreadPoolExecutor-18_6 
+Beginning Time = 05:39:02.009801
+params: <built-in function cos>, 0.9094083997233612, 0.992081890607303, 526330  result:0.04802597414893705
+result:0.04802597414893705
+Ending Time = 05:39:02.192777
+Execution Time = 0.182976 sec
+
+2024-04-03 05:39:02,228 - ThreadPoolExecutor-18_8 
+Beginning Time = 05:39:02.090858
+params: <built-in function cos>, 1.1574288723751869, 1.2401023632591288, 526330  result:0.03004392109266243
+result:0.03004392109266243
+Ending Time = 05:39:02.228775
+Execution Time = 0.137917 sec
+
+2024-04-03 05:39:02,247 - ThreadPoolExecutor-18_2 
+Beginning Time = 05:39:01.984294
+params: <built-in function cos>, 0.6613879270715354, 0.7440614179554773, 526330  result:0.06306886313128857
+result:0.06306886313128857
+Ending Time = 05:39:02.247232
+Execution Time = 0.262938 sec
+
+2024-04-03 05:39:02,262 - ThreadPoolExecutor-18_9 
+Beginning Time = 05:39:02.106186
+params: <built-in function cos>, 1.2401023632591288, 1.3227758541430708, 526330  result:0.02358303045997872
+result:0.02358303045997872
+Ending Time = 05:39:02.262491
+Execution Time = 0.156305 sec
+
+2024-04-03 05:39:02,263 - ThreadPoolExecutor-18_1 
+Beginning Time = 05:39:02.008783
+params: <built-in function cos>, 0.8267349088394192, 0.9094083997233612, 526330  result:0.05341660367654536
+result:0.05341660367654536
+Ending Time = 05:39:02.263017
+Execution Time = 0.254234 sec
+
+2024-04-03 05:39:02,267 - ThreadPoolExecutor-18_0 
+Beginning Time = 05:39:01.883952
+params: <built-in function cos>, 0.3306939635357677, 0.4133674544197096, 526330  result:0.0769959578078652
+result:0.0769959578078652
+Ending Time = 05:39:02.267474
+Execution Time = 0.383522 sec
+
+2024-04-03 05:39:02,292 - ThreadPoolExecutor-18_3 
+Beginning Time = 05:39:02.035424
+params: <built-in function cos>, 1.074755381491245, 1.1574288723751869, 526330  result:0.03629958128014588
+result:0.03629958128014588
+Ending Time = 05:39:02.292292
+Execution Time = 0.256868 sec
+
+2024-04-03 05:39:02,309 - ThreadPoolExecutor-18_11 
+Beginning Time = 05:39:02.131658
+params: <built-in function cos>, 1.4054493450270127, 1.4881228359109546, 526330  result:0.01022319604523589
+result:0.01022319604523589
+Ending Time = 05:39:02.309513
+Execution Time = 0.177855 sec
+
+2024-04-03 05:39:02,310 - ThreadPoolExecutor-18_4 
+Beginning Time = 05:39:01.983065
+params: <built-in function cos>, 0.5787144361875934, 0.6613879270715354, 526330  result:0.06726455833908844
+result:0.06726455833908844
+Ending Time = 05:39:02.310723
+Execution Time = 0.327658 sec
+
+2024-04-03 05:39:02,311 - ThreadPoolExecutor-18_7 
+Beginning Time = 05:39:02.151541
+params: <built-in function cos>, 1.4881228359109546, 1.5707963267948966, 526330  result:0.0034155134789217068
+result:0.0034155134789217068
+Ending Time = 05:39:02.311030
+Execution Time = 0.159489 sec
+
+2024-04-03 05:39:02,316 - ThreadPoolExecutor-18_10 
+Beginning Time = 05:39:02.121413
+params: <built-in function cos>, 1.3227758541430708, 1.4054493450270127, 526330  result:0.016961043816376836
+result:0.016961043816376836
+Ending Time = 05:39:02.316741
+Execution Time = 0.195328 sec
+
+2024-04-03 05:39:02,317 - MainThread 
+Integration result = 1.0000000785376923
+
+2024-04-03 05:39:02,318 - MainThread 
+Integration on 20 threads
+2024-04-03 05:39:02,592 - ThreadPoolExecutor-19_0 
+Beginning Time = 05:39:02.318102
+params: <built-in function cos>, 0.0, 0.07853981633974483, 500000  result:0.07845909596995686
+result:0.07845909596995686
+Ending Time = 05:39:02.592227
+Execution Time = 0.274125 sec
+
+2024-04-03 05:39:02,605 - ThreadPoolExecutor-19_7 
+Beginning Time = 05:39:02.394637
+params: <built-in function cos>, 0.5497787143782138, 0.6283185307179586, 500000  result:0.06528669100268086
+result:0.06528669100268086
+Ending Time = 05:39:02.605120
+Execution Time = 0.210483 sec
+
+2024-04-03 05:39:02,661 - ThreadPoolExecutor-19_3 
+Beginning Time = 05:39:02.348708
+params: <built-in function cos>, 0.23561944901923448, 0.3141592653589793, 500000  result:0.07557163219299515
+result:0.07557163219299515
+Ending Time = 05:39:02.660983
+Execution Time = 0.312275 sec
+
+2024-04-03 05:39:02,665 - ThreadPoolExecutor-19_13 
+Beginning Time = 05:39:02.554998
+params: <built-in function cos>, 1.0210176124166828, 1.0995574287564276, 500000  result:0.038366365214885824
+result:0.038366365214885824
+Ending Time = 05:39:02.665519
+Execution Time = 0.110521 sec
+
+2024-04-03 05:39:02,666 - ThreadPoolExecutor-19_1 
+Beginning Time = 05:39:02.328351
+params: <built-in function cos>, 0.07853981633974483, 0.15707963267948966, 500000  result:0.07797537003722908
+result:0.07797537003722908
+Ending Time = 05:39:02.666400
+Execution Time = 0.338049 sec
+
+2024-04-03 05:39:02,697 - ThreadPoolExecutor-19_14 
+Beginning Time = 05:39:02.575503
+params: <built-in function cos>, 1.0995574287564276, 1.1780972450961724, 500000  result:0.032873013923363295
+result:0.032873013923363295
+Ending Time = 05:39:02.697143
+Execution Time = 0.12164 sec
+
+2024-04-03 05:39:02,711 - ThreadPoolExecutor-19_2 
+Beginning Time = 05:39:02.338492
+params: <built-in function cos>, 0.15707963267948966, 0.23561944901923448, 500000  result:0.07701090001878277
+result:0.07701090001878277
+Ending Time = 05:39:02.711283
+Execution Time = 0.372791 sec
+
+2024-04-03 05:39:02,756 - ThreadPoolExecutor-19_0 
+Beginning Time = 05:39:02.711326
+params: <built-in function cos>, 1.413716694115407, 1.4922565104551517, 500000  result:0.009228999262161055
+result:0.009228999262161055
+Ending Time = 05:39:02.756060
+Execution Time = 0.044734 sec
+
+2024-04-03 05:39:02,761 - ThreadPoolExecutor-19_7 
+Beginning Time = 05:39:02.716380
+params: <built-in function cos>, 1.4922565104551517, 1.5707963267948966, 500000  result:0.0030826724290350343
+result:0.0030826724290350343
+Ending Time = 05:39:02.761142
+Execution Time = 0.044762 sec
+
+2024-04-03 05:39:02,798 - ThreadPoolExecutor-19_5 
+Beginning Time = 05:39:02.374202
+params: <built-in function cos>, 0.39269908169872414, 0.47123889803846897, 500000  result:0.0713070699562945
+result:0.0713070699562945
+Ending Time = 05:39:02.798156
+Execution Time = 0.423954 sec
+
+2024-04-03 05:39:02,820 - ThreadPoolExecutor-19_4 
+Beginning Time = 05:39:02.358916
+params: <built-in function cos>, 0.3141592653589793, 0.39269908169872414, 500000  result:0.07366644012461936
+result:0.07366644012461936
+Ending Time = 05:39:02.820663
+Execution Time = 0.461747 sec
+
+2024-04-03 05:39:02,835 - ThreadPoolExecutor-19_8 
+Beginning Time = 05:39:02.414938
+params: <built-in function cos>, 0.6283185307179586, 0.7068583470577035, 500000  result:0.06166279985561302
+result:0.06166279985561302
+Ending Time = 05:39:02.834999
+Execution Time = 0.420061 sec
+
+2024-04-03 05:39:02,849 - ThreadPoolExecutor-19_6 
+Beginning Time = 05:39:02.384418
+params: <built-in function cos>, 0.47123889803846897, 0.5497787143782138, 500000  result:0.06850806798968828
+result:0.06850806798968828
+Ending Time = 05:39:02.849664
+Execution Time = 0.465246 sec
+
+2024-04-03 05:39:02,858 - ThreadPoolExecutor-19_17 
+Beginning Time = 05:39:02.676590
+params: <built-in function cos>, 1.335176877775662, 1.413716694115407, 500000  result:0.015318426245882914
+result:0.015318426245882914
+Ending Time = 05:39:02.858689
+Execution Time = 0.182099 sec
+
+2024-04-03 05:39:02,878 - ThreadPoolExecutor-19_16 
+Beginning Time = 05:39:02.666456
+params: <built-in function cos>, 1.2566370614359172, 1.335176877775662, 500000  result:0.021313410037905295
+result:0.021313410037905295
+Ending Time = 05:39:02.878719
+Execution Time = 0.212263 sec
+
+2024-04-03 05:39:02,893 - ThreadPoolExecutor-19_10 
+Beginning Time = 05:39:02.445421
+params: <built-in function cos>, 0.7853981633974483, 0.8639379797371931, 500000  result:0.053299188941988554
+result:0.053299188941988554
+Ending Time = 05:39:02.893642
+Execution Time = 0.448221 sec
+
+2024-04-03 05:39:02,897 - ThreadPoolExecutor-19_15 
+Beginning Time = 05:39:02.646110
+params: <built-in function cos>, 1.1780972450961724, 1.2566370614359172, 500000  result:0.027176989569615544
+result:0.027176989569615544
+Ending Time = 05:39:02.897160
+Execution Time = 0.25105 sec
+
+2024-04-03 05:39:02,913 - ThreadPoolExecutor-19_11 
+Beginning Time = 05:39:02.460685
+params: <built-in function cos>, 0.8639379797371931, 0.9424777960769379, 500000  result:0.04861103361790066
+result:0.04861103361790066
+Ending Time = 05:39:02.913827
+Execution Time = 0.453142 sec
+
+2024-04-03 05:39:02,914 - ThreadPoolExecutor-19_9 
+Beginning Time = 05:39:02.425147
+params: <built-in function cos>, 0.7068583470577035, 0.7853981633974483, 500000  result:0.05765873704247018
+result:0.05765873704247018
+Ending Time = 05:39:02.914800
+Execution Time = 0.489653 sec
+
+2024-04-03 05:39:02,930 - ThreadPoolExecutor-19_12 
+Beginning Time = 05:39:02.544722
+params: <built-in function cos>, 0.9424777960769379, 1.0210176124166828, 500000  result:0.04362317510674971
+result:0.04362317510674971
+Ending Time = 05:39:02.930757
+Execution Time = 0.386035 sec
+
+2024-04-03 05:39:02,931 - MainThread 
+Integration result = 1.0000000785398178
+
+2024-04-03 05:39:02,931 - MainThread 
+Integration on 21 threads
+2024-04-03 05:39:03,353 - ThreadPoolExecutor-20_4 
+Beginning Time = 05:39:02.983723
+params: <built-in function cos>, 0.2991993003418851, 0.37399912542735636, 476200  result:0.07058585189531226
+result:0.07058585189531226
+Ending Time = 05:39:03.353197
+Execution Time = 0.369474 sec
+
+2024-04-03 05:39:03,447 - ThreadPoolExecutor-20_10 
+Beginning Time = 05:39:03.046780
+params: <built-in function cos>, 0.7479982508547127, 0.822798075940184, 476200  result:0.05287913821194177
+result:0.05287913821194177
+Ending Time = 05:39:03.447237
+Execution Time = 0.400457 sec
+
+2024-04-03 05:39:03,606 - ThreadPoolExecutor-20_4 
+Beginning Time = 05:39:03.358560
+params: <built-in function cos>, 1.0471975511965979, 1.121997376282069, 476200  result:0.03494346931063449
+result:0.03494346931063449
+Ending Time = 05:39:03.606401
+Execution Time = 0.247841 sec
+
+2024-04-03 05:39:03,615 - ThreadPoolExecutor-20_1 
+Beginning Time = 05:39:02.936995
+params: <built-in function cos>, 0.07479982508547127, 0.14959965017094254, 476200  result:0.07431217324735037
+result:0.07431217324735037
+Ending Time = 05:39:03.615055
+Execution Time = 0.67806 sec
+
+2024-04-03 05:39:03,633 - ThreadPoolExecutor-20_5 
+Beginning Time = 05:39:03.004697
+params: <built-in function cos>, 0.37399912542735636, 0.4487989505128276, 476200  result:0.0685427170998397
+result:0.0685427170998397
+Ending Time = 05:39:03.633665
+Execution Time = 0.628968 sec
+
+2024-04-03 05:39:03,636 - ThreadPoolExecutor-20_0 
+Beginning Time = 05:39:02.931897
+params: <built-in function cos>, 0.0, 0.07479982508547127, 476200  result:0.0747300938060324
+result:0.0747300938060324
+Ending Time = 05:39:03.636581
+Execution Time = 0.704684 sec
+
+2024-04-03 05:39:03,638 - ThreadPoolExecutor-20_2 
+Beginning Time = 05:39:02.947187
+params: <built-in function cos>, 0.14959965017094254, 0.2243994752564138, 476200  result:0.07347866887204786
+result:0.07347866887204786
+Ending Time = 05:39:03.638708
+Execution Time = 0.691521 sec
+
+2024-04-03 05:39:03,921 - ThreadPoolExecutor-20_4 
+Beginning Time = 05:39:03.726467
+params: <built-in function cos>, 1.4959965017094254, 1.5707963267948966, 476200  result:0.002796208687990372
+result:0.002796208687990372
+Ending Time = 05:39:03.921783
+Execution Time = 0.195316 sec
+
+2024-04-03 05:39:03,924 - ThreadPoolExecutor-20_7 
+Beginning Time = 05:39:03.030782
+params: <built-in function cos>, 0.5235987755982989, 0.5983986006837702, 476200  result:0.06332006118839381
+result:0.06332006118839381
+Ending Time = 05:39:03.924326
+Execution Time = 0.893544 sec
+
+2024-04-03 05:39:03,947 - ThreadPoolExecutor-20_8 
+Beginning Time = 05:39:03.036149
+params: <built-in function cos>, 0.5983986006837702, 0.6731984257692414, 476200  result:0.0601697472827834
+result:0.0601697472827834
+Ending Time = 05:39:03.947302
+Execution Time = 0.911153 sec
+
+2024-04-03 05:39:04,082 - ThreadPoolExecutor-20_11 
+Beginning Time = 05:39:03.062297
+params: <built-in function cos>, 0.822798075940184, 0.8975979010256552, 476200  result:0.04877961508998158
+result:0.04877961508998158
+Ending Time = 05:39:04.082783
+Execution Time = 1.020486 sec
+
+2024-04-03 05:39:04,123 - ThreadPoolExecutor-20_13 
+Beginning Time = 05:39:03.114063
+params: <built-in function cos>, 0.9723977261111265, 1.0471975511965979, 476200  result:0.03978663444149063
+result:0.03978663444149063
+Ending Time = 05:39:04.123644
+Execution Time = 1.009581 sec
+
+2024-04-03 05:39:04,136 - ThreadPoolExecutor-20_10 
+Beginning Time = 05:39:03.706000
+params: <built-in function cos>, 1.2715970264530116, 1.3463968515384828, 476200  result:0.019355112068832916
+result:0.019355112068832916
+Ending Time = 05:39:04.136392
+Execution Time = 0.430392 sec
+
+2024-04-03 05:39:04,186 - ThreadPoolExecutor-20_16 
+Beginning Time = 05:39:03.711151
+params: <built-in function cos>, 1.3463968515384828, 1.421196676623954, 476200  result:0.013902919814191148
+result:0.013902919814191148
+Ending Time = 05:39:04.186917
+Execution Time = 0.475766 sec
+
+2024-04-03 05:39:04,192 - ThreadPoolExecutor-20_1 
+Beginning Time = 05:39:03.700687
+params: <built-in function cos>, 1.1967972013675403, 1.2715970264530116, 476200  result:0.02469906268562516
+result:0.02469906268562516
+Ending Time = 05:39:04.192036
+Execution Time = 0.491349 sec
+
+2024-04-03 05:39:04,208 - ThreadPoolExecutor-20_6 
+Beginning Time = 05:39:03.020365
+params: <built-in function cos>, 0.4487989505128276, 0.5235987755982989, 476200  result:0.06611626362683964
+result:0.06611626362683964
+Ending Time = 05:39:04.208565
+Execution Time = 1.1882 sec
+
+2024-04-03 05:39:04,241 - ThreadPoolExecutor-20_12 
+Beginning Time = 05:39:03.082991
+params: <built-in function cos>, 0.8975979010256552, 0.9723977261111265, 476200  result:0.04440729657359081
+result:0.04440729657359081
+Ending Time = 05:39:04.241504
+Execution Time = 1.158513 sec
+
+2024-04-03 05:39:04,245 - ThreadPoolExecutor-20_9 
+Beginning Time = 05:39:03.041427
+params: <built-in function cos>, 0.6731984257692414, 0.7479982508547127, 476200  result:0.05668293974325046
+result:0.05668293974325046
+Ending Time = 05:39:04.245635
+Execution Time = 1.204208 sec
+
+2024-04-03 05:39:04,250 - ThreadPoolExecutor-20_15 
+Beginning Time = 05:39:03.615223
+params: <built-in function cos>, 1.121997376282069, 1.1967972013675403, 476200  result:0.029904886125009765
+result:0.029904886125009765
+Ending Time = 05:39:04.249995
+Execution Time = 0.634772 sec
+
+2024-04-03 05:39:04,260 - ThreadPoolExecutor-20_3 
+Beginning Time = 05:39:02.978294
+params: <built-in function cos>, 0.2243994752564138, 0.2991993003418851, 476200  result:0.07223424197470706
+result:0.07223424197470706
+Ending Time = 05:39:04.260379
+Execution Time = 1.282085 sec
+
+2024-04-03 05:39:04,273 - ThreadPoolExecutor-20_14 
+Beginning Time = 05:39:03.721405
+params: <built-in function cos>, 1.421196676623954, 1.4959965017094254, 476200  result:0.008372976792399157
+result:0.008372976792399157
+Ending Time = 05:39:04.273744
+Execution Time = 0.552339 sec
+
+2024-04-03 05:39:04,275 - MainThread 
+Integration result = 1.0000000785382448
+
+2024-04-03 05:39:04,275 - MainThread 
+Integration on 22 threads
+2024-04-03 05:39:04,574 - ThreadPoolExecutor-21_2 
+Beginning Time = 05:39:04.291308
+params: <built-in function cos>, 0.14279966607226333, 0.21419949910839498, 454555  result:0.07025045227512947
+result:0.07025045227512947
+Ending Time = 05:39:04.574384
+Execution Time = 0.283076 sec
+
+2024-04-03 05:39:04,678 - ThreadPoolExecutor-21_7 
+Beginning Time = 05:39:04.430932
+params: <built-in function cos>, 0.4997988312529216, 0.5711986642890533, 454555  result:0.06139183359632909
+result:0.06139183359632909
+Ending Time = 05:39:04.678884
+Execution Time = 0.247952 sec
+
+2024-04-03 05:39:04,686 - ThreadPoolExecutor-21_0 
+Beginning Time = 05:39:04.275891
+params: <built-in function cos>, 0.0, 0.07139983303613166, 454555  result:0.07133918339933853
+result:0.07133918339933853
+Ending Time = 05:39:04.685973
+Execution Time = 0.410082 sec
+
+2024-04-03 05:39:04,700 - ThreadPoolExecutor-21_5 
+Beginning Time = 05:39:04.384014
+params: <built-in function cos>, 0.35699916518065833, 0.42839899821678995, 454555  result:0.06595083554827426
+result:0.06595083554827426
+Ending Time = 05:39:04.700522
+Execution Time = 0.316508 sec
+
+2024-04-03 05:39:04,706 - ThreadPoolExecutor-21_1 
+Beginning Time = 05:39:04.281034
+params: <built-in function cos>, 0.07139983303613166, 0.14279966607226333, 454555  result:0.07097565567335083
+result:0.07097565567335083
+Ending Time = 05:39:04.706878
+Execution Time = 0.425844 sec
+
+2024-04-03 05:39:04,745 - ThreadPoolExecutor-21_3 
+Beginning Time = 05:39:04.357923
+params: <built-in function cos>, 0.21419949910839498, 0.28559933214452665, 454555  result:0.06916726867495708
+result:0.06916726867495708
+Ending Time = 05:39:04.745201
+Execution Time = 0.387278 sec
+
+2024-04-03 05:39:04,917 - ThreadPoolExecutor-21_7 
+Beginning Time = 05:39:04.694235
+params: <built-in function cos>, 0.7139983303613167, 0.7853981633974483, 454555  result:0.05224605106157657
+result:0.05224605106157657
+Ending Time = 05:39:04.917864
+Execution Time = 0.223629 sec
+
+2024-04-03 05:39:04,971 - ThreadPoolExecutor-21_10 
+Beginning Time = 05:39:04.756182
+params: <built-in function cos>, 0.7853981633974483, 0.8567979964335799, 454555  result:0.04864279727101954
+result:0.04864279727101954
+Ending Time = 05:39:04.971412
+Execution Time = 0.21523 sec
+
+2024-04-03 05:39:05,018 - ThreadPoolExecutor-21_4 
+Beginning Time = 05:39:04.373519
+params: <built-in function cos>, 0.28559933214452665, 0.35699916518065833, 454555  result:0.06773162452817295
+result:0.06773162452817295
+Ending Time = 05:39:05.018239
+Execution Time = 0.64472 sec
+
+2024-04-03 05:39:05,019 - ThreadPoolExecutor-21_6 
+Beginning Time = 05:39:04.394639
+params: <built-in function cos>, 0.42839899821678995, 0.4997988312529216, 454555  result:0.06383397622770111
+result:0.06383397622770111
+Ending Time = 05:39:05.019333
+Execution Time = 0.624694 sec
+
+2024-04-03 05:39:05,021 - ThreadPoolExecutor-21_2 
+Beginning Time = 05:39:04.920006
+params: <built-in function cos>, 1.1423973285781066, 1.2137971616142382, 454555  result:0.027317734824901078
+result:0.027317734824901078
+Ending Time = 05:39:05.021569
+Execution Time = 0.101563 sec
+
+2024-04-03 05:39:05,022 - ThreadPoolExecutor-21_9 
+Beginning Time = 05:39:04.629661
+params: <built-in function cos>, 0.6425984973251849, 0.7139983303613167, 454555  result:0.05558307095179483
+result:0.05558307095179483
+Ending Time = 05:39:05.022963
+Execution Time = 0.393302 sec
+
+2024-04-03 05:39:05,144 - ThreadPoolExecutor-21_10 
+Beginning Time = 05:39:04.981690
+params: <built-in function cos>, 1.2851969946503699, 1.3565968276865017, 454555  result:0.017653897788932477
+result:0.017653897788932477
+Ending Time = 05:39:05.144699
+Execution Time = 0.163009 sec
+
+2024-04-03 05:39:05,160 - ThreadPoolExecutor-21_11 
+Beginning Time = 05:39:04.761350
+params: <built-in function cos>, 0.8567979964335799, 0.9281978294697116, 454555  result:0.04479167093549428
+result:0.04479167093549428
+Ending Time = 05:39:05.160096
+Execution Time = 0.398746 sec
+
+2024-04-03 05:39:05,171 - ThreadPoolExecutor-21_3 
+Beginning Time = 05:39:04.976586
+params: <built-in function cos>, 1.2137971616142382, 1.2851969946503699, 454555  result:0.02254325393425283
+result:0.02254325393425283
+Ending Time = 05:39:05.171275
+Execution Time = 0.194689 sec
+
+2024-04-03 05:39:05,222 - ThreadPoolExecutor-21_8 
+Beginning Time = 05:39:04.598526
+params: <built-in function cos>, 0.5711986642890533, 0.6425984973251849, 454555  result:0.058636852253218734
+result:0.058636852253218734
+Ending Time = 05:39:05.222286
+Execution Time = 0.62376 sec
+
+2024-04-03 05:39:05,236 - ThreadPoolExecutor-21_5 
+Beginning Time = 05:39:04.807571
+params: <built-in function cos>, 0.9281978294697116, 0.9995976625058433, 454555  result:0.04071229651204938
+result:0.04071229651204938
+Ending Time = 05:39:05.236379
+Execution Time = 0.428808 sec
+
+2024-04-03 05:39:05,238 - ThreadPoolExecutor-21_1 
+Beginning Time = 05:39:04.817868
+params: <built-in function cos>, 0.9995976625058433, 1.070997495541975, 454555  result:0.036425461557675995
+result:0.036425461557675995
+Ending Time = 05:39:05.238222
+Execution Time = 0.420354 sec
+
+2024-04-03 05:39:05,245 - ThreadPoolExecutor-21_7 
+Beginning Time = 05:39:04.918124
+params: <built-in function cos>, 1.070997495541975, 1.1423973285781066, 454555  result:0.03195301080066592
+result:0.03195301080066592
+Ending Time = 05:39:05.245092
+Execution Time = 0.326968 sec
+
+2024-04-03 05:39:05,487 - ThreadPoolExecutor-21_3 
+Beginning Time = 05:39:05.245210
+params: <built-in function cos>, 1.3565968276865017, 1.4279966607226333, 454555  result:0.012674581427114607
+result:0.012674581427114607
+Ending Time = 05:39:05.487724
+Execution Time = 0.242514 sec
+
+2024-04-03 05:39:05,493 - ThreadPoolExecutor-21_4 
+Beginning Time = 05:39:05.260574
+params: <built-in function cos>, 1.499396493758765, 1.5707963267948966, 454555  result:0.002547890992595133
+result:0.002547890992595133
+Ending Time = 05:39:05.493619
+Execution Time = 0.233045 sec
+
+2024-04-03 05:39:05,497 - ThreadPoolExecutor-21_0 
+Beginning Time = 05:39:05.250345
+params: <built-in function cos>, 1.4279966607226333, 1.499396493758765, 454555  result:0.00763067830361884
+result:0.00763067830361884
+Ending Time = 05:39:05.497680
+Execution Time = 0.247335 sec
+
+2024-04-03 05:39:05,498 - MainThread 
+Integration result = 1.0000000785381633
+
+2024-04-03 05:39:05,498 - MainThread 
+Integration on 23 threads
+2024-04-03 05:39:05,740 - ThreadPoolExecutor-22_6 
+Beginning Time = 05:39:05.624433
+params: <built-in function cos>, 0.40977295481605996, 0.4780684472854033, 434796  result:0.06166395018810444
+result:0.06166395018810444
+Ending Time = 05:39:05.740705
+Execution Time = 0.116272 sec
+
+2024-04-03 05:39:05,806 - ThreadPoolExecutor-22_8 
+Beginning Time = 05:39:05.680767
+params: <built-in function cos>, 0.5463639397547466, 0.6146594322240899, 434796  result:0.0570963750206206
+result:0.0570963750206206
+Ending Time = 05:39:05.806523
+Execution Time = 0.125756 sec
+
+2024-04-03 05:39:05,859 - ThreadPoolExecutor-22_3 
+Beginning Time = 05:39:05.566807
+params: <built-in function cos>, 0.20488647740802998, 0.2731819698773733, 434796  result:0.06634075937409084
+result:0.06634075937409084
+Ending Time = 05:39:05.859618
+Execution Time = 0.292811 sec
+
+2024-04-03 05:39:05,872 - ThreadPoolExecutor-22_0 
+Beginning Time = 05:39:05.498797
+params: <built-in function cos>, 0.0, 0.06829549246934333, 434796  result:0.068242413547759
+result:0.068242413547759
+Ending Time = 05:39:05.872795
+Execution Time = 0.373998 sec
+
+2024-04-03 05:39:05,887 - ThreadPoolExecutor-22_5 
+Beginning Time = 05:39:05.603386
+params: <built-in function cos>, 0.3414774623467166, 0.40977295481605996, 434796  result:0.063521479642585
+result:0.063521479642585
+Ending Time = 05:39:05.887637
+Execution Time = 0.284251 sec
+
+2024-04-03 05:39:05,902 - ThreadPoolExecutor-22_4 
+Beginning Time = 05:39:05.572143
+params: <built-in function cos>, 0.2731819698773733, 0.3414774623467166, 434796  result:0.06508284263625876
+result:0.06508284263625876
+Ending Time = 05:39:05.902348
+Execution Time = 0.330205 sec
+
+2024-04-03 05:39:05,961 - ThreadPoolExecutor-22_1 
+Beginning Time = 05:39:05.504260
+params: <built-in function cos>, 0.06829549246934333, 0.13659098493868665, 434796  result:0.06792423627998659
+result:0.06792423627998659
+Ending Time = 05:39:05.961795
+Execution Time = 0.457535 sec
+
+2024-04-03 05:39:06,099 - ThreadPoolExecutor-22_12 
+Beginning Time = 05:39:05.962790
+params: <built-in function cos>, 1.02443238704015, 1.0927278795094932, 434796  result:0.03346581853034765
+result:0.03346581853034765
+Ending Time = 05:39:06.099496
+Execution Time = 0.136706 sec
+
+2024-04-03 05:39:06,150 - ThreadPoolExecutor-22_11 
+Beginning Time = 05:39:05.878182
+params: <built-in function cos>, 0.7512504171627766, 0.8195459096321199, 434796  result:0.04828282485147773
+result:0.04828282485147773
+Ending Time = 05:39:06.150341
+Execution Time = 0.272159 sec
+
+2024-04-03 05:39:06,163 - ThreadPoolExecutor-22_9 
+Beginning Time = 05:39:05.686055
+params: <built-in function cos>, 0.6146594322240899, 0.6829549246934332, 434796  result:0.054407625451529544
+result:0.054407625451529544
+Ending Time = 05:39:06.163555
+Execution Time = 0.4775 sec
+
+2024-04-03 05:39:06,196 - ThreadPoolExecutor-22_7 
+Beginning Time = 05:39:05.675549
+params: <built-in function cos>, 0.4780684472854033, 0.5463639397547466, 434796  result:0.059518914932600454
+result:0.059518914932600454
+Ending Time = 05:39:06.196419
+Execution Time = 0.52087 sec
+
+2024-04-03 05:39:06,227 - ThreadPoolExecutor-22_0 
+Beginning Time = 05:39:05.893094
+params: <built-in function cos>, 0.8195459096321199, 0.8878414021014632, 434796  result:0.04487533046823946
+result:0.04487533046823946
+Ending Time = 05:39:06.227163
+Execution Time = 0.334069 sec
+
+2024-04-03 05:39:06,280 - ThreadPoolExecutor-22_9 
+Beginning Time = 05:39:06.163624
+params: <built-in function cos>, 1.2976143569175231, 1.3659098493868664, 434796  result:0.016166805544754
+result:0.016166805544754
+Ending Time = 05:39:06.280254
+Execution Time = 0.11663 sec
+
+2024-04-03 05:39:06,294 - ThreadPoolExecutor-22_2 
+Beginning Time = 05:39:05.520092
+params: <built-in function cos>, 0.13659098493868665, 0.20488647740802998, 434796  result:0.06728936486756554
+result:0.06728936486756554
+Ending Time = 05:39:06.294440
+Execution Time = 0.774348 sec
+
+2024-04-03 05:39:06,332 - ThreadPoolExecutor-22_12 
+Beginning Time = 05:39:06.104702
+params: <built-in function cos>, 1.0927278795094932, 1.1610233719788365, 434796  result:0.02932608794600343
+result:0.02932608794600343
+Ending Time = 05:39:06.332663
+Execution Time = 0.227961 sec
+
+2024-04-03 05:39:06,364 - ThreadPoolExecutor-22_11 
+Beginning Time = 05:39:06.150407
+params: <built-in function cos>, 1.2293188644481798, 1.2976143569175231, 434796  result:0.020656370340415654
+result:0.020656370340415654
+Ending Time = 05:39:06.364266
+Execution Time = 0.213859 sec
+
+2024-04-03 05:39:06,397 - ThreadPoolExecutor-22_5 
+Beginning Time = 05:39:05.908349
+params: <built-in function cos>, 0.8878414021014632, 0.9561368945708066, 434796  result:0.041258606579056445
+result:0.041258606579056445
+Ending Time = 05:39:06.397469
+Execution Time = 0.48912 sec
+
+2024-04-03 05:39:06,426 - ThreadPoolExecutor-22_13 
+Beginning Time = 05:39:06.130297
+params: <built-in function cos>, 1.1610233719788365, 1.2293188644481798, 434796  result:0.025049625602178726
+result:0.025049625602178726
+Ending Time = 05:39:06.426134
+Execution Time = 0.295837 sec
+
+2024-04-03 05:39:06,485 - ThreadPoolExecutor-22_0 
+Beginning Time = 05:39:06.227351
+params: <built-in function cos>, 1.43420534185621, 1.5025008343255533, 434796  result:0.0069828284888011115
+result:0.0069828284888011115
+Ending Time = 05:39:06.484992
+Execution Time = 0.257641 sec
+
+2024-04-03 05:39:06,515 - ThreadPoolExecutor-22_2 
+Beginning Time = 05:39:06.299727
+params: <built-in function cos>, 1.5025008343255533, 1.5707963267948966, 434796  result:0.0023312361690422862
+result:0.0023312361690422862
+Ending Time = 05:39:06.515502
+Execution Time = 0.215775 sec
+
+2024-04-03 05:39:06,517 - ThreadPoolExecutor-22_7 
+Beginning Time = 05:39:06.201575
+params: <built-in function cos>, 1.3659098493868664, 1.43420534185621, 434796  result:0.011601863638739619
+result:0.011601863638739619
+Ending Time = 05:39:06.517189
+Execution Time = 0.315614 sec
+
+2024-04-03 05:39:06,521 - ThreadPoolExecutor-22_8 
+Beginning Time = 05:39:05.933938
+params: <built-in function cos>, 0.9561368945708066, 1.02443238704015, 434796  result:0.037449516020247035
+result:0.037449516020247035
+Ending Time = 05:39:06.521118
+Execution Time = 0.58718 sec
+
+2024-04-03 05:39:06,530 - ThreadPoolExecutor-22_6 
+Beginning Time = 05:39:05.751042
+params: <built-in function cos>, 0.6829549246934332, 0.7512504171627766, 434796  result:0.05146520241699227
+result:0.05146520241699227
+Ending Time = 05:39:06.530145
+Execution Time = 0.779103 sec
+
+2024-04-03 05:39:06,531 - MainThread 
+Integration result = 1.0000000785373961
+
+2024-04-03 05:39:06,531 - MainThread 
+Integration on 24 threads
+2024-04-03 05:39:06,605 - ThreadPoolExecutor-23_0 
+Beginning Time = 05:39:06.531323
+params: <built-in function cos>, 0.0, 0.06544984694978735, 416682  result:0.06540312939829711
+result:0.06540312939829711
+Ending Time = 05:39:06.605577
+Execution Time = 0.074254 sec
+
+2024-04-03 05:39:06,631 - ThreadPoolExecutor-23_1 
+Beginning Time = 05:39:06.541648
+params: <built-in function cos>, 0.06544984694978735, 0.1308996938995747, 416682  result:0.06512306349365041
+result:0.06512306349365041
+Ending Time = 05:39:06.631057
+Execution Time = 0.089409 sec
+
+2024-04-03 05:39:06,632 - ThreadPoolExecutor-23_2 
+Beginning Time = 05:39:06.552027
+params: <built-in function cos>, 0.1308996938995747, 0.19634954084936207, 416682  result:0.06456413063324788
+result:0.06456413063324788
+Ending Time = 05:39:06.632944
+Execution Time = 0.080917 sec
+
+2024-04-03 05:39:06,678 - ThreadPoolExecutor-23_3 
+Beginning Time = 05:39:06.580119
+params: <built-in function cos>, 0.19634954084936207, 0.2617993877991494, 416682  result:0.06372872425340885
+result:0.06372872425340885
+Ending Time = 05:39:06.678093
+Execution Time = 0.097974 sec
+
+2024-04-03 05:39:06,860 - ThreadPoolExecutor-23_8 
+Beginning Time = 05:39:06.735332
+params: <built-in function cos>, 0.6544984694978735, 0.7199483164476609, 416682  result:0.05058438935169255
+result:0.05058438935169255
+Ending Time = 05:39:06.860614
+Execution Time = 0.125282 sec
+
+2024-04-03 05:39:07,143 - ThreadPoolExecutor-23_0 
+Beginning Time = 05:39:06.852334
+params: <built-in function cos>, 0.7199483164476609, 0.7853981633974483, 416682  result:0.047760969599674644
+result:0.047760969599674644
+Ending Time = 05:39:07.143262
+Execution Time = 0.290928 sec
+
+2024-04-03 05:39:07,171 - ThreadPoolExecutor-23_7 
+Beginning Time = 05:39:06.719801
+params: <built-in function cos>, 0.5890486225480862, 0.6544984694978735, 416682  result:0.05319119898265265
+result:0.05319119898265265
+Ending Time = 05:39:07.171495
+Execution Time = 0.451694 sec
+
+2024-04-03 05:39:07,178 - ThreadPoolExecutor-23_8 
+Beginning Time = 05:39:06.865824
+params: <built-in function cos>, 0.7853981633974483, 0.8508480103472356, 416682  result:0.044733030043428754
+result:0.044733030043428754
+Ending Time = 05:39:07.178569
+Execution Time = 0.312745 sec
+
+2024-04-03 05:39:07,276 - ThreadPoolExecutor-23_10 
+Beginning Time = 05:39:06.906442
+params: <built-in function cos>, 0.916297857297023, 0.9817477042468102, 416682  result:0.03811627618878275
+result:0.03811627618878275
+Ending Time = 05:39:07.275993
+Execution Time = 0.369551 sec
+
+2024-04-03 05:39:07,298 - ThreadPoolExecutor-23_2 
+Beginning Time = 05:39:06.683777
+params: <built-in function cos>, 0.5235987755982988, 0.5890486225480862, 416682  result:0.05557023573350632
+result:0.05557023573350632
+Ending Time = 05:39:07.298808
+Execution Time = 0.615031 sec
+
+2024-04-03 05:39:07,435 - ThreadPoolExecutor-23_3 
+Beginning Time = 05:39:07.014043
+params: <built-in function cos>, 1.0471975511965976, 1.112647398146385, 416682  result:0.0308473422807192
+result:0.0308473422807192
+Ending Time = 05:39:07.435724
+Execution Time = 0.421681 sec
+
+2024-04-03 05:39:07,566 - ThreadPoolExecutor-23_9 
+Beginning Time = 05:39:06.891206
+params: <built-in function cos>, 0.8508480103472356, 0.916297857297023, 416682  result:0.041513536785000485
+result:0.041513536785000485
+Ending Time = 05:39:07.566622
+Execution Time = 0.675416 sec
+
+2024-04-03 05:39:07,627 - ThreadPoolExecutor-23_6 
+Beginning Time = 05:39:06.668707
+params: <built-in function cos>, 0.4581489286485115, 0.5235987755982988, 416682  result:0.0577113122036542
+result:0.0577113122036542
+Ending Time = 05:39:07.627313
+Execution Time = 0.958606 sec
+
+2024-04-03 05:39:07,633 - ThreadPoolExecutor-23_4 
+Beginning Time = 05:39:06.633091
+params: <built-in function cos>, 0.2617993877991494, 0.32724923474893675, 416682  result:0.0626204216925052
+result:0.0626204216925052
+Ending Time = 05:39:07.633204
+Execution Time = 1.000113 sec
+
+2024-04-03 05:39:07,639 - ThreadPoolExecutor-23_1 
+Beginning Time = 05:39:06.658448
+params: <built-in function cos>, 0.39269908169872414, 0.4581489286485115, 416682  result:0.05960525997494056
+result:0.05960525997494056
+Ending Time = 05:39:07.639469
+Execution Time = 0.981021 sec
+
+2024-04-03 05:39:07,674 - ThreadPoolExecutor-23_11 
+Beginning Time = 05:39:06.926929
+params: <built-in function cos>, 0.9817477042468102, 1.0471975511965976, 416682  result:0.034555795846208576
+result:0.034555795846208576
+Ending Time = 05:39:07.674437
+Execution Time = 0.747508 sec
+
+2024-04-03 05:39:07,859 - ThreadPoolExecutor-23_5 
+Beginning Time = 05:39:06.653383
+params: <built-in function cos>, 0.32724923474893675, 0.39269908169872414, 416682  result:0.061243968872250996
+result:0.061243968872250996
+Ending Time = 05:39:07.859050
+Execution Time = 1.205667 sec
+
+2024-04-03 05:39:07,869 - ThreadPoolExecutor-23_14 
+Beginning Time = 05:39:07.320308
+params: <built-in function cos>, 1.308996938995747, 1.3744467859455345, 416682  result:0.014859459119219463
+result:0.014859459119219463
+Ending Time = 05:39:07.868964
+Execution Time = 0.548656 sec
+
+2024-04-03 05:39:07,903 - ThreadPoolExecutor-23_13 
+Beginning Time = 05:39:07.309932
+params: <built-in function cos>, 1.2435470920459597, 1.308996938995747, 416682  result:0.018995701711977783
+result:0.018995701711977783
+Ending Time = 05:39:07.903028
+Execution Time = 0.593096 sec
+
+2024-04-03 05:39:07,908 - ThreadPoolExecutor-23_12 
+Beginning Time = 05:39:07.171933
+params: <built-in function cos>, 1.112647398146385, 1.1780972450961724, 416682  result:0.027006795659812382
+result:0.027006795659812382
+Ending Time = 05:39:07.908556
+Execution Time = 0.736623 sec
+
+2024-04-03 05:39:07,931 - ThreadPoolExecutor-23_8 
+Beginning Time = 05:39:07.184085
+params: <built-in function cos>, 1.1780972450961724, 1.2435470920459597, 416682  result:0.023050601793731078
+result:0.023050601793731078
+Ending Time = 05:39:07.931729
+Execution Time = 0.747644 sec
+
+2024-04-03 05:39:07,935 - ThreadPoolExecutor-23_10 
+Beginning Time = 05:39:07.367940
+params: <built-in function cos>, 1.4398966328953218, 1.505346479845109, 416682  result:0.006414066979358364
+result:0.006414066979358364
+Ending Time = 05:39:07.935827
+Execution Time = 0.567887 sec
+
+2024-04-03 05:39:07,954 - ThreadPoolExecutor-23_15 
+Beginning Time = 05:39:07.331040
+params: <built-in function cos>, 1.3744467859455345, 1.4398966328953218, 416682  result:0.010659586041247974
+result:0.010659586041247974
+Ending Time = 05:39:07.954585
+Execution Time = 0.623545 sec
+
+2024-04-03 05:39:07,958 - ThreadPoolExecutor-23_2 
+Beginning Time = 05:39:07.378193
+params: <built-in function cos>, 1.505346479845109, 1.5707963267948966, 416682  result:0.0021410818979572064
+result:0.0021410818979572064
+Ending Time = 05:39:07.958810
+Execution Time = 0.580617 sec
+
+2024-04-03 05:39:07,959 - MainThread 
+Integration result = 1.0000000785369252
+
+2024-04-03 05:39:07,959 - MainThread 
+Integration on 25 threads
+2024-04-03 05:39:08,065 - ThreadPoolExecutor-24_1 
+Beginning Time = 05:39:07.964670
+params: <built-in function cos>, 0.06283185307179587, 0.12566370614359174, 400000  result:0.06254271449932085
+result:0.06254271449932085
+Ending Time = 05:39:08.065919
+Execution Time = 0.101249 sec
+
+2024-04-03 05:39:08,080 - ThreadPoolExecutor-24_4 
+Beginning Time = 05:39:08.000287
+params: <built-in function cos>, 0.25132741228718347, 0.3141592653589793, 400000  result:0.06032710858663306
+result:0.06032710858663306
+Ending Time = 05:39:08.080413
+Execution Time = 0.080126 sec
+
+2024-04-03 05:39:08,090 - ThreadPoolExecutor-24_0 
+Beginning Time = 05:39:07.959574
+params: <built-in function cos>, 0.0, 0.06283185307179587, 400000  result:0.06279051968429308
+result:0.06279051968429308
+Ending Time = 05:39:08.090414
+Execution Time = 0.13084 sec
+
+2024-04-03 05:39:08,104 - ThreadPoolExecutor-24_3 
+Beginning Time = 05:39:07.995194
+params: <built-in function cos>, 0.1884955592153876, 0.25132741228718347, 400000  result:0.06130857365544475
+result:0.06130857365544475
+Ending Time = 05:39:08.104933
+Execution Time = 0.109739 sec
+
+2024-04-03 05:39:08,114 - ThreadPoolExecutor-24_6 
+Beginning Time = 05:39:08.025786
+params: <built-in function cos>, 0.3769911184307752, 0.4398229715025711, 400000  result:0.05765474083991724
+result:0.05765474083991724
+Ending Time = 05:39:08.114463
+Execution Time = 0.088677 sec
+
+2024-04-03 05:39:08,119 - ThreadPoolExecutor-24_1 
+Beginning Time = 05:39:08.080486
+params: <built-in function cos>, 0.5654866776461628, 0.6283185307179586, 400000  result:0.05195846008678998
+result:0.05195846008678998
+Ending Time = 05:39:08.119297
+Execution Time = 0.038811 sec
+
+2024-04-03 05:39:08,139 - ThreadPoolExecutor-24_2 
+Beginning Time = 05:39:07.974821
+params: <built-in function cos>, 0.12566370614359174, 0.1884955592153876, 400000  result:0.06204808179326618
+result:0.06204808179326618
+Ending Time = 05:39:08.139201
+Execution Time = 0.16438 sec
+
+2024-04-03 05:39:08,149 - ThreadPoolExecutor-24_7 
+Beginning Time = 05:39:08.035991
+params: <built-in function cos>, 0.4398229715025711, 0.5026548245743669, 400000  result:0.05597438477662743
+result:0.05597438477662743
+Ending Time = 05:39:08.149069
+Execution Time = 0.113078 sec
+
+2024-04-03 05:39:08,153 - ThreadPoolExecutor-24_8 
+Beginning Time = 05:39:08.051234
+params: <built-in function cos>, 0.5026548245743669, 0.5654866776461628, 400000  result:0.05407312338888664
+result:0.05407312338888664
+Ending Time = 05:39:08.153139
+Execution Time = 0.101905 sec
+
+2024-04-03 05:39:08,157 - ThreadPoolExecutor-24_5 
+Beginning Time = 05:39:08.020607
+params: <built-in function cos>, 0.3141592653589793, 0.3769911184307752, 400000  result:0.05910755998106096
+result:0.05910755998106096
+Ending Time = 05:39:08.157350
+Execution Time = 0.136743 sec
+
+2024-04-03 05:39:08,227 - ThreadPoolExecutor-24_2 
+Beginning Time = 05:39:08.178202
+params: <built-in function cos>, 0.8796459430051422, 0.942477796076938, 400000  result:0.03850375549777406
+result:0.03850375549777406
+Ending Time = 05:39:08.227883
+Execution Time = 0.049681 sec
+
+2024-04-03 05:39:08,246 - ThreadPoolExecutor-24_4 
+Beginning Time = 05:39:08.173093
+params: <built-in function cos>, 0.8168140899333463, 0.8796459430051422, 400000  result:0.041544619055418834
+result:0.041544619055418834
+Ending Time = 05:39:08.246928
+Execution Time = 0.073835 sec
+
+2024-04-03 05:39:08,275 - ThreadPoolExecutor-24_12 
+Beginning Time = 05:39:08.228042
+params: <built-in function cos>, 1.0053096491487339, 1.0681415022205298, 400000  result:0.03197875878874151
+result:0.03197875878874151
+Ending Time = 05:39:08.275966
+Execution Time = 0.047924 sec
+
+2024-04-03 05:39:08,290 - ThreadPoolExecutor-24_0 
+Beginning Time = 05:39:08.258645
+params: <built-in function cos>, 1.1309733552923256, 1.1938052083641215, 400000  result:0.024949437950424858
+result:0.024949437950424858
+Ending Time = 05:39:08.290681
+Execution Time = 0.032036 sec
+
+2024-04-03 05:39:08,294 - ThreadPoolExecutor-24_13 
+Beginning Time = 05:39:08.238309
+params: <built-in function cos>, 1.0681415022205298, 1.1309733552923256, 400000  result:0.028520376818373754
+result:0.028520376818373754
+Ending Time = 05:39:08.294794
+Execution Time = 0.056485 sec
+
+2024-04-03 05:39:08,329 - ThreadPoolExecutor-24_8 
+Beginning Time = 05:39:08.294887
+params: <built-in function cos>, 1.1938052083641215, 1.2566370614359172, 400000  result:0.02128003504919851
+result:0.02128003504919851
+Ending Time = 05:39:08.329812
+Execution Time = 0.034925 sec
+
+2024-04-03 05:39:08,357 - ThreadPoolExecutor-24_11 
+Beginning Time = 05:39:08.162848
+params: <built-in function cos>, 0.6911503837897546, 0.7539822368615504, 400000  result:0.047123119442904676
+result:0.047123119442904676
+Ending Time = 05:39:08.357564
+Execution Time = 0.194716 sec
+
+2024-04-03 05:39:08,398 - ThreadPoolExecutor-24_3 
+Beginning Time = 05:39:08.357671
+params: <built-in function cos>, 1.3823007675795091, 1.4451326206513049, 400000  result:0.009827455459034011
+result:0.009827455459034011
+Ending Time = 05:39:08.398472
+Execution Time = 0.040801 sec
+
+2024-04-03 05:39:08,413 - ThreadPoolExecutor-24_2 
+Beginning Time = 05:39:08.340093
+params: <built-in function cos>, 1.3194689145077132, 1.3823007675795091, 400000  result:0.013704094415221784
+result:0.013704094415221784
+Ending Time = 05:39:08.413742
+Execution Time = 0.073649 sec
+
+2024-04-03 05:39:08,429 - ThreadPoolExecutor-24_5 
+Beginning Time = 05:39:08.329929
+params: <built-in function cos>, 1.2566370614359172, 1.3194689145077132, 400000  result:0.017526649571557817
+result:0.017526649571557817
+Ending Time = 05:39:08.429870
+Execution Time = 0.099941 sec
+
+2024-04-03 05:39:08,430 - ThreadPoolExecutor-24_10 
+Beginning Time = 05:39:08.157631
+params: <built-in function cos>, 0.6283185307179586, 0.6911503837897546, 400000  result:0.0496387404802949
+result:0.0496387404802949
+Ending Time = 05:39:08.430269
+Execution Time = 0.272638 sec
+
+2024-04-03 05:39:08,430 - ThreadPoolExecutor-24_1 
+Beginning Time = 05:39:08.167988
+params: <built-in function cos>, 0.7539822368615504, 0.8168140899333463, 400000  result:0.04442152498158068
+result:0.04442152498158068
+Ending Time = 05:39:08.223835
+Execution Time = 0.055847 sec
+
+2024-04-03 05:39:08,445 - ThreadPoolExecutor-24_7 
+Beginning Time = 05:39:08.203641
+params: <built-in function cos>, 0.942477796076938, 1.0053096491487339, 400000  result:0.035310935207874906
+result:0.035310935207874906
+Ending Time = 05:39:08.445099
+Execution Time = 0.241458 sec
+
+2024-04-03 05:39:08,453 - ThreadPoolExecutor-24_6 
+Beginning Time = 05:39:08.362729
+params: <built-in function cos>, 1.4451326206513049, 1.5079644737231008, 400000  result:0.005912032025887063
+result:0.005912032025887063
+Ending Time = 05:39:08.443584
+Execution Time = 0.080855 sec
+
+2024-04-03 05:39:08,460 - ThreadPoolExecutor-24_9 
+Beginning Time = 05:39:08.393079
+params: <built-in function cos>, 1.5079644737231008, 1.5707963267948968, 400000  result:0.001973276503284251
+result:0.001973276503284251
+Ending Time = 05:39:08.460174
+Execution Time = 0.067095 sec
+
+2024-04-03 05:39:08,460 - MainThread 
+Integration result = 1.0000000785398118
+
+2024-04-03 05:39:08,460 - MainThread 
+Integration on 26 threads
+2024-04-03 05:39:08,495 - ThreadPoolExecutor-25_0 
+Beginning Time = 05:39:08.461091
+params: <built-in function cos>, 0.0, 0.06041524333826525, 384625  result:0.06037849756557322
+result:0.06037849756557322
+Ending Time = 05:39:08.495780
+Execution Time = 0.034689 sec
+
+2024-04-03 05:39:08,565 - ThreadPoolExecutor-25_6 
+Beginning Time = 05:39:08.521509
+params: <built-in function cos>, 0.42290670336785674, 0.483321946706122, 384625  result:0.05431036866785188
+result:0.05431036866785188
+Ending Time = 05:39:08.565784
+Execution Time = 0.044275 sec
+
+2024-04-03 05:39:08,574 - ThreadPoolExecutor-25_4 
+Beginning Time = 05:39:08.501008
+params: <built-in function cos>, 0.241660973353061, 0.3020762166913262, 384625  result:0.05818739084160119
+result:0.05818739084160119
+Ending Time = 05:39:08.574234
+Execution Time = 0.073226 sec
+
+2024-04-03 05:39:08,587 - ThreadPoolExecutor-25_0 
+Beginning Time = 05:39:08.506062
+params: <built-in function cos>, 0.3020762166913262, 0.3624914600295915, 384625  result:0.05710183473489179
+result:0.05710183473489179
+Ending Time = 05:39:08.587900
+Execution Time = 0.081838 sec
+
+2024-04-03 05:39:08,592 - ThreadPoolExecutor-25_2 
+Beginning Time = 05:39:08.481465
+params: <built-in function cos>, 0.1208304866765305, 0.18124573001479574, 384625  result:0.059718358272410774
+result:0.059718358272410774
+Ending Time = 05:39:08.592058
+Execution Time = 0.110593 sec
+
+2024-04-03 05:39:08,641 - ThreadPoolExecutor-25_5 
+Beginning Time = 05:39:08.516321
+params: <built-in function cos>, 0.3624914600295915, 0.42290670336785674, 384625  result:0.055807920225733915
+result:0.055807920225733915
+Ending Time = 05:39:08.641139
+Execution Time = 0.124818 sec
+
+2024-04-03 05:39:08,651 - ThreadPoolExecutor-25_3 
+Beginning Time = 05:39:08.486557
+params: <built-in function cos>, 0.18124573001479574, 0.241660973353061, 384625  result:0.05906062746936138
+result:0.05906062746936138
+Ending Time = 05:39:08.651594
+Execution Time = 0.165037 sec
+
+2024-04-03 05:39:08,690 - ThreadPoolExecutor-25_8 
+Beginning Time = 05:39:08.602442
+params: <built-in function cos>, 0.5437371900443873, 0.6041524333826525, 384625  result:0.050726935129337694
+result:0.050726935129337694
+Ending Time = 05:39:08.690341
+Execution Time = 0.087899 sec
+
+2024-04-03 05:39:08,729 - ThreadPoolExecutor-25_5 
+Beginning Time = 05:39:08.641198
+params: <built-in function cos>, 0.7853981633974483, 0.8458134067357135, 384625  result:0.04140397043897274
+result:0.04140397043897274
+Ending Time = 05:39:08.729446
+Execution Time = 0.088248 sec
+
+2024-04-03 05:39:08,735 - ThreadPoolExecutor-25_8 
+Beginning Time = 05:39:08.690391
+params: <built-in function cos>, 0.966643893412244, 1.0270591367505093, 384625  result:0.032797410391775784
+result:0.032797410391775784
+Ending Time = 05:39:08.735002
+Execution Time = 0.044611 sec
+
+2024-04-03 05:39:08,738 - ThreadPoolExecutor-25_3 
+Beginning Time = 05:39:08.661816
+params: <built-in function cos>, 0.9062286500739788, 0.966643893412244, 384625  result:0.035800389105797
+result:0.035800389105797
+Ending Time = 05:39:08.738956
+Execution Time = 0.07714 sec
+
+2024-04-03 05:39:08,742 - ThreadPoolExecutor-25_1 
+Beginning Time = 05:39:08.471303
+params: <built-in function cos>, 0.06041524333826525, 0.1208304866765305, 384625  result:0.06015818326237933
+result:0.06015818326237933
+Ending Time = 05:39:08.742529
+Execution Time = 0.271226 sec
+
+2024-04-03 05:39:08,766 - ThreadPoolExecutor-25_10 
+Beginning Time = 05:39:08.622820
+params: <built-in function cos>, 0.724982920059183, 0.7853981633974483, 384625  result:0.043984126197529866
+result:0.043984126197529866
+Ending Time = 05:39:08.766898
+Execution Time = 0.144078 sec
+
+2024-04-03 05:39:08,769 - ThreadPoolExecutor-25_6 
+Beginning Time = 05:39:08.656756
+params: <built-in function cos>, 0.8458134067357135, 0.9062286500739788, 384625  result:0.038672736082403084
+result:0.038672736082403084
+Ending Time = 05:39:08.769862
+Execution Time = 0.113106 sec
+
+2024-04-03 05:39:08,793 - ThreadPoolExecutor-25_2 
+Beginning Time = 05:39:08.617757
+params: <built-in function cos>, 0.6645676767209178, 0.724982920059183, 384625  result:0.04640378864952693
+result:0.04640378864952693
+Ending Time = 05:39:08.793428
+Execution Time = 0.175671 sec
+
+2024-04-03 05:39:08,796 - ThreadPoolExecutor-25_9 
+Beginning Time = 05:39:08.612649
+params: <built-in function cos>, 0.6041524333826525, 0.6645676767209178, 384625  result:0.0486541287090727
+result:0.0486541287090727
+Ending Time = 05:39:08.796167
+Execution Time = 0.183518 sec
+
+2024-04-03 05:39:08,835 - ThreadPoolExecutor-25_0 
+Beginning Time = 05:39:08.796249
+params: <built-in function cos>, 1.1478896234270397, 1.208304866765305, 384625  result:0.023116401076358747
+result:0.023116401076358747
+Ending Time = 05:39:08.835151
+Execution Time = 0.038902 sec
+
+2024-04-03 05:39:08,835 - ThreadPoolExecutor-25_5 
+Beginning Time = 05:39:08.729546
+params: <built-in function cos>, 1.0270591367505093, 1.0874743800887745, 384625  result:0.02967475748400373
+result:0.02967475748400373
+Ending Time = 05:39:08.790626
+Execution Time = 0.06108 sec
+
+2024-04-03 05:39:08,885 - ThreadPoolExecutor-25_7 
+Beginning Time = 05:39:08.592188
+params: <built-in function cos>, 0.483321946706122, 0.5437371900443873, 384625  result:0.052614644464479006
+result:0.052614644464479006
+Ending Time = 05:39:08.885093
+Execution Time = 0.292905 sec
+
+2024-04-03 05:39:08,894 - ThreadPoolExecutor-25_6 
+Beginning Time = 05:39:08.846424
+params: <built-in function cos>, 1.3291353534418355, 1.3895505967801007, 384625  result:0.012678094159586518
+result:0.012678094159586518
+Ending Time = 05:39:08.894754
+Execution Time = 0.04833 sec
+
+2024-04-03 05:39:08,912 - ThreadPoolExecutor-25_12 
+Beginning Time = 05:39:08.780501
+params: <built-in function cos>, 1.0874743800887745, 1.1478896234270397, 384625  result:0.02644382460429986
+result:0.02644382460429986
+Ending Time = 05:39:08.912339
+Execution Time = 0.131838 sec
+
+2024-04-03 05:39:08,921 - ThreadPoolExecutor-25_4 
+Beginning Time = 05:39:08.801394
+params: <built-in function cos>, 1.208304866765305, 1.2687201101035703, 384625  result:0.019704628307786555
+result:0.019704628307786555
+Ending Time = 05:39:08.920985
+Execution Time = 0.119591 sec
+
+2024-04-03 05:39:08,929 - ThreadPoolExecutor-25_8 
+Beginning Time = 05:39:08.826791
+params: <built-in function cos>, 1.2687201101035703, 1.3291353534418355, 384625  result:0.016220955487419253
+result:0.016220955487419253
+Ending Time = 05:39:08.929198
+Execution Time = 0.102407 sec
+
+2024-04-03 05:39:08,931 - ThreadPoolExecutor-25_3 
+Beginning Time = 05:39:08.861592
+params: <built-in function cos>, 1.3895505967801007, 1.449965840118366, 384625  result:0.009088971841062247
+result:0.009088971841062247
+Ending Time = 05:39:08.931514
+Execution Time = 0.069922 sec
+
+2024-04-03 05:39:08,940 - ThreadPoolExecutor-25_11 
+Beginning Time = 05:39:08.871671
+params: <built-in function cos>, 1.5103810834566311, 1.5707963267948966, 384625  result:0.0018244505186800434
+result:0.0018244505186800434
+Ending Time = 05:39:08.940474
+Execution Time = 0.068803 sec
+
+2024-04-03 05:39:08,955 - ThreadPoolExecutor-25_1 
+Beginning Time = 05:39:08.866619
+params: <built-in function cos>, 1.449965840118366, 1.5103810834566311, 384625  result:0.0054666848499578665
+result:0.0054666848499578665
+Ending Time = 05:39:08.955597
+Execution Time = 0.088978 sec
+
+2024-04-03 05:39:08,956 - MainThread 
+Integration result = 1.0000000785378529
+
+2024-04-03 05:39:08,956 - MainThread 
+Integration on 27 threads
+2024-04-03 05:39:09,015 - ThreadPoolExecutor-26_1 
+Beginning Time = 05:39:08.961483
+params: <built-in function cos>, 0.05817764173314432, 0.11635528346628864, 370380  result:0.057948085612925464
+result:0.057948085612925464
+Ending Time = 05:39:09.015501
+Execution Time = 0.054018 sec
+
+2024-04-03 05:39:09,038 - ThreadPoolExecutor-26_0 
+Beginning Time = 05:39:08.956340
+params: <built-in function cos>, 0.0, 0.05817764173314432, 370380  result:0.058144829043349465
+result:0.058144829043349465
+Ending Time = 05:39:09.038193
+Execution Time = 0.081853 sec
+
+2024-04-03 05:39:09,051 - ThreadPoolExecutor-26_3 
+Beginning Time = 05:39:08.996985
+params: <built-in function cos>, 0.17453292519943295, 0.23271056693257727, 370380  result:0.056967693999339125
+result:0.056967693999339125
+Ending Time = 05:39:09.051430
+Execution Time = 0.054445 sec
+
+2024-04-03 05:39:09,058 - ThreadPoolExecutor-26_2 
+Beginning Time = 05:39:08.976726
+params: <built-in function cos>, 0.11635528346628864, 0.17453292519943295, 370380  result:0.05755526420381966
+result:0.05755526420381966
+Ending Time = 05:39:09.058100
+Execution Time = 0.081374 sec
+
+2024-04-03 05:39:09,102 - ThreadPoolExecutor-26_3 
+Beginning Time = 05:39:09.068543
+params: <built-in function cos>, 0.46542113386515455, 0.5235987755982988, 370380  result:0.05120082196774912
+result:0.05120082196774912
+Ending Time = 05:39:09.102645
+Execution Time = 0.034102 sec
+
+2024-04-03 05:39:09,115 - ThreadPoolExecutor-26_4 
+Beginning Time = 05:39:09.007236
+params: <built-in function cos>, 0.23271056693257727, 0.29088820866572157, 370380  result:0.056187363151063575
+result:0.056187363151063575
+Ending Time = 05:39:09.115898
+Execution Time = 0.108662 sec
+
+2024-04-03 05:39:09,134 - ThreadPoolExecutor-26_2 
+Beginning Time = 05:39:09.073600
+params: <built-in function cos>, 0.5235987755982988, 0.5817764173314431, 370380  result:0.049508980469161204
+result:0.049508980469161204
+Ending Time = 05:39:09.134450
+Execution Time = 0.06085 sec
+
+2024-04-03 05:39:09,137 - ThreadPoolExecutor-26_0 
+Beginning Time = 05:39:09.043382
+params: <built-in function cos>, 0.3490658503988659, 0.4072434921320102, 370380  result:0.054059624400205
+result:0.054059624400205
+Ending Time = 05:39:09.137743
+Execution Time = 0.094361 sec
+
+2024-04-03 05:39:09,145 - ThreadPoolExecutor-26_5 
+Beginning Time = 05:39:09.032597
+params: <built-in function cos>, 0.29088820866572157, 0.3490658503988659, 370380  result:0.05521691205157673
+result:0.05521691205157673
+Ending Time = 05:39:09.145831
+Execution Time = 0.113234 sec
+
+2024-04-03 05:39:09,169 - ThreadPoolExecutor-26_3 
+Beginning Time = 05:39:09.107870
+params: <built-in function cos>, 0.5817764173314431, 0.6399540590645875, 370380  result:0.04764961625236329
+result:0.04764961625236329
+Ending Time = 05:39:09.169486
+Execution Time = 0.061616 sec
+
+2024-04-03 05:39:09,207 - ThreadPoolExecutor-26_7 
+Beginning Time = 05:39:09.151203
+params: <built-in function cos>, 0.6399540590645875, 0.6981317007977318, 370380  result:0.0456290208172977
+result:0.0456290208172977
+Ending Time = 05:39:09.207064
+Execution Time = 0.055861 sec
+
+2024-04-03 05:39:09,218 - ThreadPoolExecutor-26_1 
+Beginning Time = 05:39:09.063446
+params: <built-in function cos>, 0.4072434921320102, 0.46542113386515455, 370380  result:0.052719416092037015
+result:0.052719416092037015
+Ending Time = 05:39:09.218524
+Execution Time = 0.155078 sec
+
+2024-04-03 05:39:09,231 - ThreadPoolExecutor-26_4 
+Beginning Time = 05:39:09.169541
+params: <built-in function cos>, 0.6981317007977318, 0.7563093425308761, 370380  result:0.04345403121931242
+result:0.04345403121931242
+Ending Time = 05:39:09.231473
+Execution Time = 0.061932 sec
+
+2024-04-03 05:39:09,275 - ThreadPoolExecutor-26_0 
+Beginning Time = 05:39:09.189853
+params: <built-in function cos>, 0.8726646259971648, 0.9308422677303091, 370380  result:0.03607875321966783
+result:0.03607875321966783
+Ending Time = 05:39:09.275078
+Execution Time = 0.085225 sec
+
+2024-04-03 05:39:09,278 - ThreadPoolExecutor-26_3 
+Beginning Time = 05:39:09.174605
+params: <built-in function cos>, 0.7563093425308761, 0.8144869842640204, 370380  result:0.04113200693473051
+result:0.04113200693473051
+Ending Time = 05:39:09.278074
+Execution Time = 0.103469 sec
+
+2024-04-03 05:39:09,287 - ThreadPoolExecutor-26_7 
+Beginning Time = 05:39:09.207141
+params: <built-in function cos>, 0.9308422677303091, 0.9890199094634534, 370380  result:0.03336462240018797
+result:0.03336462240018797
+Ending Time = 05:39:09.287948
+Execution Time = 0.080807 sec
+
+2024-04-03 05:39:09,332 - ThreadPoolExecutor-26_8 
+Beginning Time = 05:39:09.241941
+params: <built-in function cos>, 0.9890199094634534, 1.0471975511965976, 370380  result:0.03053759625982576
+result:0.03053759625982576
+Ending Time = 05:39:09.331987
+Execution Time = 0.090046 sec
+
+2024-04-03 05:39:09,359 - ThreadPoolExecutor-26_5 
+Beginning Time = 05:39:09.332047
+params: <built-in function cos>, 1.279908118129175, 1.3380857598623193, 370380  result:0.015055362677164806
+result:0.015055362677164806
+Ending Time = 05:39:09.359846
+Execution Time = 0.027799 sec
+
+2024-04-03 05:39:09,383 - ThreadPoolExecutor-26_7 
+Beginning Time = 05:39:09.313774
+params: <built-in function cos>, 1.2217304763960306, 1.279908118129175, 370380  result:0.018296895866193222
+result:0.018296895866193222
+Ending Time = 05:39:09.383193
+Execution Time = 0.069419 sec
+
+2024-04-03 05:39:09,413 - ThreadPoolExecutor-26_1 
+Beginning Time = 05:39:09.375301
+params: <built-in function cos>, 1.3962634015954636, 1.454441043328608, 370380  result:0.00843060924999728
+result:0.00843060924999728
+Ending Time = 05:39:09.413164
+Execution Time = 0.037863 sec
+
+2024-04-03 05:39:09,415 - ThreadPoolExecutor-26_2 
+Beginning Time = 05:39:09.184716
+params: <built-in function cos>, 0.8144869842640204, 0.8726646259971648, 370380  result:0.0386708049587122
+result:0.0386708049587122
+Ending Time = 05:39:09.415694
+Execution Time = 0.230978 sec
+
+2024-04-03 05:39:09,418 - ThreadPoolExecutor-26_8 
+Beginning Time = 05:39:09.337168
+params: <built-in function cos>, 1.3380857598623193, 1.3962634015954636, 370380  result:0.011762886906500217
+result:0.011762886906500217
+Ending Time = 05:39:09.418133
+Execution Time = 0.080965 sec
+
+2024-04-03 05:39:09,426 - ThreadPoolExecutor-26_0 
+Beginning Time = 05:39:09.278169
+params: <built-in function cos>, 1.105375192929742, 1.1635528346628863, 370380  result:0.024583470697327296
+result:0.024583470697327296
+Ending Time = 05:39:09.426391
+Execution Time = 0.148222 sec
+
+2024-04-03 05:39:09,428 - ThreadPoolExecutor-26_3 
+Beginning Time = 05:39:09.293347
+params: <built-in function cos>, 1.1635528346628863, 1.2217304763960306, 370380  result:0.021476518151356334
+result:0.021476518151356334
+Ending Time = 05:39:09.428883
+Execution Time = 0.135536 sec
+
+2024-04-03 05:39:09,439 - ThreadPoolExecutor-26_7 
+Beginning Time = 05:39:09.383253
+params: <built-in function cos>, 1.454441043328608, 1.5126186850617522, 370380  result:0.005069805080438595
+result:0.005069805080438595
+Ending Time = 05:39:09.439418
+Execution Time = 0.056165 sec
+
+2024-04-03 05:39:09,447 - ThreadPoolExecutor-26_9 
+Beginning Time = 05:39:09.257254
+params: <built-in function cos>, 1.0471975511965976, 1.105375192929742, 370380  result:0.02760724056017241
+result:0.02760724056017241
+Ending Time = 05:39:09.447482
+Execution Time = 0.190228 sec
+
+2024-04-03 05:39:09,449 - ThreadPoolExecutor-26_4 
+Beginning Time = 05:39:09.405684
+params: <built-in function cos>, 1.5126186850617522, 1.5707963267948966, 370380  result:0.001691846295297264
+result:0.001691846295297264
+Ending Time = 05:39:09.449714
+Execution Time = 0.04403 sec
+
+2024-04-03 05:39:09,450 - MainThread 
+Integration result = 1.0000000785377714
+
+2024-04-03 05:39:09,450 - MainThread 
+Integration on 28 threads
+2024-04-03 05:39:09,489 - ThreadPoolExecutor-27_0 
+Beginning Time = 05:39:09.450639
+params: <built-in function cos>, 0.0, 0.05609986881410345, 357166  result:0.056070447360741696
+result:0.056070447360741696
+Ending Time = 05:39:09.489102
+Execution Time = 0.038463 sec
+
+2024-04-03 05:39:09,501 - ThreadPoolExecutor-27_1 
+Beginning Time = 05:39:09.455874
+params: <built-in function cos>, 0.05609986881410345, 0.1121997376282069, 357166  result:0.05589402923637608
+result:0.05589402923637608
+Ending Time = 05:39:09.501028
+Execution Time = 0.045154 sec
+
+2024-04-03 05:39:09,503 - ThreadPoolExecutor-27_2 
+Beginning Time = 05:39:09.471268
+params: <built-in function cos>, 0.1121997376282069, 0.16829960644231035, 357166  result:0.05554174781723282
+result:0.05554174781723282
+Ending Time = 05:39:09.503534
+Execution Time = 0.032266 sec
+
+2024-04-03 05:39:09,555 - ThreadPoolExecutor-27_3 
+Beginning Time = 05:39:09.503808
+params: <built-in function cos>, 0.16829960644231035, 0.2243994752564138, 357166  result:0.055014711510992194
+result:0.055014711510992194
+Ending Time = 05:39:09.555501
+Execution Time = 0.051693 sec
+
+2024-04-03 05:39:09,561 - ThreadPoolExecutor-27_1 
+Beginning Time = 05:39:09.529264
+params: <built-in function cos>, 0.28049934407051724, 0.3365992128846207, 357166  result:0.05344355186807771
+result:0.05344355186807771
+Ending Time = 05:39:09.561880
+Execution Time = 0.032616 sec
+
+2024-04-03 05:39:09,563 - ThreadPoolExecutor-27_0 
+Beginning Time = 05:39:09.508856
+params: <built-in function cos>, 0.2243994752564138, 0.28049934407051724, 357166  result:0.054314578568853716
+result:0.054314578568853716
+Ending Time = 05:39:09.563196
+Execution Time = 0.05434 sec
+
+2024-04-03 05:39:09,578 - ThreadPoolExecutor-27_3 
+Beginning Time = 05:39:09.555575
+params: <built-in function cos>, 0.3365992128846207, 0.39269908169872414, 357166  result:0.0524043719809158
+result:0.0524043719809158
+Ending Time = 05:39:09.578189
+Execution Time = 0.022614 sec
+
+2024-04-03 05:39:09,698 - ThreadPoolExecutor-27_9 
+Beginning Time = 05:39:09.660482
+params: <built-in function cos>, 0.8975979010256552, 0.9536977698397586, 357166  result:0.03372939001104022
+result:0.03372939001104022
+Ending Time = 05:39:09.698808
+Execution Time = 0.038326 sec
+
+2024-04-03 05:39:09,722 - ThreadPoolExecutor-27_2 
+Beginning Time = 05:39:09.614539
+params: <built-in function cos>, 0.6731984257692414, 0.7292982945833448, 357166  result:0.04285677893538813
+result:0.04285677893538813
+Ending Time = 05:39:09.722747
+Execution Time = 0.108208 sec
+
+2024-04-03 05:39:09,734 - ThreadPoolExecutor-27_5 
+Beginning Time = 05:39:09.604345
+params: <built-in function cos>, 0.6170985569551379, 0.6731984257692414, 357166  result:0.04481850832785665
+result:0.04481850832785665
+Ending Time = 05:39:09.734864
+Execution Time = 0.130519 sec
+
+2024-04-03 05:39:09,741 - ThreadPoolExecutor-27_0 
+Beginning Time = 05:39:09.599252
+params: <built-in function cos>, 0.5609986881410345, 0.6170985569551379, 357166  result:0.046639222111872464
+result:0.046639222111872464
+Ending Time = 05:39:09.741851
+Execution Time = 0.142599 sec
+
+2024-04-03 05:39:09,742 - ThreadPoolExecutor-27_4 
+Beginning Time = 05:39:09.588930
+params: <built-in function cos>, 0.504898819326931, 0.5609986881410345, 357166  result:0.048313191648274745
+result:0.048313191648274745
+Ending Time = 05:39:09.742428
+Execution Time = 0.153498 sec
+
+2024-04-03 05:39:09,743 - ThreadPoolExecutor-27_3 
+Beginning Time = 05:39:09.578249
+params: <built-in function cos>, 0.39269908169872414, 0.4487989505128276, 357166  result:0.05120030855175004
+result:0.05120030855175004
+Ending Time = 05:39:09.743654
+Execution Time = 0.165405 sec
+
+2024-04-03 05:39:09,745 - ThreadPoolExecutor-27_8 
+Beginning Time = 05:39:09.640181
+params: <built-in function cos>, 0.8414980322115517, 0.8975979010256552, 357166  result:0.03618932095060978
+result:0.03618932095060978
+Ending Time = 05:39:09.745696
+Execution Time = 0.105515 sec
+
+2024-04-03 05:39:09,774 - ThreadPoolExecutor-27_6 
+Beginning Time = 05:39:09.619652
+params: <built-in function cos>, 0.7292982945833448, 0.7853981633974483, 357166  result:0.04076020626090985
+result:0.04076020626090985
+Ending Time = 05:39:09.774100
+Execution Time = 0.154448 sec
+
+2024-04-03 05:39:09,776 - ThreadPoolExecutor-27_7 
+Beginning Time = 05:39:09.629956
+params: <built-in function cos>, 0.7853981633974483, 0.8414980322115517, 357166  result:0.03853538689771023
+result:0.03853538689771023
+Ending Time = 05:39:09.776116
+Execution Time = 0.14616 sec
+
+2024-04-03 05:39:09,779 - ThreadPoolExecutor-27_1 
+Beginning Time = 05:39:09.578663
+params: <built-in function cos>, 0.4487989505128276, 0.504898819326931, 357166  result:0.04983515000959479
+result:0.04983515000959479
+Ending Time = 05:39:09.779628
+Execution Time = 0.200965 sec
+
+2024-04-03 05:39:09,782 - ThreadPoolExecutor-27_10 
+Beginning Time = 05:39:09.670679
+params: <built-in function cos>, 0.9536977698397586, 1.009797638653862, 357166  result:0.031163333931822405
+result:0.031163333931822405
+Ending Time = 05:39:09.782368
+Execution Time = 0.111689 sec
+
+2024-04-03 05:39:09,815 - ThreadPoolExecutor-27_4 
+Beginning Time = 05:39:09.782530
+params: <built-in function cos>, 1.121997376282069, 1.1780972450961724, 357166  result:0.02291066862987027
+result:0.02291066862987027
+Ending Time = 05:39:09.815354
+Execution Time = 0.032824 sec
+
+2024-04-03 05:39:09,832 - ThreadPoolExecutor-27_11 
+Beginning Time = 05:39:09.767205
+params: <built-in function cos>, 1.0658975074679655, 1.121997376282069, 357166  result:0.025745449907454445
+result:0.025745449907454445
+Ending Time = 05:39:09.832399
+Execution Time = 0.065194 sec
+
+2024-04-03 05:39:09,875 - ThreadPoolExecutor-27_3 
+Beginning Time = 05:39:09.823038
+params: <built-in function cos>, 1.2902969827243793, 1.3463968515384828, 357166  result:0.014010594502304559
+result:0.014010594502304559
+Ending Time = 05:39:09.875188
+Execution Time = 0.05215 sec
+
+2024-04-03 05:39:09,883 - ThreadPoolExecutor-27_9 
+Beginning Time = 05:39:09.762089
+params: <built-in function cos>, 1.009797638653862, 1.0658975074679655, 357166  result:0.02849922647473272
+result:0.02849922647473272
+Ending Time = 05:39:09.883406
+Execution Time = 0.121317 sec
+
+2024-04-03 05:39:09,885 - ThreadPoolExecutor-27_2 
+Beginning Time = 05:39:09.807831
+params: <built-in function cos>, 1.2341971139102759, 1.2902969827243793, 357166  result:0.01703399583390674
+result:0.01703399583390674
+Ending Time = 05:39:09.885391
+Execution Time = 0.07756 sec
+
+2024-04-03 05:39:09,908 - ThreadPoolExecutor-27_12 
+Beginning Time = 05:39:09.787586
+params: <built-in function cos>, 1.1780972450961724, 1.2341971139102759, 357166  result:0.020003801912644077
+result:0.020003801912644077
+Ending Time = 05:39:09.908288
+Execution Time = 0.120702 sec
+
+2024-04-03 05:39:09,930 - ThreadPoolExecutor-27_13 
+Beginning Time = 05:39:09.853919
+params: <built-in function cos>, 1.3463968515384828, 1.4024967203525862, 357166  result:0.01094311065697767
+result:0.01094311065697767
+Ending Time = 05:39:09.930858
+Execution Time = 0.076939 sec
+
+2024-04-03 05:39:09,938 - ThreadPoolExecutor-27_14 
+Beginning Time = 05:39:09.869288
+params: <built-in function cos>, 1.4024967203525862, 1.4585965891666897, 357166  result:0.007841195736962486
+result:0.007841195736962486
+Ending Time = 05:39:09.938780
+Execution Time = 0.069492 sec
+
+2024-04-03 05:39:09,948 - ThreadPoolExecutor-27_5 
+Beginning Time = 05:39:09.890496
+params: <built-in function cos>, 1.514696457980793, 1.5707963267948966, 357166  result:0.0015731893856606868
+result:0.0015731893856606868
+Ending Time = 05:39:09.948575
+Execution Time = 0.058079 sec
+
+2024-04-03 05:39:09,948 - ThreadPoolExecutor-27_0 
+Beginning Time = 05:39:09.885437
+params: <built-in function cos>, 1.4585965891666897, 1.514696457980793, 357166  result:0.004714609514196212
+result:0.004714609514196212
+Ending Time = 05:39:09.946241
+Execution Time = 0.060804 sec
+
+2024-04-03 05:39:09,949 - MainThread 
+Integration result = 1.000000078534729
+
+2024-04-03 05:39:09,949 - MainThread 
+Integration on 29 threads
+2024-04-03 05:39:10,070 - ThreadPoolExecutor-28_0 
+Beginning Time = 05:39:09.950004
+params: <built-in function cos>, 0.0, 0.054165390579134366, 344844  result:0.05413890870059757
+result:0.05413890870059757
+Ending Time = 05:39:10.070101
+Execution Time = 0.120097 sec
+
+2024-04-03 05:39:10,105 - ThreadPoolExecutor-28_3 
+Beginning Time = 05:39:09.970419
+params: <built-in function cos>, 0.1624961717374031, 0.21666156231653746, 344844  result:0.05318844445979668
+result:0.05318844445979668
+Ending Time = 05:39:10.105148
+Execution Time = 0.134729 sec
+
+2024-04-03 05:39:10,109 - ThreadPoolExecutor-28_1 
+Beginning Time = 05:39:09.955087
+params: <built-in function cos>, 0.054165390579134366, 0.10833078115826873, 344844  result:0.05398011018372696
+result:0.05398011018372696
+Ending Time = 05:39:10.109703
+Execution Time = 0.154616 sec
+
+2024-04-03 05:39:10,117 - ThreadPoolExecutor-28_2 
+Beginning Time = 05:39:09.960191
+params: <built-in function cos>, 0.10833078115826873, 0.1624961717374031, 344844  result:0.0536629787030326
+result:0.0536629787030326
+Ending Time = 05:39:10.117302
+Execution Time = 0.157111 sec
+
+2024-04-03 05:39:10,134 - ThreadPoolExecutor-28_8 
+Beginning Time = 05:39:10.051905
+params: <built-in function cos>, 0.43332312463307493, 0.4874885152122093, 344844  result:0.04851934102936903
+result:0.04851934102936903
+Ending Time = 05:39:10.134426
+Execution Time = 0.082521 sec
+
+2024-04-03 05:39:10,162 - ThreadPoolExecutor-28_5 
+Beginning Time = 05:39:09.990960
+params: <built-in function cos>, 0.2708269528956718, 0.3249923434748062, 344844  result:0.05177319285523316
+result:0.05177319285523316
+Ending Time = 05:39:10.162917
+Execution Time = 0.171957 sec
+
+2024-04-03 05:39:10,167 - ThreadPoolExecutor-28_4 
+Beginning Time = 05:39:09.980622
+params: <built-in function cos>, 0.21666156231653746, 0.2708269528956718, 344844  result:0.05255789934470758
+result:0.05255789934470758
+Ending Time = 05:39:10.167561
+Execution Time = 0.186939 sec
+
+2024-04-03 05:39:10,209 - ThreadPoolExecutor-28_4 
+Beginning Time = 05:39:10.177790
+params: <built-in function cos>, 0.7583154681078811, 0.8124808586870155, 344844  result:0.03829603607732758
+result:0.03829603607732758
+Ending Time = 05:39:10.209678
+Execution Time = 0.031888 sec
+
+2024-04-03 05:39:10,215 - ThreadPoolExecutor-28_10 
+Beginning Time = 05:39:10.172733
+params: <built-in function cos>, 0.7041500775287468, 0.7583154681078811, 344844  result:0.040313176911975744
+result:0.040313176911975744
+Ending Time = 05:39:10.215015
+Execution Time = 0.042282 sec
+
+2024-04-03 05:39:10,230 - ThreadPoolExecutor-28_6 
+Beginning Time = 05:39:10.036628
+params: <built-in function cos>, 0.3249923434748062, 0.37915773405394054, 344844  result:0.050836626670710164
+result:0.050836626670710164
+Ending Time = 05:39:10.230371
+Execution Time = 0.193743 sec
+
+2024-04-03 05:39:10,241 - ThreadPoolExecutor-28_7 
+Beginning Time = 05:39:10.046823
+params: <built-in function cos>, 0.37915773405394054, 0.43332312463307493, 344844  result:0.04975094790112194
+result:0.04975094790112194
+Ending Time = 05:39:10.241477
+Execution Time = 0.194654 sec
+
+2024-04-03 05:39:10,274 - ThreadPoolExecutor-28_4 
+Beginning Time = 05:39:10.209742
+params: <built-in function cos>, 0.8124808586870155, 0.8666462492661499, 344844  result:0.036166566370543315
+result:0.036166566370543315
+Ending Time = 05:39:10.274789
+Execution Time = 0.065047 sec
+
+2024-04-03 05:39:10,278 - ThreadPoolExecutor-28_11 
+Beginning Time = 05:39:10.246788
+params: <built-in function cos>, 0.8666462492661499, 0.9208116398452842, 344844  result:0.03393101389317755
+result:0.03393101389317755
+Ending Time = 05:39:10.278486
+Execution Time = 0.031698 sec
+
+2024-04-03 05:39:10,289 - ThreadPoolExecutor-28_1 
+Beginning Time = 05:39:10.134553
+params: <built-in function cos>, 0.5416539057913436, 0.595819296370478, 344844  result:0.04563321047611403
+result:0.04563321047611403
+Ending Time = 05:39:10.289167
+Execution Time = 0.154614 sec
+
+2024-04-03 05:39:10,319 - ThreadPoolExecutor-28_5 
+Beginning Time = 05:39:10.167641
+params: <built-in function cos>, 0.6499846869496124, 0.7041500775287468, 344844  result:0.04221207225287171
+result:0.04221207225287171
+Ending Time = 05:39:10.319621
+Execution Time = 0.15198 sec
+
+2024-04-03 05:39:10,351 - ThreadPoolExecutor-28_4 
+Beginning Time = 05:39:10.274851
+params: <built-in function cos>, 0.9208116398452842, 0.9749770304244186, 344844  result:0.03159593590582445
+result:0.03159593590582445
+Ending Time = 05:39:10.351632
+Execution Time = 0.076781 sec
+
+2024-04-03 05:39:10,373 - ThreadPoolExecutor-28_13 
+Beginning Time = 05:39:10.292665
+params: <built-in function cos>, 1.1374732021618217, 1.191638592740956, 344844  result:0.021401304053078527
+result:0.021401304053078527
+Ending Time = 05:39:10.373685
+Execution Time = 0.08102 sec
+
+2024-04-03 05:39:10,421 - ThreadPoolExecutor-28_8 
+Beginning Time = 05:39:10.394004
+params: <built-in function cos>, 1.4624655456366278, 1.5166309362157622, 344844  result:0.004395460936150337
+result:0.004395460936150337
+Ending Time = 05:39:10.421442
+Execution Time = 0.027438 sec
+
+2024-04-03 05:39:10,442 - ThreadPoolExecutor-28_2 
+Beginning Time = 05:39:10.139700
+params: <built-in function cos>, 0.595819296370478, 0.6499846869496124, 344844  result:0.043987152312803104
+result:0.043987152312803104
+Ending Time = 05:39:10.442169
+Execution Time = 0.302469 sec
+
+2024-04-03 05:39:10,446 - ThreadPoolExecutor-28_0 
+Beginning Time = 05:39:10.399073
+params: <built-in function cos>, 1.5166309362157622, 1.5707963267948966, 344844  result:0.0014665904007336876
+result:0.0014665904007336876
+Ending Time = 05:39:10.446834
+Execution Time = 0.047761 sec
+
+2024-04-03 05:39:10,466 - ThreadPoolExecutor-28_9 
+Beginning Time = 05:39:10.127913
+params: <built-in function cos>, 0.4874885152122093, 0.5416539057913436, 344844  result:0.04714541857059866
+result:0.04714541857059866
+Ending Time = 05:39:10.466126
+Execution Time = 0.338213 sec
+
+2024-04-03 05:39:10,474 - ThreadPoolExecutor-28_13 
+Beginning Time = 05:39:10.378831
+params: <built-in function cos>, 1.4083001550574936, 1.4624655456366278, 344844  result:0.007311438827313319
+result:0.007311438827313319
+Ending Time = 05:39:10.474864
+Execution Time = 0.096033 sec
+
+2024-04-03 05:39:10,569 - ThreadPoolExecutor-28_14 
+Beginning Time = 05:39:10.302911
+params: <built-in function cos>, 1.191638592740956, 1.2458039833200905, 344844  result:0.01867645535852055
+result:0.01867645535852055
+Ending Time = 05:39:10.568968
+Execution Time = 0.266057 sec
+
+2024-04-03 05:39:10,605 - ThreadPoolExecutor-28_11 
+Beginning Time = 05:39:10.278551
+params: <built-in function cos>, 0.9749770304244186, 1.029142421003553, 344844  result:0.029168181594552006
+result:0.029168181594552006
+Ending Time = 05:39:10.605085
+Execution Time = 0.326534 sec
+
+2024-04-03 05:39:10,607 - ThreadPoolExecutor-28_1 
+Beginning Time = 05:39:10.289234
+params: <built-in function cos>, 1.0833078115826873, 1.1374732021618217, 344844  result:0.02406337903545245
+result:0.02406337903545245
+Ending Time = 05:39:10.607861
+Execution Time = 0.318627 sec
+
+2024-04-03 05:39:10,610 - ThreadPoolExecutor-28_3 
+Beginning Time = 05:39:10.373746
+params: <built-in function cos>, 1.3541347644783592, 1.4083001550574936, 344844  result:0.010205971008651045
+result:0.010205971008651045
+Ending Time = 05:39:10.610863
+Execution Time = 0.237117 sec
+
+2024-04-03 05:39:10,617 - ThreadPoolExecutor-28_12 
+Beginning Time = 05:39:10.282450
+params: <built-in function cos>, 1.029142421003553, 1.0833078115826873, 344844  result:0.02665487198104954
+result:0.02665487198104954
+Ending Time = 05:39:10.617422
+Execution Time = 0.334972 sec
+
+2024-04-03 05:39:10,621 - ThreadPoolExecutor-28_5 
+Beginning Time = 05:39:10.324762
+params: <built-in function cos>, 1.2458039833200905, 1.2999693738992248, 344844  result:0.01589682540248408
+result:0.01589682540248408
+Ending Time = 05:39:10.621825
+Execution Time = 0.297063 sec
+
+2024-04-03 05:39:10,623 - ThreadPoolExecutor-28_4 
+Beginning Time = 05:39:10.356772
+params: <built-in function cos>, 1.2999693738992248, 1.3541347644783592, 344844  result:0.01307056731855522
+result:0.01307056731855522
+Ending Time = 05:39:10.623857
+Execution Time = 0.267085 sec
+
+2024-04-03 05:39:10,626 - MainThread 
+Integration result = 1.0000000785360725
+
+2024-04-03 05:39:10,626 - MainThread 
+Integration on 30 threads
+2024-04-03 05:39:10,770 - ThreadPoolExecutor-29_1 
+Beginning Time = 05:39:10.636698
+params: <built-in function cos>, 0.05235987755982988, 0.10471975511965977, 333343  result:0.05219250734731178
+result:0.05219250734731178
+Ending Time = 05:39:10.770343
+Execution Time = 0.133645 sec
+
+2024-04-03 05:39:11,122 - ThreadPoolExecutor-29_1 
+Beginning Time = 05:39:11.056040
+params: <built-in function cos>, 1.361356816555577, 1.413716694115407, 333343  result:0.0095407439042266
+result:0.0095407439042266
+Ending Time = 05:39:11.122898
+Execution Time = 0.066858 sec
+
+2024-04-03 05:39:11,177 - ThreadPoolExecutor-29_13 
+Beginning Time = 05:39:10.853854
+params: <built-in function cos>, 0.6806784082777885, 0.7330382858376183, 333343  result:0.039810217979386324
+result:0.039810217979386324
+Ending Time = 05:39:11.177485
+Execution Time = 0.323631 sec
+
+2024-04-03 05:39:11,179 - ThreadPoolExecutor-29_15 
+Beginning Time = 05:39:10.874666
+params: <built-in function cos>, 0.7853981633974483, 0.8377580409572781, 333343  result:0.03603804727340167
+result:0.03603804727340167
+Ending Time = 05:39:11.178957
+Execution Time = 0.304291 sec
+
+2024-04-03 05:39:11,221 - ThreadPoolExecutor-29_7 
+Beginning Time = 05:39:10.720406
+params: <built-in function cos>, 0.36651914291880916, 0.41887902047863906, 333343  result:0.048368695103996606
+result:0.048368695103996606
+Ending Time = 05:39:11.221041
+Execution Time = 0.500635 sec
+
+2024-04-03 05:39:11,261 - ThreadPoolExecutor-29_12 
+Beginning Time = 05:39:10.848578
+params: <built-in function cos>, 0.6283185307179586, 0.6806784082777885, 333343  result:0.041535141260438065
+result:0.041535141260438065
+Ending Time = 05:39:11.261685
+Execution Time = 0.413107 sec
+
+2024-04-03 05:39:11,264 - ThreadPoolExecutor-29_22 
+Beginning Time = 05:39:10.963269
+params: <built-in function cos>, 1.1519173063162573, 1.2042771838760873, 333343  result:0.020034972653358653
+result:0.020034972653358653
+Ending Time = 05:39:11.264173
+Execution Time = 0.300904 sec
+
+2024-04-03 05:39:11,302 - ThreadPoolExecutor-29_9 
+Beginning Time = 05:39:10.751405
+params: <built-in function cos>, 0.47123889803846897, 0.5235987755982988, 333343  result:0.04600950222240825
+result:0.04600950222240825
+Ending Time = 05:39:11.302220
+Execution Time = 0.550815 sec
+
+2024-04-03 05:39:11,406 - ThreadPoolExecutor-29_4 
+Beginning Time = 05:39:10.678696
+params: <built-in function cos>, 0.20943951023931953, 0.2617993877991494, 333343  result:0.050907355244628354
+result:0.050907355244628354
+Ending Time = 05:39:11.406341
+Execution Time = 0.727645 sec
+
+2024-04-03 05:39:11,413 - ThreadPoolExecutor-29_8 
+Beginning Time = 05:39:10.730900
+params: <built-in function cos>, 0.41887902047863906, 0.47123889803846897, 333343  result:0.047253858433898906
+result:0.047253858433898906
+Ending Time = 05:39:11.413603
+Execution Time = 0.682703 sec
+
+2024-04-03 05:39:11,432 - ThreadPoolExecutor-29_2 
+Beginning Time = 05:39:10.652276
+params: <built-in function cos>, 0.10471975511965977, 0.15707963267948966, 333343  result:0.05190600230926734
+result:0.05190600230926734
+Ending Time = 05:39:11.431974
+Execution Time = 0.779698 sec
+
+2024-04-03 05:39:11,436 - ThreadPoolExecutor-29_10 
+Beginning Time = 05:39:10.822698
+params: <built-in function cos>, 0.5235987755982988, 0.5759586531581287, 333343  result:0.04463903716340894
+result:0.04463903716340894
+Ending Time = 05:39:11.436684
+Execution Time = 0.613986 sec
+
+2024-04-03 05:39:11,463 - ThreadPoolExecutor-29_18 
+Beginning Time = 05:39:10.906035
+params: <built-in function cos>, 0.9424777960769379, 0.9948376736367678, 333343  result:0.029653576959074536
+result:0.029653576959074536
+Ending Time = 05:39:11.463568
+Execution Time = 0.557533 sec
+
+2024-04-03 05:39:11,466 - ThreadPoolExecutor-29_0 
+Beginning Time = 05:39:10.626424
+params: <built-in function cos>, 0.0, 0.05235987755982988, 333343  result:0.052335956350576106
+result:0.052335956350576106
+Ending Time = 05:39:11.466868
+Execution Time = 0.840444 sec
+
+2024-04-03 05:39:11,477 - ThreadPoolExecutor-29_16 
+Beginning Time = 05:39:10.880037
+params: <built-in function cos>, 0.8377580409572781, 0.890117918517108, 333343  result:0.03400113910617345
+result:0.03400113910617345
+Ending Time = 05:39:11.477418
+Execution Time = 0.597381 sec
+
+2024-04-03 05:39:11,490 - ThreadPoolExecutor-29_17 
+Beginning Time = 05:39:10.890532
+params: <built-in function cos>, 0.890117918517108, 0.9424777960769379, 333343  result:0.031871036180044075
+result:0.031871036180044075
+Ending Time = 05:39:11.490249
+Execution Time = 0.599717 sec
+
+2024-04-03 05:39:11,517 - ThreadPoolExecutor-29_3 
+Beginning Time = 05:39:10.662771
+params: <built-in function cos>, 0.15707963267948966, 0.20943951023931953, 333343  result:0.05147722652683468
+result:0.05147722652683468
+Ending Time = 05:39:11.517204
+Execution Time = 0.854433 sec
+
+2024-04-03 05:39:11,549 - ThreadPoolExecutor-29_6 
+Beginning Time = 05:39:10.699658
+params: <built-in function cos>, 0.3141592653589793, 0.36651914291880916, 333343  result:0.04935095654288213
+result:0.04935095654288213
+Ending Time = 05:39:11.548996
+Execution Time = 0.849338 sec
+
+2024-04-03 05:39:11,586 - ThreadPoolExecutor-29_5 
+Beginning Time = 05:39:10.689031
+params: <built-in function cos>, 0.2617993877991494, 0.3141592653589793, 333343  result:0.05019795044022563
+result:0.05019795044022563
+Ending Time = 05:39:11.586354
+Execution Time = 0.897323 sec
+
+2024-04-03 05:39:11,599 - ThreadPoolExecutor-29_20 
+Beginning Time = 05:39:10.932164
+params: <built-in function cos>, 1.0471975511965976, 1.0995574287564276, 333343  result:0.024981124017402087
+result:0.024981124017402087
+Ending Time = 05:39:11.599135
+Execution Time = 0.666971 sec
+
+2024-04-03 05:39:11,729 - ThreadPoolExecutor-29_23 
+Beginning Time = 05:39:10.978797
+params: <built-in function cos>, 1.2042771838760873, 1.2566370614359172, 333343  result:0.017476093673854005
+result:0.017476093673854005
+Ending Time = 05:39:11.729032
+Execution Time = 0.750235 sec
+
+2024-04-03 05:39:11,798 - ThreadPoolExecutor-29_1 
+Beginning Time = 05:39:11.570003
+params: <built-in function cos>, 1.413716694115407, 1.4660765716752366, 333343  result:0.006833558849705295
+result:0.006833558849705295
+Ending Time = 05:39:11.798565
+Execution Time = 0.228562 sec
+
+2024-04-03 05:39:11,807 - ThreadPoolExecutor-29_21 
+Beginning Time = 05:39:10.947713
+params: <built-in function cos>, 1.0995574287564276, 1.1519173063162573, 333343  result:0.02253893716543448
+result:0.02253893716543448
+Ending Time = 05:39:11.807181
+Execution Time = 0.859468 sec
+
+2024-04-03 05:39:11,819 - ThreadPoolExecutor-29_11 
+Beginning Time = 05:39:10.838212
+params: <built-in function cos>, 0.5759586531581287, 0.6283185307179586, 333343  result:0.04314621960636501
+result:0.04314621960636501
+Ending Time = 05:39:11.819623
+Execution Time = 0.981411 sec
+
+2024-04-03 05:39:11,828 - ThreadPoolExecutor-29_24 
+Beginning Time = 05:39:10.989083
+params: <built-in function cos>, 1.2566370614359172, 1.308996938995747, 333343  result:0.014869313936338412
+result:0.014869313936338412
+Ending Time = 05:39:11.828109
+Execution Time = 0.839026 sec
+
+2024-04-03 05:39:11,828 - ThreadPoolExecutor-29_19 
+Beginning Time = 05:39:10.916491
+params: <built-in function cos>, 0.9948376736367678, 1.0471975511965976, 333343  result:0.027354839344856042
+result:0.027354839344856042
+Ending Time = 05:39:11.828538
+Execution Time = 0.912047 sec
+
+2024-04-03 05:39:11,832 - ThreadPoolExecutor-29_25 
+Beginning Time = 05:39:10.999557
+params: <built-in function cos>, 1.308996938995747, 1.361356816555577, 333343  result:0.012221778442875853
+result:0.012221778442875853
+Ending Time = 05:39:11.832530
+Execution Time = 0.832973 sec
+
+2024-04-03 05:39:11,845 - ThreadPoolExecutor-29_14 
+Beginning Time = 05:39:10.864258
+params: <built-in function cos>, 0.7330382858376183, 0.7853981633974483, 333343  result:0.037976177658028486
+result:0.037976177658028486
+Ending Time = 05:39:11.845909
+Execution Time = 0.981651 sec
+
+2024-04-03 05:39:11,867 - ThreadPoolExecutor-29_26 
+Beginning Time = 05:39:11.591788
+params: <built-in function cos>, 1.4660765716752366, 1.5184364492350666, 333343  result:0.004107643485371601
+result:0.004107643485371601
+Ending Time = 05:39:11.867644
+Execution Time = 0.275856 sec
+
+2024-04-03 05:39:11,886 - ThreadPoolExecutor-29_13 
+Beginning Time = 05:39:11.729415
+params: <built-in function cos>, 1.5184364492350666, 1.5707963267948966, 333343  result:0.0013704693557633197
+result:0.0013704693557633197
+Ending Time = 05:39:11.886512
+Execution Time = 0.157097 sec
+
+2024-04-03 05:39:11,888 - MainThread 
+Integration result = 1.0000000785375367
+
+2024-04-03 05:39:11,888 - MainThread 
+Integration on 31 threads
+2024-04-03 05:39:11,966 - ThreadPoolExecutor-30_0 
+Beginning Time = 05:39:11.888832
+params: <built-in function cos>, 0.0, 0.050670849251448276, 322600  result:0.05064916893951136
+result:0.05064916893951136
+Ending Time = 05:39:11.966302
+Execution Time = 0.07747 sec
+
+2024-04-03 05:39:12,032 - ThreadPoolExecutor-30_2 
+Beginning Time = 05:39:11.909304
+params: <built-in function cos>, 0.10134169850289655, 0.15201254775434483, 322600  result:0.05025945601984718
+result:0.05025945601984718
+Ending Time = 05:39:12.032629
+Execution Time = 0.123325 sec
+
+2024-04-03 05:39:12,218 - ThreadPoolExecutor-30_5 
+Beginning Time = 05:39:12.008406
+params: <built-in function cos>, 0.2533542462572414, 0.30402509550868967, 322600  result:0.04871059180924952
+result:0.04871059180924952
+Ending Time = 05:39:12.217958
+Execution Time = 0.209552 sec
+
+2024-04-03 05:39:12,242 - ThreadPoolExecutor-30_3 
+Beginning Time = 05:39:11.971793
+params: <built-in function cos>, 0.15201254775434483, 0.2026833970057931, 322600  result:0.049870743286059276
+result:0.049870743286059276
+Ending Time = 05:39:12.242286
+Execution Time = 0.270493 sec
+
+2024-04-03 05:39:12,368 - ThreadPoolExecutor-30_1 
+Beginning Time = 05:39:11.893921
+params: <built-in function cos>, 0.050670849251448276, 0.10134169850289655, 322600  result:0.05051915345085831
+result:0.05051915345085831
+Ending Time = 05:39:12.368596
+Execution Time = 0.474675 sec
+
+2024-04-03 05:39:12,445 - ThreadPoolExecutor-30_8 
+Beginning Time = 05:39:12.111420
+params: <built-in function cos>, 0.4560376432630345, 0.5067084925144828, 322600  result:0.044907812815716965
+result:0.044907812815716965
+Ending Time = 05:39:12.445038
+Execution Time = 0.333618 sec
+
+2024-04-03 05:39:12,513 - ThreadPoolExecutor-30_7 
+Beginning Time = 05:39:12.090558
+params: <built-in function cos>, 0.4053667940115862, 0.4560376432630345, 322600  result:0.046038298105590035
+result:0.046038298105590035
+Ending Time = 05:39:12.513122
+Execution Time = 0.422564 sec
+
+2024-04-03 05:39:12,549 - ThreadPoolExecutor-30_6 
+Beginning Time = 05:39:12.059345
+params: <built-in function cos>, 0.35469594476013794, 0.4053667940115862, 322600  result:0.047050603744512844
+result:0.047050603744512844
+Ending Time = 05:39:12.544110
+Execution Time = 0.484765 sec
+
+2024-04-03 05:39:12,632 - ThreadPoolExecutor-30_5 
+Beginning Time = 05:39:12.223190
+params: <built-in function cos>, 0.6587210402688276, 0.7093918895202759, 322600  result:0.039266502689064925
+result:0.039266502689064925
+Ending Time = 05:39:12.632700
+Execution Time = 0.40951 sec
+
+2024-04-03 05:39:12,698 - ThreadPoolExecutor-30_9 
+Beginning Time = 05:39:12.147279
+params: <built-in function cos>, 0.5067084925144828, 0.5573793417659311, 322600  result:0.043662049814419124
+result:0.043662049814419124
+Ending Time = 05:39:12.698858
+Execution Time = 0.551579 sec
+
+2024-04-03 05:39:12,857 - ThreadPoolExecutor-30_13 
+Beginning Time = 05:39:12.346734
+params: <built-in function cos>, 0.7600627387717241, 0.8107335880231724, 322600  result:0.035825870967020376
+result:0.035825870967020376
+Ending Time = 05:39:12.857085
+Execution Time = 0.510351 sec
+
+2024-04-03 05:39:12,857 - ThreadPoolExecutor-30_4 
+Beginning Time = 05:39:11.987471
+params: <built-in function cos>, 0.2026833970057931, 0.2533542462572414, 322600  result:0.04935401306950887
+result:0.04935401306950887
+Ending Time = 05:39:12.857451
+Execution Time = 0.86998 sec
+
+2024-04-03 05:39:12,898 - ThreadPoolExecutor-30_2 
+Beginning Time = 05:39:12.193751
+params: <built-in function cos>, 0.6080501910173793, 0.6587210402688276, 322600  result:0.0408377698079567
+result:0.0408377698079567
+Ending Time = 05:39:12.898569
+Execution Time = 0.704818 sec
+
+2024-04-03 05:39:12,933 - ThreadPoolExecutor-30_10 
+Beginning Time = 05:39:12.188658
+params: <built-in function cos>, 0.5573793417659311, 0.6080501910173793, 322600  result:0.0423042069574525
+result:0.0423042069574525
+Ending Time = 05:39:12.932983
+Execution Time = 0.744325 sec
+
+2024-04-03 05:39:12,949 - ThreadPoolExecutor-30_8 
+Beginning Time = 05:39:12.445280
+params: <built-in function cos>, 0.912075286526069, 0.9627461357775172, 322600  result:0.02998770747677616
+result:0.02998770747677616
+Ending Time = 05:39:12.949391
+Execution Time = 0.504111 sec
+
+2024-04-03 05:39:12,953 - ThreadPoolExecutor-30_1 
+Beginning Time = 05:39:12.374180
+params: <built-in function cos>, 0.8614044372746207, 0.912075286526069, 322600  result:0.032017617328706026
+result:0.032017617328706026
+Ending Time = 05:39:12.953497
+Execution Time = 0.579317 sec
+
+2024-04-03 05:39:12,959 - ThreadPoolExecutor-30_0 
+Beginning Time = 05:39:12.013478
+params: <built-in function cos>, 0.30402509550868967, 0.35469594476013794, 322600  result:0.04794213115842785
+result:0.04794213115842785
+Ending Time = 05:39:12.959847
+Execution Time = 0.946369 sec
+
+2024-04-03 05:39:12,965 - ThreadPoolExecutor-30_12 
+Beginning Time = 05:39:12.325768
+params: <built-in function cos>, 0.7093918895202759, 0.7600627387717241, 322600  result:0.03759443902093518
+result:0.03759443902093518
+Ending Time = 05:39:12.965638
+Execution Time = 0.63987 sec
+
+2024-04-03 05:39:13,158 - ThreadPoolExecutor-30_7 
+Beginning Time = 05:39:12.981411
+params: <built-in function cos>, 1.1147586835318621, 1.1654295327833104, 322600  result:0.021153275665110865
+result:0.021153275665110865
+Ending Time = 05:39:13.158495
+Execution Time = 0.177084 sec
+
+2024-04-03 05:39:13,166 - ThreadPoolExecutor-30_14 
+Beginning Time = 05:39:12.362230
+params: <built-in function cos>, 0.8107335880231724, 0.8614044372746207, 322600  result:0.03396533841615425
+result:0.03396533841615425
+Ending Time = 05:39:13.166792
+Execution Time = 0.804562 sec
+
+2024-04-03 05:39:13,249 - ThreadPoolExecutor-30_11 
+Beginning Time = 05:39:12.976252
+params: <built-in function cos>, 1.0640878342804139, 1.1147586835318621, 322600  result:0.023457926952998975
+result:0.023457926952998975
+Ending Time = 05:39:13.249906
+Execution Time = 0.273654 sec
+
+2024-04-03 05:39:13,255 - ThreadPoolExecutor-30_6 
+Beginning Time = 05:39:13.032627
+params: <built-in function cos>, 1.2161003820347587, 1.266771231286207, 322600  result:0.016387128018108515
+result:0.016387128018108515
+Ending Time = 05:39:13.255110
+Execution Time = 0.222483 sec
+
+2024-04-03 05:39:13,285 - ThreadPoolExecutor-30_10 
+Beginning Time = 05:39:13.215115
+params: <built-in function cos>, 1.4187837790405518, 1.469454628292, 322600  result:0.006401003010915342
+result:0.006401003010915342
+Ending Time = 05:39:13.285239
+Execution Time = 0.070124 sec
+
+2024-04-03 05:39:13,286 - ThreadPoolExecutor-30_3 
+Beginning Time = 05:39:13.022473
+params: <built-in function cos>, 1.1654295327833104, 1.2161003820347587, 322600  result:0.01879432422197352
+result:0.01879432422197352
+Ending Time = 05:39:13.286037
+Execution Time = 0.263564 sec
+
+2024-04-03 05:39:13,311 - ThreadPoolExecutor-30_1 
+Beginning Time = 05:39:13.270826
+params: <built-in function cos>, 1.5201254775434483, 1.5707963267948966, 322600  result:0.0012834968066849407
+result:0.0012834968066849407
+Ending Time = 05:39:13.311342
+Execution Time = 0.040516 sec
+
+2024-04-03 05:39:13,317 - ThreadPoolExecutor-30_8 
+Beginning Time = 05:39:13.225344
+params: <built-in function cos>, 1.469454628292, 1.5201254775434483, 322600  result:0.0038471877466845395
+result:0.0038471877466845395
+Ending Time = 05:39:13.317558
+Execution Time = 0.092214 sec
+
+2024-04-03 05:39:13,336 - ThreadPoolExecutor-30_5 
+Beginning Time = 05:39:13.042816
+params: <built-in function cos>, 1.266771231286207, 1.3174420805376552, 322600  result:0.013937866291646466
+result:0.013937866291646466
+Ending Time = 05:39:13.336411
+Execution Time = 0.293595 sec
+
+2024-04-03 05:39:13,341 - ThreadPoolExecutor-30_15 
+Beginning Time = 05:39:12.907267
+params: <built-in function cos>, 0.9627461357775172, 1.0134169850289656, 322600  result:0.02788081960983963
+result:0.02788081960983963
+Ending Time = 05:39:13.341705
+Execution Time = 0.434438 sec
+
+2024-04-03 05:39:13,366 - ThreadPoolExecutor-30_13 
+Beginning Time = 05:39:12.970954
+params: <built-in function cos>, 1.0134169850289656, 1.0640878342804139, 322600  result:0.02570236207883454
+result:0.02570236207883454
+Ending Time = 05:39:13.366039
+Execution Time = 0.395085 sec
+
+2024-04-03 05:39:13,394 - ThreadPoolExecutor-30_17 
+Beginning Time = 05:39:13.182872
+params: <built-in function cos>, 1.3681129297891035, 1.4187837790405518, 322600  result:0.008938386992220838
+result:0.008938386992220838
+Ending Time = 05:39:13.394482
+Execution Time = 0.21161 sec
+
+2024-04-03 05:39:13,397 - ThreadPoolExecutor-30_16 
+Beginning Time = 05:39:13.172498
+params: <built-in function cos>, 1.3174420805376552, 1.3681129297891035, 322600  result:0.011452826262312798
+result:0.011452826262312798
+Ending Time = 05:39:13.397084
+Execution Time = 0.224586 sec
+
+2024-04-03 05:39:13,399 - MainThread 
+Integration result = 1.0000000785350986
+
+2024-04-03 05:39:13,399 - MainThread 
+Integration on 32 threads
+2024-04-03 05:39:13,731 - ThreadPoolExecutor-31_11 
+Beginning Time = 05:39:13.565737
+params: <built-in function cos>, 0.5399612373357456, 0.5890486225480862, 312500  result:0.041467490888757626
+result:0.041467490888757626
+Ending Time = 05:39:13.731599
+Execution Time = 0.165862 sec
+
+2024-04-03 05:39:13,945 - ThreadPoolExecutor-31_3 
+Beginning Time = 05:39:13.425604
+params: <built-in function cos>, 0.14726215563702155, 0.19634954084936207, 312500  result:0.04835984821981113
+result:0.04835984821981113
+Ending Time = 05:39:13.945590
+Execution Time = 0.519986 sec
+
+2024-04-03 05:39:13,946 - ThreadPoolExecutor-31_4 
+Beginning Time = 05:39:13.430818
+params: <built-in function cos>, 0.19634954084936207, 0.2454369260617026, 312500  result:0.04788985873175369
+result:0.04788985873175369
+Ending Time = 05:39:13.946600
+Execution Time = 0.515782 sec
+
+2024-04-03 05:39:13,969 - ThreadPoolExecutor-31_10 
+Beginning Time = 05:39:13.555323
+params: <built-in function cos>, 0.4908738521234052, 0.5399612373357456, 312500  result:0.04270600926731007
+result:0.04270600926731007
+Ending Time = 05:39:13.969788
+Execution Time = 0.414465 sec
+
+2024-04-03 05:39:14,011 - ThreadPoolExecutor-31_2 
+Beginning Time = 05:39:13.420383
+params: <built-in function cos>, 0.09817477042468103, 0.14726215563702155, 312500  result:0.0487133345976859
+result:0.0487133345976859
+Ending Time = 05:39:14.011421
+Execution Time = 0.591038 sec
+
+2024-04-03 05:39:14,038 - ThreadPoolExecutor-31_9 
+Beginning Time = 05:39:13.550095
+params: <built-in function cos>, 0.44178646691106466, 0.4908738521234052, 312500  result:0.043841645128934556
+result:0.043841645128934556
+Ending Time = 05:39:14.038266
+Execution Time = 0.488171 sec
+
+2024-04-03 05:39:14,050 - ThreadPoolExecutor-31_7 
+Beginning Time = 05:39:13.529723
+params: <built-in function cos>, 0.3436116964863836, 0.39269908169872414, 312500  result:0.045793580360239165
+result:0.045793580360239165
+Ending Time = 05:39:14.050088
+Execution Time = 0.520365 sec
+
+2024-04-03 05:39:14,053 - ThreadPoolExecutor-31_0 
+Beginning Time = 05:39:13.399642
+params: <built-in function cos>, 0.0, 0.04908738521234052, 312500  result:0.04906767442202267
+result:0.04906767442202267
+Ending Time = 05:39:14.053372
+Execution Time = 0.65373 sec
+
+2024-04-03 05:39:14,055 - ThreadPoolExecutor-31_12 
+Beginning Time = 05:39:13.809289
+params: <built-in function cos>, 0.5890486225480862, 0.6381360077604268, 312500  result:0.040129073692528924
+result:0.040129073692528924
+Ending Time = 05:39:14.055572
+Execution Time = 0.246283 sec
+
+2024-04-03 05:39:14,094 - ThreadPoolExecutor-31_1 
+Beginning Time = 05:39:13.404917
+params: <built-in function cos>, 0.04908738521234052, 0.09817477042468103, 312500  result:0.04894946628572869
+result:0.04894946628572869
+Ending Time = 05:39:14.094308
+Execution Time = 0.689391 sec
+
+2024-04-03 05:39:14,127 - ThreadPoolExecutor-31_16 
+Beginning Time = 05:39:13.851161
+params: <built-in function cos>, 0.7853981633974483, 0.8344855486097889, 312500  result:0.033844346960331395
+result:0.033844346960331395
+Ending Time = 05:39:14.127570
+Execution Time = 0.276409 sec
+
+2024-04-03 05:39:14,128 - ThreadPoolExecutor-31_15 
+Beginning Time = 05:39:13.840695
+params: <built-in function cos>, 0.7363107781851077, 0.7853981633974483, 312500  result:0.03554782899765699
+result:0.03554782899765699
+Ending Time = 05:39:14.128240
+Execution Time = 0.287545 sec
+
+2024-04-03 05:39:14,332 - ThreadPoolExecutor-31_8 
+Beginning Time = 05:39:13.539870
+params: <built-in function cos>, 0.39269908169872414, 0.44178646691106466, 312500  result:0.04487166262736642
+result:0.04487166262736642
+Ending Time = 05:39:14.332671
+Execution Time = 0.792801 sec
+
+2024-04-03 05:39:14,336 - ThreadPoolExecutor-31_13 
+Beginning Time = 05:39:13.824955
+params: <built-in function cos>, 0.6381360077604268, 0.6872233929727672, 312500  result:0.03869398204288515
+result:0.03869398204288515
+Ending Time = 05:39:14.336071
+Execution Time = 0.511116 sec
+
+2024-04-03 05:39:14,360 - ThreadPoolExecutor-31_21 
+Beginning Time = 05:39:14.156481
+params: <built-in function cos>, 1.030835089459151, 1.0799224746714913, 312500  result:0.024192657702204357
+result:0.024192657702204357
+Ending Time = 05:39:14.360652
+Execution Time = 0.204171 sec
+
+2024-04-03 05:39:14,370 - ThreadPoolExecutor-31_22 
+Beginning Time = 05:39:14.171825
+params: <built-in function cos>, 1.0799224746714913, 1.1290098598838318, 312500  result:0.022068032218402835
+result:0.022068032218402835
+Ending Time = 05:39:14.370500
+Execution Time = 0.198675 sec
+
+2024-04-03 05:39:14,393 - ThreadPoolExecutor-31_3 
+Beginning Time = 05:39:14.238602
+params: <built-in function cos>, 1.325359400733194, 1.3744467859455345, 312500  result:0.010754030969947197
+result:0.010754030969947197
+Ending Time = 05:39:14.393466
+Execution Time = 0.154864 sec
+
+2024-04-03 05:39:14,399 - ThreadPoolExecutor-31_5 
+Beginning Time = 05:39:13.467166
+params: <built-in function cos>, 0.2454369260617026, 0.2945243112740431, 312500  result:0.04730449837935603
+result:0.04730449837935603
+Ending Time = 05:39:14.399160
+Execution Time = 0.931994 sec
+
+2024-04-03 05:39:14,412 - ThreadPoolExecutor-31_6 
+Beginning Time = 05:39:13.524331
+params: <built-in function cos>, 0.2945243112740431, 0.3436116964863836, 312500  result:0.04660517734697892
+result:0.04660517734697892
+Ending Time = 05:39:14.412077
+Execution Time = 0.887746 sec
+
+2024-04-03 05:39:14,448 - ThreadPoolExecutor-31_24 
+Beginning Time = 05:39:14.405006
+params: <built-in function cos>, 1.3744467859455345, 1.423534171157875, 312500  result:0.00839123335972377
+result:0.00839123335972377
+Ending Time = 05:39:14.448489
+Execution Time = 0.043483 sec
+
+2024-04-03 05:39:14,544 - ThreadPoolExecutor-31_19 
+Beginning Time = 05:39:14.223336
+params: <built-in function cos>, 1.227184630308513, 1.2762720155208536, 312500  result:0.0153962742095503
+result:0.0153962742095503
+Ending Time = 05:39:14.544104
+Execution Time = 0.320768 sec
+
+2024-04-03 05:39:14,549 - ThreadPoolExecutor-31_17 
+Beginning Time = 05:39:13.861834
+params: <built-in function cos>, 0.8344855486097889, 0.8835729338221293, 312500  result:0.03205933092676295
+result:0.03205933092676295
+Ending Time = 05:39:14.549688
+Execution Time = 0.687854 sec
+
+2024-04-03 05:39:14,647 - ThreadPoolExecutor-31_9 
+Beginning Time = 05:39:14.228399
+params: <built-in function cos>, 1.2762720155208536, 1.325359400733194, 312500  result:0.013090921177621484
+result:0.013090921177621484
+Ending Time = 05:39:14.647068
+Execution Time = 0.418669 sec
+
+2024-04-03 05:39:14,647 - ThreadPoolExecutor-31_11 
+Beginning Time = 05:39:13.877584
+params: <built-in function cos>, 0.9326603190344698, 0.9817477042468103, 312500  result:0.02826208397363021
+result:0.02826208397363021
+Ending Time = 05:39:14.647848
+Execution Time = 0.770264 sec
+
+2024-04-03 05:39:14,679 - ThreadPoolExecutor-31_23 
+Beginning Time = 05:39:14.187336
+params: <built-in function cos>, 1.1290098598838318, 1.1780972450961724, 312500  result:0.019890242912055597
+result:0.019890242912055597
+Ending Time = 05:39:14.679128
+Execution Time = 0.491792 sec
+
+2024-04-03 05:39:14,679 - ThreadPoolExecutor-31_14 
+Beginning Time = 05:39:13.835603
+params: <built-in function cos>, 0.6872233929727672, 0.7363107781851077, 312500  result:0.03716567320130697
+result:0.03716567320130697
+Ending Time = 05:39:14.679379
+Execution Time = 0.843776 sec
+
+2024-04-03 05:39:14,682 - ThreadPoolExecutor-31_20 
+Beginning Time = 05:39:14.151180
+params: <built-in function cos>, 0.9817477042468103, 1.030835089459151, 312500  result:0.026259000954575402
+result:0.026259000954575402
+Ending Time = 05:39:14.682167
+Execution Time = 0.530987 sec
+
+2024-04-03 05:39:14,686 - ThreadPoolExecutor-31_10 
+Beginning Time = 05:39:14.560848
+params: <built-in function cos>, 1.521708941582556, 1.5707963267948966, 312500  result:0.0012045476485937313
+result:0.0012045476485937313
+Ending Time = 05:39:14.686272
+Execution Time = 0.125424 sec
+
+2024-04-03 05:39:14,718 - ThreadPoolExecutor-31_2 
+Beginning Time = 05:39:14.202918
+params: <built-in function cos>, 1.1780972450961724, 1.227184630308513, 312500  result:0.01766453626835333
+result:0.01766453626835333
+Ending Time = 05:39:14.718754
+Execution Time = 0.515836 sec
+
+2024-04-03 05:39:14,746 - ThreadPoolExecutor-31_25 
+Beginning Time = 05:39:14.448718
+params: <built-in function cos>, 1.423534171157875, 1.4726215563702154, 312500  result:0.0060082205333518495
+result:0.0060082205333518495
+Ending Time = 05:39:14.746326
+Execution Time = 0.297608 sec
+
+2024-04-03 05:39:14,752 - ThreadPoolExecutor-31_18 
+Beginning Time = 05:39:13.867262
+params: <built-in function cos>, 0.8835729338221293, 0.9326603190344698, 312500  result:0.030197081156925556
+result:0.030197081156925556
+Ending Time = 05:39:14.752529
+Execution Time = 0.885267 sec
+
+2024-04-03 05:39:14,769 - ThreadPoolExecutor-31_4 
+Beginning Time = 05:39:14.453839
+params: <built-in function cos>, 1.4726215563702154, 1.521708941582556, 312500  result:0.0036107333774575375
+result:0.0036107333774575375
+Ending Time = 05:39:14.769120
+Execution Time = 0.315281 sec
+
+2024-04-03 05:39:14,771 - MainThread 
+Integration result = 1.0000000785398102
+
