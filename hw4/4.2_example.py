@@ -1,6 +1,7 @@
 import concurrent.futures
 import math
 from datetime import datetime
+import logging
 
 
 def split_interval(A, B, n):
@@ -8,25 +9,44 @@ def split_interval(A, B, n):
     return [[A + i * interval_width, A + (i + 1) * interval_width] for i in range(n)]
 
 
-def integrate(f, a, b, n_iter=1000):   
+def get_current_time():
     now = datetime.now()
     current_time = now.strftime("%H:%M:%S.%f")
-    print(f"Current Time ={current_time} a={a} b={b} b-a={b - a} n_iter={n_iter}")
+    return current_time
 
+
+def time_logging(func):
+    def inner(*args, **kwargs):
+        current_time = get_current_time()
+        log = f"Beginning Time = {current_time}\n"
+
+        result = func(*args, **kwargs)
+
+        args_str = ', '.join(map(str, args))
+        kwargs_str = ', '.join(f"{k}={v}" for k, v in kwargs.items())
+        
+        log += f"params: {args_str} {kwargs_str} result:{result}\n"
+
+        current_time = get_current_time()
+        log += f"Ending Time = {current_time}\n"
+        logging.info(log)
+
+        return result
+
+    return inner
+
+
+@time_logging
+def integrate(f, a, b, n_iter=10000000):
     acc = 0
     step = (b - a) / n_iter
     for i in range(n_iter):
         acc += f(a + i * step) * step
 
-    now = datetime.now()
-    current_time = now.strftime("%H:%M:%S.%f")
-    print(
-        f"Current Time ={current_time} a={a} b={b} b-a={b - a} n_iter={n_iter} acc={acc}"
-    )
     return acc
 
 
-def integrate_parallel(f, a, b, n_jobs=1, n_iter=1000):
+def integrate_parallel(f, a, b, n_jobs=1, n_iter=10000000):
     acc = 0
     ni_iter = n_iter // n_jobs + n_iter % n_jobs
     intervals = split_interval(a, b, n_jobs)
@@ -47,5 +67,10 @@ def integrate_parallel(f, a, b, n_jobs=1, n_iter=1000):
 
 
 if __name__ == "__main__":
-    acc = integrate_parallel(f=math.cos, a=0, b=math.pi / 2, n_jobs=8, n_iter=100000)
+    # Configure logging
+    logging.basicConfig(
+        level=logging.INFO, format="%(asctime)s - %(threadName)s \n%(message)s"
+    )
+
+    acc = integrate_parallel(f=math.cos, a=0, b=math.pi / 2, n_jobs=16, n_iter=10000000)
     print(acc)
