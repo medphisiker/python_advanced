@@ -61,7 +61,7 @@ def write_benchmark_report(report_path, messages):
 
 if __name__ == "__main__":
     n = 100000
-    report_path = "hw4/artifacts/4.1_benchmark_results.txt"
+    report_path = "hw4/artifacts/4.1/4.1_benchmark_results.txt"
 
     time_execution = run_execution(n)
     time_threads = run_threads(n)
