@@ -1,0 +1,192 @@
+2024-04-03 05:38:49,002 - MainThread 
+Integration on 1 threads
+2024-04-03 05:38:49,477 - MainThread 
+result:1.0000000785399288
+Execution Time = 0.474906 sec
+
+2024-04-03 05:38:49,477 - MainThread 
+Integration on 2 threads
+2024-04-03 05:38:49,951 - MainThread 
+result:1.0000000785398064
+Execution Time = 0.474265 sec
+
+2024-04-03 05:38:49,951 - MainThread 
+Integration on 3 threads
+2024-04-03 05:38:50,465 - MainThread 
+result:1.0000000785397931
+Execution Time = 0.51445 sec
+
+2024-04-03 05:38:50,466 - MainThread 
+Integration on 4 threads
+2024-04-03 05:38:51,104 - MainThread 
+result:1.000000078539799
+Execution Time = 0.637978 sec
+
+2024-04-03 05:38:51,104 - MainThread 
+Integration on 5 threads
+2024-04-03 05:38:51,712 - MainThread 
+result:1.000000078539829
+Execution Time = 0.608404 sec
+
+2024-04-03 05:38:51,712 - MainThread 
+Integration on 6 threads
+2024-04-03 05:38:52,439 - MainThread 
+result:1.000000078539665
+Execution Time = 0.726899 sec
+
+2024-04-03 05:38:52,439 - MainThread 
+Integration on 7 threads
+2024-04-03 05:38:53,253 - MainThread 
+result:1.0000000785396737
+Execution Time = 0.81379 sec
+
+2024-04-03 05:38:53,253 - MainThread 
+Integration on 8 threads
+2024-04-03 05:38:53,735 - MainThread 
+result:1.0000000785398042
+Execution Time = 0.482223 sec
+
+2024-04-03 05:38:53,735 - MainThread 
+Integration on 9 threads
+2024-04-03 05:38:54,328 - MainThread 
+result:1.0000000785397503
+Execution Time = 0.592343 sec
+
+2024-04-03 05:38:54,328 - MainThread 
+Integration on 10 threads
+2024-04-03 05:38:54,828 - MainThread 
+result:1.0000000785398198
+Execution Time = 0.499749 sec
+
+2024-04-03 05:38:54,828 - MainThread 
+Integration on 11 threads
+2024-04-03 05:38:55,472 - MainThread 
+result:1.0000000785390442
+Execution Time = 0.644469 sec
+
+2024-04-03 05:38:55,472 - MainThread 
+Integration on 12 threads
+2024-04-03 05:38:56,365 - MainThread 
+result:1.0000000785394805
+Execution Time = 0.893075 sec
+
+2024-04-03 05:38:56,365 - MainThread 
+Integration on 13 threads
+2024-04-03 05:38:57,738 - MainThread 
+result:1.000000078538865
+Execution Time = 1.372535 sec
+
+2024-04-03 05:38:57,738 - MainThread 
+Integration on 14 threads
+2024-04-03 05:38:58,766 - MainThread 
+result:1.0000000785387841
+Execution Time = 1.027577 sec
+
+2024-04-03 05:38:58,766 - MainThread 
+Integration on 15 threads
+2024-04-03 05:38:59,858 - MainThread 
+result:1.0000000785387162
+Execution Time = 1.092505 sec
+
+2024-04-03 05:38:59,859 - MainThread 
+Integration on 16 threads
+2024-04-03 05:39:00,759 - MainThread 
+result:1.00000007853981
+Execution Time = 0.900329 sec
+
+2024-04-03 05:39:00,759 - MainThread 
+Integration on 17 threads
+2024-04-03 05:39:01,267 - MainThread 
+result:1.000000078539193
+Execution Time = 0.507607 sec
+
+2024-04-03 05:39:01,267 - MainThread 
+Integration on 18 threads
+2024-04-03 05:39:01,838 - MainThread 
+result:1.0000000785384788
+Execution Time = 0.570816 sec
+
+2024-04-03 05:39:01,838 - MainThread 
+Integration on 19 threads
+2024-04-03 05:39:02,317 - MainThread 
+result:1.0000000785376923
+Execution Time = 0.47982 sec
+
+2024-04-03 05:39:02,318 - MainThread 
+Integration on 20 threads
+2024-04-03 05:39:02,931 - MainThread 
+result:1.0000000785398178
+Execution Time = 0.613667 sec
+
+2024-04-03 05:39:02,931 - MainThread 
+Integration on 21 threads
+2024-04-03 05:39:04,275 - MainThread 
+result:1.0000000785382448
+Execution Time = 1.34385 sec
+
+2024-04-03 05:39:04,275 - MainThread 
+Integration on 22 threads
+2024-04-03 05:39:05,498 - MainThread 
+result:1.0000000785381633
+Execution Time = 1.222768 sec
+
+2024-04-03 05:39:05,498 - MainThread 
+Integration on 23 threads
+2024-04-03 05:39:06,531 - MainThread 
+result:1.0000000785373961
+Execution Time = 1.03242 sec
+
+2024-04-03 05:39:06,531 - MainThread 
+Integration on 24 threads
+2024-04-03 05:39:07,959 - MainThread 
+result:1.0000000785369252
+Execution Time = 1.428195 sec
+
+2024-04-03 05:39:07,959 - MainThread 
+Integration on 25 threads
+2024-04-03 05:39:08,460 - MainThread 
+result:1.0000000785398118
+Execution Time = 0.501437 sec
+
+2024-04-03 05:39:08,461 - MainThread 
+Integration on 26 threads
+2024-04-03 05:39:08,956 - MainThread 
+result:1.0000000785378529
+Execution Time = 0.495143 sec
+
+2024-04-03 05:39:08,956 - MainThread 
+Integration on 27 threads
+2024-04-03 05:39:09,450 - MainThread 
+result:1.0000000785377714
+Execution Time = 0.494162 sec
+
+2024-04-03 05:39:09,450 - MainThread 
+Integration on 28 threads
+2024-04-03 05:39:09,949 - MainThread 
+result:1.000000078534729
+Execution Time = 0.49928 sec
+
+2024-04-03 05:39:09,949 - MainThread 
+Integration on 29 threads
+2024-04-03 05:39:10,626 - MainThread 
+result:1.0000000785360725
+Execution Time = 0.676177 sec
+
+2024-04-03 05:39:10,626 - MainThread 
+Integration on 30 threads
+2024-04-03 05:39:11,888 - MainThread 
+result:1.0000000785375367
+Execution Time = 1.262364 sec
+
+2024-04-03 05:39:11,888 - MainThread 
+Integration on 31 threads
+2024-04-03 05:39:13,399 - MainThread 
+result:1.0000000785350986
+Execution Time = 1.51057 sec
+
+2024-04-03 05:39:13,399 - MainThread 
+Integration on 32 threads
+2024-04-03 05:39:14,771 - MainThread 
+result:1.0000000785398102
+Execution Time = 1.371827 sec
+

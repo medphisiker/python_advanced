@@ -1,0 +1,192 @@
+2024-04-03 05:58:20,343 - PID process 2509437 
+Integration on 1 processes
+2024-04-03 05:58:20,834 - PID process 2509437 
+result:1.0000000785399288
+Execution Time = 0.490765 sec
+
+2024-04-03 05:58:20,834 - PID process 2509437 
+Integration on 2 processes
+2024-04-03 05:58:21,081 - PID process 2509437 
+result:1.0000000785398064
+Execution Time = 0.246403 sec
+
+2024-04-03 05:58:21,081 - PID process 2509437 
+Integration on 3 processes
+2024-04-03 05:58:21,254 - PID process 2509437 
+result:1.0000000785397931
+Execution Time = 0.173107 sec
+
+2024-04-03 05:58:21,254 - PID process 2509437 
+Integration on 4 processes
+2024-04-03 05:58:21,384 - PID process 2509437 
+result:1.000000078539799
+Execution Time = 0.129625 sec
+
+2024-04-03 05:58:21,384 - PID process 2509437 
+Integration on 5 processes
+2024-04-03 05:58:21,500 - PID process 2509437 
+result:1.000000078539829
+Execution Time = 0.11602 sec
+
+2024-04-03 05:58:21,500 - PID process 2509437 
+Integration on 6 processes
+2024-04-03 05:58:21,597 - PID process 2509437 
+result:1.000000078539665
+Execution Time = 0.096801 sec
+
+2024-04-03 05:58:21,597 - PID process 2509437 
+Integration on 7 processes
+2024-04-03 05:58:21,735 - PID process 2509437 
+result:1.0000000785396737
+Execution Time = 0.138323 sec
+
+2024-04-03 05:58:21,736 - PID process 2509437 
+Integration on 8 processes
+2024-04-03 05:58:21,865 - PID process 2509437 
+result:1.0000000785398042
+Execution Time = 0.129808 sec
+
+2024-04-03 05:58:21,866 - PID process 2509437 
+Integration on 9 processes
+2024-04-03 05:58:21,981 - PID process 2509437 
+result:1.0000000785397503
+Execution Time = 0.115804 sec
+
+2024-04-03 05:58:21,981 - PID process 2509437 
+Integration on 10 processes
+2024-04-03 05:58:22,087 - PID process 2509437 
+result:1.0000000785398198
+Execution Time = 0.105391 sec
+
+2024-04-03 05:58:22,087 - PID process 2509437 
+Integration on 11 processes
+2024-04-03 05:58:22,201 - PID process 2509437 
+result:1.0000000785390442
+Execution Time = 0.113638 sec
+
+2024-04-03 05:58:22,201 - PID process 2509437 
+Integration on 12 processes
+2024-04-03 05:58:22,341 - PID process 2509437 
+result:1.0000000785394805
+Execution Time = 0.139715 sec
+
+2024-04-03 05:58:22,341 - PID process 2509437 
+Integration on 13 processes
+2024-04-03 05:58:22,477 - PID process 2509437 
+result:1.000000078538865
+Execution Time = 0.136496 sec
+
+2024-04-03 05:58:22,477 - PID process 2509437 
+Integration on 14 processes
+2024-04-03 05:58:22,599 - PID process 2509437 
+result:1.0000000785387841
+Execution Time = 0.121448 sec
+
+2024-04-03 05:58:22,599 - PID process 2509437 
+Integration on 15 processes
+2024-04-03 05:58:22,722 - PID process 2509437 
+result:1.0000000785387162
+Execution Time = 0.122796 sec
+
+2024-04-03 05:58:22,722 - PID process 2509437 
+Integration on 16 processes
+2024-04-03 05:58:22,841 - PID process 2509437 
+result:1.00000007853981
+Execution Time = 0.118814 sec
+
+2024-04-03 05:58:22,841 - PID process 2509437 
+Integration on 17 processes
+2024-04-03 05:58:22,960 - PID process 2509437 
+result:1.000000078539193
+Execution Time = 0.118594 sec
+
+2024-04-03 05:58:22,960 - PID process 2509437 
+Integration on 18 processes
+2024-04-03 05:58:23,085 - PID process 2509437 
+result:1.0000000785384788
+Execution Time = 0.125253 sec
+
+2024-04-03 05:58:23,085 - PID process 2509437 
+Integration on 19 processes
+2024-04-03 05:58:23,205 - PID process 2509437 
+result:1.0000000785376923
+Execution Time = 0.119719 sec
+
+2024-04-03 05:58:23,205 - PID process 2509437 
+Integration on 20 processes
+2024-04-03 05:58:23,328 - PID process 2509437 
+result:1.0000000785398178
+Execution Time = 0.123029 sec
+
+2024-04-03 05:58:23,328 - PID process 2509437 
+Integration on 21 processes
+2024-04-03 05:58:23,449 - PID process 2509437 
+result:1.0000000785382448
+Execution Time = 0.121216 sec
+
+2024-04-03 05:58:23,450 - PID process 2509437 
+Integration on 22 processes
+2024-04-03 05:58:23,698 - PID process 2509437 
+result:1.0000000785381633
+Execution Time = 0.24833 sec
+
+2024-04-03 05:58:23,698 - PID process 2509437 
+Integration on 23 processes
+2024-04-03 05:58:23,825 - PID process 2509437 
+result:1.0000000785373961
+Execution Time = 0.127147 sec
+
+2024-04-03 05:58:23,825 - PID process 2509437 
+Integration on 24 processes
+2024-04-03 05:58:23,935 - PID process 2509437 
+result:1.0000000785369252
+Execution Time = 0.109966 sec
+
+2024-04-03 05:58:23,936 - PID process 2509437 
+Integration on 25 processes
+2024-04-03 05:58:24,058 - PID process 2509437 
+result:1.0000000785398118
+Execution Time = 0.122834 sec
+
+2024-04-03 05:58:24,059 - PID process 2509437 
+Integration on 26 processes
+2024-04-03 05:58:24,188 - PID process 2509437 
+result:1.0000000785378529
+Execution Time = 0.129467 sec
+
+2024-04-03 05:58:24,188 - PID process 2509437 
+Integration on 27 processes
+2024-04-03 05:58:24,319 - PID process 2509437 
+result:1.0000000785377714
+Execution Time = 0.130338 sec
+
+2024-04-03 05:58:24,319 - PID process 2509437 
+Integration on 28 processes
+2024-04-03 05:58:24,449 - PID process 2509437 
+result:1.000000078534729
+Execution Time = 0.130261 sec
+
+2024-04-03 05:58:24,449 - PID process 2509437 
+Integration on 29 processes
+2024-04-03 05:58:24,584 - PID process 2509437 
+result:1.0000000785360725
+Execution Time = 0.134819 sec
+
+2024-04-03 05:58:24,584 - PID process 2509437 
+Integration on 30 processes
+2024-04-03 05:58:24,715 - PID process 2509437 
+result:1.0000000785375367
+Execution Time = 0.130556 sec
+
+2024-04-03 05:58:24,715 - PID process 2509437 
+Integration on 31 processes
+2024-04-03 05:58:24,858 - PID process 2509437 
+result:1.0000000785350986
+Execution Time = 0.143497 sec
+
+2024-04-03 05:58:24,859 - PID process 2509437 
+Integration on 32 processes
+2024-04-03 05:58:24,995 - PID process 2509437 
+result:1.0000000785398102
+Execution Time = 0.136309 sec
+
